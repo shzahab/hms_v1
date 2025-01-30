@@ -44,7 +44,7 @@ export default function HomePage() {
           </p>
         </section>
         <section className="container mx-auto px-4 mb-24">
-          <h2 className="text-3xl font-semibold mb-12 text-center">Our Products</h2>
+          <h2 className="text-3xl font-semibold mb-12 text-center text-gray-800">Our Products</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
             {products.map((product) => (
             <div key={product.id} className="group bg-card rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg">
