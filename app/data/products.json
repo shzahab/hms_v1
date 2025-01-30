@@ -1,4 +1,3 @@
-
 {
   "products": [
     {
@@ -169,11 +168,11 @@
       "name": "Road Rollers",
       "shortDescription": "Compact soil, gravel, and asphalt in road construction.",
       "fullDescription": "Our Road Rollers are essential for achieving proper compaction in road construction and maintenance projects. They are designed to compact soil, gravel, and asphalt effectively, ensuring a solid foundation and smooth surface for roads, parking lots, and other paved areas.",
-      "mainImage": "/images/products/road-roller-main.jpg",
+      "mainImage": "/images/products/road-rollers-main.jpg",
       "gallery": [
-        "/images/products/road-roller-1.jpg",
-        "/images/products/road-roller-2.jpg",
-        "/images/products/road-roller-3.jpg"
+        "/images/products/road-rollers-1.jpg",
+        "/images/products/road-rollers-2.jpg",
+        "/images/products/road-rollers-3.jpg"
       ],
       "features": [
         "Various sizes and weights for different project needs",
@@ -189,11 +188,11 @@
       "name": "Plate Compactors",
       "shortDescription": "Ideal for compacting granular soils in confined areas.",
       "fullDescription": "Our Plate Compactors are designed for compacting granular and mixed soils in confined areas. They are perfect for use in trenches, around structures, and for patch work on roads. These machines ensure a level and stable surface in areas where larger compaction equipment can't reach.",
-      "mainImage": "/images/products/plate-compactor-main.jpg",
+      "mainImage": "/images/products/plate-compactors-main.jpg",
       "gallery": [
-        "/images/products/plate-compactor-1.jpg",
-        "/images/products/plate-compactor-2.jpg",
-        "/images/products/plate-compactor-3.jpg"
+        "/images/products/plate-compactors-1.jpg",
+        "/images/products/plate-compactors-2.jpg",
+        "/images/products/plate-compactors-3.jpg"
       ],
       "features": [
         "High compaction force for efficient soil consolidation",
