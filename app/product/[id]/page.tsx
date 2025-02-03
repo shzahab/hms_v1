@@ -4,6 +4,13 @@ import { ArrowLeft, Phone, Mail, MessageCircle, ArrowRight } from 'lucide-react'
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
+export async function generateStaticParams() {
+  const products = productsData.products
+  return products.map((product) => ({
+    id: product.id.toString()
+  }))
+}
+
 // ... rest of the imports remain the same
 import { Button } from "@/components/ui/button"
 import productsData from '@/app/data/products.json'
