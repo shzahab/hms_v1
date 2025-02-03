@@ -1,3 +1,4 @@
+
 modules = ["nodejs-20", "web"]
 run = "npm run dev"
 
@@ -8,6 +9,7 @@ channel = "stable-24_05"
 deploymentTarget = "cloudrun"
 build = ["sh", "-c", "npm run build"]
 run = ["sh", "-c", "npm run start"]
+ignorePorts = false
 
 [[ports]]
 localPort = 3000
