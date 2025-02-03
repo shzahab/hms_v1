@@ -6,10 +6,10 @@ run = "npm run dev"
 channel = "stable-24_05"
 
 [deployment]
-deploymentTarget = "cloudrun"
+deploymentTarget = "static"
 build = ["sh", "-c", "npm run build"]
-run = ["sh", "-c", "npx serve out"]
 ignorePorts = false
+publicDir = "out"
 
 [[ports]]
 localPort = 3000
