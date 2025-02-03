@@ -12,7 +12,7 @@ import Footer from '@/components/footer'
 
 
 
-export const dynamic = 'force-dynamic'
+
 
 function getProductById(id: number) {
   return productsData.products.find((p) => p.id === id);
