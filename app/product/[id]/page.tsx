@@ -1,25 +1,19 @@
+
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowLeft, Phone, Mail, MessageCircle, ArrowRight } from 'lucide-react'
 import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-
-export async function generateStaticParams() {
-  const products = productsData.products
-  return products.map((product) => ({
-    id: product.id.toString()
-  }))
-}
-
-// ... rest of the imports remain the same
 import { Button } from "@/components/ui/button"
 import productsData from '@/app/data/products.json'
 import Header from '@/components/header'
 import Footer from '@/components/footer'
 
-
-
-
+export async function generateStaticParams() {
+  return productsData.products.map((product) => ({
+    id: product.id.toString()
+  }))
+}
 
 function getProductById(id: number) {
   return productsData.products.find((p) => p.id === id);
@@ -40,7 +34,6 @@ export default function ProductPage({ params }: { params: { id: string } }) {
   }
 
   const safeProduct = product as NonNullable<typeof product>;
-
   const otherProducts = getRandomProducts(4, productId);
 
   return (
@@ -94,12 +87,12 @@ export default function ProductPage({ params }: { params: { id: string } }) {
               Our team of experts is ready to assist you with any questions you may have about our Bar / Rebar Bending Machine.
             </p>
             <div className="flex justify-center">
-            <Link href="/contact" className="inline-block">
-              <Button size="lg" className="rounded-full">
-                Contact Us
-                <ArrowRight className="ml-2 h-5 w-5" />
-               </Button>
-            </Link>
+              <Link href="/contact" className="inline-block">
+                <Button size="lg" className="rounded-full">
+                  Contact Us
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+              </Link>
             </div>
           </div>
           <h2 className="text-2xl font-semibold mb-8">Other Products</h2>
@@ -144,7 +137,7 @@ export const metadata: Metadata = {
     description: 'High-quality industrial machinery and spare parts for efficient manufacturing solutions.',
     images: [
       {
-        url: 'https://example.com/og-image.jpg', // Replace with your actual OG image URL
+        url: 'https://example.com/og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'Hutaib Machinery and Spares',
