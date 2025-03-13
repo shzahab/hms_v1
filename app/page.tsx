@@ -97,36 +97,73 @@ export default function HomePage() {
             ))}
           </div> */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
-            {products.map((product) => (
-              <Link href={`/product/${createSlug(product.name)}`}>
-                <div className="group bg-card rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg h-full flex flex-col">
-                  <div className="aspect-square bg-muted overflow-hidden">
-                    <Image
-                      src={product.mainImage}
-                      alt={product.name}
-                      width={500}
-                      height={500}
-                      className="w-full h-full object-cover"
-                    />
+            {products.map((product) => {
+              // Special case for Bar Bending Machine
+              if (product.name === "Bar / Rebar Bending Machine") {
+                return (
+                  <Link href="/product/bar-bending-machine" key={product.id}>
+                    <div className="group bg-card rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg h-full flex flex-col">
+                      <div className="aspect-square bg-muted overflow-hidden">
+                        <Image
+                          src={product.mainImage}
+                          alt={product.name}
+                          width={500}
+                          height={500}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+                      <div className="p-4 flex flex-col flex-grow">
+                        <h3 className="text-lg font-semibold mb-2">
+                          {product.name}
+                        </h3>
+                        <p className="text-sm text-muted-foreground mb-4 flex-grow">
+                          {product.shortDescription}
+                        </p>
+                        <Button
+                          variant="link"
+                          className="p-0 h-auto text-sm font-medium text-primary group-hover:underline mt-auto"
+                        >
+                          Learn More
+                          <ArrowRight className="ml-2 h-4 w-4" />
+                        </Button>
+                      </div>
+                    </div>
+                  </Link>
+                );
+              }
+
+              // Default case for all other products
+              return (
+                <Link href={`/product/${createSlug(product.name)}`} key={product.id}>
+                  <div className="group bg-card rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg h-full flex flex-col">
+                    <div className="aspect-square bg-muted overflow-hidden">
+                      <Image
+                        src={product.mainImage}
+                        alt={product.name}
+                        width={500}
+                        height={500}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                    <div className="p-4 flex flex-col flex-grow">
+                      <h3 className="text-lg font-semibold mb-2">
+                        {product.name}
+                      </h3>
+                      <p className="text-sm text-muted-foreground mb-4 flex-grow">
+                        {product.shortDescription}
+                      </p>
+                      <Button
+                        variant="link"
+                        className="p-0 h-auto text-sm font-medium text-primary group-hover:underline mt-auto"
+                      >
+                        Learn More
+                        <ArrowRight className="ml-2 h-4 w-4" />
+                      </Button>
+                    </div>
                   </div>
-                  <div className="p-4 flex flex-col flex-grow">
-                    <h3 className="text-lg font-semibold mb-2">
-                      {product.name}
-                    </h3>
-                    <p className="text-sm text-muted-foreground mb-4 flex-grow">
-                      {product.shortDescription}
-                    </p>
-                    <Button
-                      variant="link"
-                      className="p-0 h-auto text-sm font-medium text-primary group-hover:underline mt-auto"
-                    >
-                      Learn More
-                      <ArrowRight className="ml-2 h-4 w-4" />
-                    </Button>
-                  </div>
-                </div>
-              </Link>
-            ))}
+                </Link>
+              );
+            })}
           </div>
         </section>
         <section className="container mx-auto px-4">

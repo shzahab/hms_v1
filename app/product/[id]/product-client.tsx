@@ -13,8 +13,8 @@ import Breadcrumbs from "@/components/Breadcrumb";
 function createSlug(name: string) {
   return name
     .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/(^-|-$)/g, "");
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
 }
 
 export default function ProductClient({ product, otherProducts }: any) {
@@ -113,10 +113,7 @@ export default function ProductClient({ product, otherProducts }: any) {
           <h2 className="text-2xl font-semibold mt-12">Other Products</h2>
           <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
             {otherProducts.map((p: any) => (
-              <div
-                key={p.id}
-                className="group ease-in duration-75 hover:bg-gray-100 rounded-lg p-2 "
-              >
+              <div key={p.id} className="group ease-in duration-75 hover:bg-gray-100 rounded-lg p-2 ">
                 <div className="aspect-square bg-muted rounded-lg mb-4 overflow-hidden ">
                   <Image
                     src={p.mainImage}
