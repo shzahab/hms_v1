@@ -86,6 +86,25 @@ export default function BarBendingMachinePage() {
               </p>
 
               <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Why Choose HMS Bar Bending Machine?</h3>
+                <ul className="list-disc pl-5 text-gray-600 space-y-2 text-lg">
+                  <li><strong>Handles Multiple Steel Bar Sizes</strong> – Suitable for all construction needs.</li>
+                  <li><strong>Customizable Bending Angles</strong> – Adjustable from 0° to 180°.</li>
+                  <li><strong>High-Precision Digital Control Panel</strong> – Reduces material waste.</li>
+                  <li><strong>Dual Operation Modes</strong> – Automatic and manual settings.</li>
+                  <li><strong>Reliable Performance</strong> – Built for high efficiency and minimal downtime.</li>
+                  <li><strong>Motor Protection with Preventer</strong> – Equipped with a preventer to safeguard the motor from power fluctuations, ensuring longer machine life and stable performance.</li>
+                </ul>
+              </div>
+
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Innovative Engineering for Efficiency & Operator Comfort</h3>
+                <p className="text-lg text-gray-600 leading-relaxed">
+                  HMS Bar Bending Machines are designed with advanced engineering innovations to reduce manual labor, enhance operator comfort, and maximize productivity. Our machines seamlessly combine modern technology with traditional craftsmanship, offering superior efficiency, durability, and ease of use.
+                </p>
+              </div>
+
+              <div className="mb-8">
                 <h3 className="text-xl font-bold text-gray-800 mb-4">Key Features:</h3>
                 <ul className="list-disc pl-5 text-gray-600 space-y-2 text-lg">
                   <li>Handles multiple steel bar sizes</li>
@@ -345,4 +364,4 @@ export default function BarBendingMachinePage() {
       </footer>
     </div>
   );
-} 
+}
