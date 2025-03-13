@@ -24,11 +24,13 @@ const Breadcrumbs = () => {
               <span className="mx-[3px]">></span>
               {isLast ? (
                 <span className="text-gray-700">
-                  {decodeURIComponent(segment)}
+                  {segment === "product" ? "Product" : 
+                   decodeURIComponent(segment).replace(/-/g, ' ').replace(/(^\w|\s\w)/g, m => m.toUpperCase())}
                 </span>
               ) : (
                 <Link href={href} className="text-primary ">
-                  {decodeURIComponent(segment)}
+                  {segment === "product" ? "Product" : 
+                   decodeURIComponent(segment).replace(/-/g, ' ').replace(/(^\w|\s\w)/g, m => m.toUpperCase())}
                 </Link>
               )}
             </li>
