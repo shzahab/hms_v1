@@ -26,7 +26,7 @@ function createSlug(name: string) {
 export default function BarBendingMachinePage() {
   const [activeTab, setActiveTab] = useState("description");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  
+
   const tabs = [
     { id: "description", label: "Description" },
     { id: "specifications", label: "Specifications" },
@@ -223,56 +223,36 @@ export default function BarBendingMachinePage() {
                   </h2>
 
                   <div className="space-y-6">
-                    <div>
-                      <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                        Impact on Construction Projects
-                      </h3>
-                      <p className="text-lg text-gray-600 leading-relaxed">
-                        Bar bending machines <strong>significantly improve productivity and safety</strong> in
-                        construction. By ensuring <strong>uniform bends</strong>, they contribute to the{" "}
-                        <strong>strength and longevity</strong> of reinforced concrete structures, helping
-                        projects <strong>comply with safety and durability standards</strong>.
-                        Additionally, automated bending minimizes <strong>errors, material waste, and manual inconsistencies</strong>,
-                        resulting in <strong>higher-quality construction</strong> with <strong>optimized resources</strong>.
-                      </p>
+                    <p className="text-lg text-gray-600 leading-relaxed">
+                      HMS Bar Bending Machine represents the pinnacle of construction engineering excellence. Built for strength, precision, and efficiency, our machines deliver unmatched reliability in heavy-duty applications with reinforced components. The advanced design ensures precise bending across multiple bar diameters while maintaining high accuracy and operational safety.
+                    </p>
+
+                    <div className="mb-8">
+                      <h3 className="text-xl font-bold text-gray-800 mb-4">Advantages of Our Machines:</h3>
+                      <ul className="list-disc pl-5 text-gray-600 space-y-2 text-lg">
+                        <li><strong>Unmatched Reliability</strong> – Designed for heavy-duty applications with reinforced components</li>
+                        <li><strong>Precision Bending</strong> – Supports multiple bar diameters with high accuracy</li>
+                        <li><strong>Advanced Safety Features</strong> – Includes hold-button control for safe operation</li>
+                        <li><strong>Customization Options</strong> – Tailor the machine to your specific requirements</li>
+                        <li><strong>Robust Build & Longevity</strong> – Engineered for low maintenance and extended service life</li>
+                      </ul>
+                    </div>
+
+                    <div className="mb-6">
+                      <h3 className="text-xl font-bold text-gray-800 mb-4">Unbeatable Value Proposition:</h3>
+                      <ul className="list-disc pl-5 text-gray-600 space-y-2 text-lg">
+                        <li><strong>Cost-Effective Solutions</strong> – Competitive pricing without compromising quality</li>
+                        <li><strong>Fast & Reliable Delivery</strong> – Quick turnaround times for project deadlines</li>
+                        <li><strong>Long-Term Cost Savings</strong> – Low maintenance design reduces operational costs</li>
+                      </ul>
                     </div>
 
                     <div>
-                      <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                        Company Advantages
-                      </h3>
-                      <p className="text-lg text-gray-600 leading-relaxed">
-                        Choosing <strong>HMS Bar Bending Machines</strong> means investing in{" "}
-                        <strong>reliability, performance, and innovation</strong>. Built for{" "}
-                        <strong>precision and durability</strong>, our machines are trusted by{" "}
-                        <strong>contractors, engineers, and infrastructure developers</strong> across industries.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                        The Power of HMS Bar Bending Machines
-                      </h3>
-                      <p className="text-lg text-gray-600 leading-relaxed">
-                        In the world of <strong>construction equipment</strong>, <strong>HMS</strong> stands
-                        as a <strong>symbol of excellence, innovation, and dependability</strong>. With a{" "}
-                        <strong>proven track record</strong> in the industry, we continue to set{" "}
-                        <strong>high standards in performance and efficiency</strong>.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                        Customization for Every Need
-                      </h3>
-                      <p className="text-lg text-gray-600 leading-relaxed mb-4">
-                        At HMS, we understand that every project has <strong>unique bending requirements</strong>.
-                        That's why we offer <strong>custom-built solutions</strong> tailored to your specific needs.
-                      </p>
-                      <ul className="list-disc pl-6 text-lg text-gray-600 space-y-2">
-                        <li><strong>Specific bar diameters and bending angles</strong> for <strong>varied construction needs</strong></li>
-                        <li><strong>Automated and manual configurations</strong> to suit different project scales</li>
-                        <li><strong>Enhanced machine settings</strong> based on <strong>customer feedback</strong> for <strong>optimized performance</strong></li>
+                      <h3 className="text-xl font-bold text-gray-800 mb-4">Comprehensive Support:</h3>
+                      <ul className="list-disc pl-5 text-gray-600 space-y-2 text-lg">
+                        <li><strong>Dedicated Service Team</strong> – Ensuring optimal operational efficiency</li>
+                        <li><strong>Spare Parts Availability</strong> – Ready access to maintenance components</li>
+                        <li><strong>Expert Technical Assistance</strong> – Ongoing support for performance optimization</li>
                       </ul>
                     </div>
 
