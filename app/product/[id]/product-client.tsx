@@ -1,10 +1,11 @@
-
 "use client";
 
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Breadcrumbs from "@/components/Breadcrumb";
@@ -32,118 +33,113 @@ export default function ProductClient({ product, otherProducts }: any) {
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
             {product.name}
           </h1>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            <div className="space-y-4">
-              <div className="bg-muted rounded-lg overflow-hidden">
-                <Image
-                  src={mainImage}
-                  alt={product.name}
-                  width={800}
-                  height={800}
-                  className="w-full h-auto object-cover"
-                />
-              </div>
-              
-              <div className="grid grid-cols-5 gap-2">
-                {product.gallery && product.gallery.map((image: string, index: number) => (
-                  <button
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Product Images */}
+            <div>
+              <Image
+                src={mainImage}
+                alt={product.name}
+                width={600}
+                height={600}
+                className="w-full rounded-lg shadow-lg"
+              />
+              <h2 className="text-2xl font-semibold mt-6">Product Gallery</h2>
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-4">
+                {product.gallery.map((image: string, index: number) => (
+                  <Image
                     key={index}
-                    className={`rounded-md overflow-hidden border-2 ${
-                      mainImage === image ? "border-primary" : "border-transparent"
-                    }`}
+                    src={image}
+                    alt={`${product.name} - Image ${index + 1}`}
+                    width={300}
+                    height={300}
+                    className="w-full rounded-lg shadow cursor-pointer hover:opacity-80 transition"
                     onClick={() => setMainImage(image)}
-                  >
-                    <Image
-                      src={image}
-                      alt={`${product.name} view ${index + 1}`}
-                      width={100}
-                      height={100}
-                      className="w-full h-auto object-cover"
-                    />
-                  </button>
+                  />
                 ))}
               </div>
             </div>
-            
-            <div className="space-y-6">
-              <div>
-                <h2 className="text-2xl font-bold mb-2">Description</h2>
-                <p className="text-muted-foreground">{product.fullDescription}</p>
+
+            {/* Product Details */}
+            <div>
+              <p className="text-2xl font-semibold text-green-600 mb-2">
+                Starting from {product.price}
+              </p>
+              <p className="text-gray-700 mb-4">{product.fullDescription}</p>
+
+              {/* Specifications */}
+              <div className="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h2 className="text-2xl font-semibold mb-4">
+                  Product Specifications
+                </h2>
+                <table className="w-full border border-gray-300 bg-white rounded-lg shadow">
+                  <tbody>
+                    {product.specifications.map((spec: any, index: number) => (
+                      <tr
+                        key={index}
+                        className="border-b border-gray-300 text-sm sm:text-base"
+                      >
+                        <td className="p-3 font-semibold text-gray-700 border-r border-gray-300">
+                          {spec.label}
+                        </td>
+                        <td className="p-3 text-gray-600">{spec.value}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
               </div>
-              
-              <div>
-                <h2 className="text-2xl font-bold mb-2">Key Features</h2>
-                <ul className="list-disc pl-5 space-y-1">
-                  {product.features && product.features.map((feature: string, index: number) => (
-                    <li key={index} className="text-muted-foreground">
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              
-              <div>
-                <h2 className="text-2xl font-bold mb-2">Specifications</h2>
-                <div className="border rounded-lg overflow-hidden">
-                  <table className="min-w-full divide-y divide-border">
-                    <tbody className="divide-y divide-border">
-                      {product.specifications && product.specifications.map((spec: any, index: number) => (
-                        <tr key={index} className={index % 2 === 0 ? "bg-muted/50" : ""}>
-                          <td className="px-4 py-2 font-medium">{spec.label}</td>
-                          <td className="px-4 py-2 text-muted-foreground">{spec.value}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-              
-              <div className="pt-4">
-                <h3 className="text-xl font-semibold mb-2">Interested in this product?</h3>
-                <Link href="/contact" className="inline-block">
-                  <Button size="lg">Contact Us</Button>
-                </Link>
-                
-                {product.brochureUrl && (
-                  <Link href={product.brochureUrl} className="inline-block ml-4">
-                    <Button variant="outline" size="lg">Download Brochure</Button>
-                  </Link>
-                )}
+
+              {/* Buttons */}
+              <div className="mt-6 flex justify-center gap-4">
+                <a
+                  href="/hms-brochure.pdf"
+                  download="HMS-Brochure.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-green-600 text-white px-6 py-3 rounded-[30px] font-sembold shadow hover:bg-green-700 transition-all"
+                >
+                  📄 Download Brochure
+                </a>
+                <ShimmerButton className="shadow-2xl">
+                  <span className="text-sm font-medium tracking-tight text-white lg:text-lg">
+                    Request a Quote
+                  </span>
+                </ShimmerButton>
               </div>
             </div>
           </div>
-          
-          {otherProducts.length > 0 && (
-            <div className="mt-16">
-              <h2 className="text-2xl font-bold mb-6">You May Also Like</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-                {otherProducts.map((otherProduct: any) => (
-                  <Link href={`/product/${createSlug(otherProduct.name)}`} key={otherProduct.id}>
-                    <div className="group bg-card rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg h-full flex flex-col">
-                      <div className="aspect-square bg-muted overflow-hidden">
-                        <Image
-                          src={otherProduct.mainImage}
-                          alt={otherProduct.name}
-                          width={500}
-                          height={500}
-                          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                        />
-                      </div>
-                      <div className="p-4">
-                        <h3 className="text-lg font-semibold mb-2 group-hover:text-primary">
-                          {otherProduct.name}
-                        </h3>
-                        <p className="text-sm text-muted-foreground">
-                          {otherProduct.shortDescription}
-                        </p>
-                      </div>
-                    </div>
-                  </Link>
-                ))}
+
+          {/* Other Products Section */}
+          <h2 className="text-2xl font-semibold mt-12">Other Products</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
+            {otherProducts.map((p: any) => (
+              <div key={p.id} className="group ease-in duration-75 hover:bg-gray-100 rounded-lg p-2 ">
+                <div className="aspect-square bg-muted rounded-lg mb-4 overflow-hidden ">
+                  <Image
+                    src={p.mainImage}
+                    alt={p.name}
+                    width={300}
+                    height={300}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className="text-lg sm:text-xl font-semibold mb-2">
+                  {p.name}
+                </h3>
+                <p className="text-sm sm:text-base text-muted-foreground mb-2">
+                  {p.shortDescription}
+                </p>
+                <Link href={`/product/${createSlug(p.name)}`}>
+                  <Button
+                    variant="link"
+                    className="p-0 h-auto text-sm sm:text-base font-medium text-primary group-hover:underline"
+                  >
+                    Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </Link>
               </div>
-            </div>
-          )}
+            ))}
+          </div>
         </div>
       </main>
       <footer className="bg-muted py-12">
