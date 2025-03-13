@@ -63,6 +63,39 @@ export default function HomePage() {
           <h2 className="text-3xl font-semibold mb-12 text-center text-gray-800">
             Our Products
           </h2>
+          {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
+            {products.map((product) => (
+              <div
+                key={product.id}
+                className="group bg-card rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg"
+              >
+                <div className="aspect-square bg-muted overflow-hidden">
+                  <Image
+                    src={product.mainImage}
+                    alt={product.name}
+                    width={500}
+                    height={500}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-4">
+                  <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
+                  <p className="text-sm text-muted-foreground mb-4">
+                    {product.shortDescription}
+                  </p>
+                  <Link href={`/product/${product.id}`} passHref>
+                    <Button
+                      variant="link"
+                      className="p-0 h-auto text-sm font-medium text-primary group-hover:underline"
+                    >
+                      Learn More
+                      <ArrowRight className="ml-2 h-4 w-4" />
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+            ))}
+          </div> */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
             {products.map((product) => {
               // Special case for Bar Bending Machine
@@ -145,11 +178,15 @@ export default function HomePage() {
             </p>
             <div className="flex justify-center">
               <Link href="/contact">
-                <InteractiveHoverButton className="shadow-2xl">
+                {/* <Button size="lg" className="rounded-full">
+                Contact Us
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button> */}
+                <ShimmerButton className="shadow-2xl">
                   <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
                     Contact Us
                   </span>
-                </InteractiveHoverButton>
+                </ShimmerButton>
               </Link>
             </div>
           </div>
