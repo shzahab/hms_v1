@@ -1,6 +1,8 @@
+// app/layout.tsx
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Breadcrumb from "../components/Breadcrumb";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,7 +15,10 @@ export const metadata: Metadata = {
 const GoogleAnalytics = () => {
   return (
     <>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-C33Y4WJML3" />
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-C33Y4WJML3"
+      />
       <script
         dangerouslySetInnerHTML={{
           __html: `
@@ -24,21 +29,29 @@ const GoogleAnalytics = () => {
           `,
         }}
       />
+      <script
+        src="https://analytics.ahrefs.com/analytics.js"
+        data-key="9VXkNfUg4NaBwLYL+Cs0fQ"
+        async
+      ></script>
     </>
   );
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <head>
         <GoogleAnalytics />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {/* <Breadcrumb />  */}
+        {children}
+      </body>
     </html>
   );
 }

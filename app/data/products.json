@@ -4,14 +4,15 @@
       "id": 1,
       "name": "Bar / Rebar Bending Machine",
       "shortDescription": "Precision bending for construction projects.",
+      "price": "₹80,000/-",
       "fullDescription": "The Bar / Rebar Bending Machine is a high-precision tool designed for construction projects. It offers efficient and accurate bending of steel bars and rebars, essential for reinforced concrete structures. This machine is built to handle various bar sizes and can perform multiple bending angles, making it versatile for different project requirements.",
-      "mainImage": "/images/products/bar-bending-machine-main.jpg",
+      "mainImage": "/images/products/bar-bending-machine-main.webp",
       "gallery": [
-        "/images/products/bar-bending-machine-1.jpg",
-        "/images/products/bar-bending-machine-2.jpg",
-        "/images/products/bar-bending-machine-3.jpg",
-        "/images/products/bar-bending-machine-2.jpg",
-        "/images/products/bar-bending-machine-3.jpg"
+        "/images/products/bar-bending-machine-1.webp",
+        "/images/products/bar-bending-machine-2.webp",
+        "/images/products/bar-bending-machine-3.webp",
+        "/images/products/bar-bending-machine-2.webp",
+        "/images/products/bar-bending-machine-3.webp"
       ],
       "features": [
         "Bending capacity up to 42mm",
@@ -21,18 +22,30 @@
         "Compact design for easy transportation",
         "Low maintenance requirements"
       ],
-      "category": "Bending Machines"
+      "category": "Bending Machines",
+      "specifications": [
+        { "label": "Model Name/Number", "value": "GW42-J" },
+        { "label": "Motor Power", "value": "3.2kW" },
+        { "label": "Dimension", "value": "850x740x820mm" },
+        { "label": "Net Weight", "value": "320kgs" },
+        { "label": "Adjustable Bending Speed", "value": "15/min" },
+        { "label": "Cutting Steel Bar Diameter", "value": "8-32mm" },
+        { "label": "Type", "value": "Automatic/Manual" }
+      ],
+      "brochureUrl": "/brochures/bar-bending-machine.pdf"
     },
+
     {
       "id": 2,
       "name": "Bar / Rebar Cutting Machine",
       "shortDescription": "Efficient cutting for steel reinforcement bars.",
+      "price": "₹80,000/-",
       "fullDescription": "Our Bar / Rebar Cutting Machine offers high-speed, precise cutting of steel reinforcement bars. Designed for durability and ease of use, it's an essential tool for construction sites and steel fabrication workshops.",
-      "mainImage": "/images/products/bar-cutting-machine-main.jpg",
+      "mainImage": "/images/products/bar-cutting-machine-main.webp",
       "gallery": [
-        "/images/products/bar-cutting-machine-1.jpg",
-        "/images/products/bar-cutting-machine-2.jpg",
-        "/images/products/bar-cutting-machine-3.jpg"
+        "/images/products/bar-cutting-machine-1.webp",
+        "/images/products/bar-cutting-machine-2.webp",
+        "/images/products/bar-cutting-machine-3.webp"
       ],
       "features": [
         "Cuts rebar up to 60mm diameter",
@@ -41,18 +54,29 @@
         "Easy blade replacement system",
         "Portable design for on-site use"
       ],
-      "category": "Cutting Machines"
+      "category": "Cutting Machines",
+      "specifications": [
+        { "label": "Model Name/Number", "value": "GQ42" },
+        { "label": "Motor Power", "value": "3.2kW" },
+        { "label": "Dimension", "value": "1350x480x680mm" },
+        { "label": "Net Weight", "value": "350kgs" },
+        { "label": "Adjustable Bending Speed", "value": "32/min" },
+        { "label": "Cutting Steel Bar Diameter", "value": "8-32mm" },
+        { "label": "Type", "value": "Automatic/Manual" }
+      ],
+      "brochureUrl": "/brochures/bar-bending-machine.pdf"
     },
     {
       "id": 3,
       "name": "Concrete Cutting Machine",
       "shortDescription": "Precise concrete cutting for construction and renovation.",
+      "price": "₹80,000/-",
       "fullDescription": "Also known as a Groove Cutting Machine, our Concrete Cutting Machine is designed for precision cutting in concrete surfaces. It's ideal for creating expansion joints, repairing damaged concrete, and installing utilities in existing structures.",
-      "mainImage": "/images/products/concrete-cutting-machine-main.jpg",
+      "mainImage": "/images/products/concrete-cutting-machine-main.webp",
       "gallery": [
-        "/images/products/concrete-cutting-machine-1.jpg",
-        "/images/products/concrete-cutting-machine-2.jpg",
-        "/images/products/concrete-cutting-machine-3.jpg"
+        "/images/products/concrete-cutting-machine-1.webp",
+        "/images/products/concrete-cutting-machine-2.webp",
+        "/images/products/concrete-cutting-machine-3.webp"
       ],
       "features": [
         "Adjustable cutting depth up to 150mm",
@@ -61,18 +85,29 @@
         "Multiple blade options for various materials",
         "Ergonomic design for reduced operator fatigue"
       ],
-      "category": "Cutting Machines"
+      "category": "Road Cutting Machine",
+      "specifications": [
+        { "label": "Cutting width", "value": "10-12mm" },
+        { "label": "Tank Capacity", "value": "35L" },
+        { "label": "Dimension", "value": "L930xW565xH1020mm" },
+        { "label": "Max Cutting Depth", "value": "240mm" },
+        { "label": "Depth Adjustment", "value": "Handle Rotation" },
+        { "label": "Driving Method", "value": "Manual Push" },
+        { "label": "Disk Size", "value": "600mm" }
+      ],
+      "brochureUrl": "/brochures/bar-bending-machine.pdf"
     },
     {
       "id": 4,
       "name": "Ring Making Machine / Spiral Machine",
       "shortDescription": "Create perfect rings and spirals for various applications.",
+      "price": "₹80,000/-",
       "fullDescription": "Our Ring Making Machine, also known as a Spiral Machine, is designed for creating precise circular and spiral shapes from metal rods or bars. It's widely used in the manufacturing of furniture, decorative items, and industrial components.",
-      "mainImage": "/images/products/ring-making-machine-main.jpg",
+      "mainImage": "/images/products/ring-making-machine-main.webp",
       "gallery": [
-        "/images/products/ring-making-machine-1.jpg",
-        "/images/products/ring-making-machine-2.jpg",
-        "/images/products/ring-making-machine-3.jpg"
+        "/images/products/ring-making-machine-1.webp",
+        "/images/products/ring-making-machine-2.webp",
+        "/images/products/ring-making-machine-3.webp"
       ],
       "features": [
         "Adjustable diameter settings for various ring sizes",
@@ -81,18 +116,30 @@
         "High-speed operation for increased productivity",
         "Compact design for efficient workspace utilization"
       ],
-      "category": "Forming Machines"
+      "category": "Ring Making Machine",
+      "specifications": [
+        { "label": "Model Name/Number", "value": "GWH32E" },
+        { "label": "Motor Power", "value": "3.5kW, 1440r/min" },
+        { "label": "Net Weight", "value": "350kgs" },
+        { "label": "Bend HRB400 Ribbed Steel Diameter", "value": "16-28mm" },
+        { "label": "Bend Round Steel", "value": "16-32mm" },
+        { "label": "Adjustable Bending Speed", "value": "5-10r/min" },
+        { "label": "Diameter of Working", "value": ">300mm" },
+        { "label": "Type", "value": "Automatic/Manual" }
+      ],
+      "brochureUrl": "/brochures/bar-bending-machine.pdf"
     },
     {
       "id": 5,
       "name": "Building Material Hoist",
       "shortDescription": "Safely transport materials to elevated work areas.",
+      "price": "₹80,000/-",
       "fullDescription": "Our Building Material Hoist is an essential piece of equipment for multi-story construction projects. It provides a safe and efficient way to transport heavy materials, tools, and equipment to different levels of a building under construction.",
-      "mainImage": "/images/products/building-material-hoist-main.jpg",
+      "mainImage": "/images/products/building-material-hoist-main.webp",
       "gallery": [
-        "/images/products/building-material-hoist-1.jpg",
-        "/images/products/building-material-hoist-2.jpg",
-        "/images/products/building-material-hoist-3.jpg"
+        "/images/products/building-material-hoist-1.webp",
+        "/images/products/building-material-hoist-2.webp",
+        "/images/products/building-material-hoist-3.webp"
       ],
       "features": [
         "High load capacity for heavy materials",
@@ -101,18 +148,31 @@
         "Weather-resistant construction for outdoor use",
         "Easy assembly and disassembly for site mobility"
       ],
-      "category": "Construction Equipment"
+      "category": "Lifting Machines",
+      "specifications": [
+        { "label": "Make", "value": "Coimbatore" },
+        { "label": "Motor Power", "value": "3HP 1Phase" },
+        { "label": "Lifting Capapcity", "value": "350kgs" },
+        { "label": "Type", "value": "Material Hoist" },
+        { "label": "Mount Type", "value": "Fixed" },
+        { "label": "Rope Length", "value": "60m" },
+        { "label": "Rope Thickness", "value": "8mm" },
+        { "label": "Clutch", "value": "Yes" },
+        { "label": "Trolley Option", "value": "Without Trolley" }
+      ],
+      "brochureUrl": "/brochures/bar-bending-machine.pdf"
     },
     {
       "id": 6,
       "name": "Concrete Vibrator",
       "shortDescription": "Ensure proper concrete consolidation in construction.",
+      "price": "₹80,000/-",
       "fullDescription": "Our Concrete Vibrator is designed to remove air bubbles and optimize the density of freshly poured concrete. This essential tool ensures stronger, more durable concrete structures by eliminating voids and improving overall compaction.",
-      "mainImage": "/images/products/concrete-vibrator-main.jpg",
+      "mainImage": "/images/products/concrete-vibrator-main.webp",
       "gallery": [
-        "/images/products/concrete-vibrator-1.jpg",
-        "/images/products/concrete-vibrator-2.jpg",
-        "/images/products/concrete-vibrator-3.jpg"
+        "/images/products/concrete-vibrator-1.webp",
+        "/images/products/concrete-vibrator-2.webp",
+        "/images/products/concrete-vibrator-3.webp"
       ],
       "features": [
         "High-frequency vibration for efficient air removal",
@@ -121,18 +181,28 @@
         "Durable construction for long-lasting performance",
         "Flexible shaft options for hard-to-reach areas"
       ],
-      "category": "Concrete Equipment"
+      "category": "Vibrator",
+      "specifications": [
+        { "label": "Make", "value": "Indian" },
+        { "label": "Frequency", "value": "50hz" },
+        { "label": "Motor", "value": "2hp 1Phase" },
+        { "label": "Power Source", "value": "Electric" },
+        { "label": "Working Speed", "value": "30m/min" },
+        { "label": "Type", "value": "Automatic" }
+      ],
+      "brochureUrl": "/brochures/bar-bending-machine.pdf"
     },
     {
       "id": 7,
       "name": "Scrap Straightening Machine",
       "shortDescription": "Reclaim and straighten scrap metal efficiently.",
+      "price": "₹80,000/-",
       "fullDescription": "Our Scrap Straightening Machine is designed to straighten and reclaim bent or curved metal bars, rods, and pipes. This machine helps reduce waste and increase the value of scrap metal by preparing it for reuse or recycling.",
-      "mainImage": "/images/products/scrap-straightening-machine-main.jpg",
+      "mainImage": "/images/products/scrap-straightening-machine-main.webp",
       "gallery": [
-        "/images/products/scrap-straightening-machine-1.jpg",
-        "/images/products/scrap-straightening-machine-2.jpg",
-        "/images/products/scrap-straightening-machine-3.jpg"
+        "/images/products/scrap-straightening-machine-1.webp",
+        "/images/products/scrap-straightening-machine-2.webp",
+        "/images/products/scrap-straightening-machine-3.webp"
       ],
       "features": [
         "Handles various sizes and types of metal",
@@ -141,18 +211,28 @@
         "Automated feed system for continuous operation",
         "Compact design for easy integration into existing workflows"
       ],
-      "category": "Metal Processing Equipment"
+      "category": "Scrap Straightening Machine",
+      "specifications": [
+        { "label": "Model Name/Number", "value": "GX6-14A" },
+        { "label": "Motor Power", "value": "9.5KW" },
+        { "label": "Dimension", "value": "1800x1500x850mm" },
+        { "label": "Straightening Diameter", "value": "6-14mm" },
+        { "label": "Working Speed", "value": "30m/min" },
+        { "label": "Type", "value": "Semi-Automatic" }
+      ],
+      "brochureUrl": "/brochures/bar-bending-machine.pdf"
     },
     {
       "id": 8,
       "name": "Concrete Mixer",
       "shortDescription": "Blend concrete ingredients for consistent mixtures.",
+      "price": "₹80,000/-",
       "fullDescription": "Our Concrete Mixer is designed for efficient and thorough mixing of cement, aggregates, and water to produce high-quality concrete. It's suitable for both small-scale projects and larger construction sites, ensuring consistent concrete mixes every time.",
-      "mainImage": "/images/products/concrete-mixer-main.jpg",
+      "mainImage": "/images/products/concrete-mixer-main.webp",
       "gallery": [
-        "/images/products/concrete-mixer-1.jpg",
-        "/images/products/concrete-mixer-2.jpg",
-        "/images/products/concrete-mixer-3.jpg"
+        "/images/products/concrete-mixer-1.webp",
+        "/images/products/concrete-mixer-2.webp",
+        "/images/products/concrete-mixer-3.webp"
       ],
       "features": [
         "Large capacity drum for increased productivity",
@@ -161,18 +241,29 @@
         "Tilting mechanism for easy discharge",
         "Portable design with sturdy wheels for site mobility"
       ],
-      "category": "Concrete Equipment"
+      "category": "Concrete Mixer",
+      "specifications": [
+        { "label": "Type", "value": "1Bag" },
+        { "label": "Engine Brand", "value": "Kirloskar" },
+        { "label": "Drum Type", "value": "Tilting Drum Mixer" },
+        { "label": "Drum Capacity", "value": "560Ltrs" },
+        { "label": "Drum Speed", "value": "14r/min" },
+        { "label": "weight", "value": "1000Kgs" },
+        { "label": "Automation Grade", "value": "Manual" }
+      ],
+      "brochureUrl": "/brochures/bar-bending-machine.pdf"
     },
     {
       "id": 9,
       "name": "Road Rollers",
       "shortDescription": "Compact soil, gravel, and asphalt in road construction.",
+      "price": "₹80,000/-",
       "fullDescription": "Our Road Rollers are essential for achieving proper compaction in road construction and maintenance projects. They are designed to compact soil, gravel, and asphalt effectively, ensuring a solid foundation and smooth surface for roads, parking lots, and other paved areas.",
-      "mainImage": "/images/products/road-rollers-main.jpg",
+      "mainImage": "/images/products/road-rollers-main.webp",
       "gallery": [
-        "/images/products/road-rollers-1.jpg",
-        "/images/products/road-rollers-2.jpg",
-        "/images/products/road-rollers-3.jpg"
+        "/images/products/road-rollers-1.webp",
+        "/images/products/road-rollers-2.webp",
+        "/images/products/road-rollers-3.webp"
       ],
       "features": [
         "Various sizes and weights for different project needs",
@@ -181,18 +272,31 @@
         "Fuel-efficient engines for extended operation",
         "Easy maintenance design for reduced downtime"
       ],
-      "category": "Road Construction Equipment"
+      "category": "Road Roller",
+      "specifications": [
+        { "label": "Model Name/Number", "value": "" },
+        { "label": "Motor Power", "value": "4kW, 1440r/min" },
+        { "label": "Dimension", "value": "850x740x820mm" },
+        { "label": "Net Weight", "value": "380kgs" },
+        { "label": "Bend HRB400 Ribbed Steel Diameter", "value": "6-42mm" },
+        { "label": "Diameter of Working Disc", "value": "400mm" },
+        { "label": "Adjustable Bending Speed", "value": "5-10r/min" },
+        { "label": "Bend Round Steel Bar Diameter", "value": "6-42mm" },
+        { "label": "Type", "value": "Automatic/Manual" }
+      ],
+      "brochureUrl": "/brochures/bar-bending-machine.pdf"
     },
     {
       "id": 10,
       "name": "Plate Compactors",
       "shortDescription": "Ideal for compacting granular soils in confined areas.",
+      "price": "₹80,000/-",
       "fullDescription": "Our Plate Compactors are designed for compacting granular and mixed soils in confined areas. They are perfect for use in trenches, around structures, and for patch work on roads. These machines ensure a level and stable surface in areas where larger compaction equipment can't reach.",
-      "mainImage": "/images/products/plate-compactors-main.jpg",
+      "mainImage": "/images/products/plate-compactors-main.webp",
       "gallery": [
-        "/images/products/plate-compactors-1.jpg",
-        "/images/products/plate-compactors-2.jpg",
-        "/images/products/plate-compactors-3.jpg"
+        "/images/products/plate-compactors-1.webp",
+        "/images/products/plate-compactors-2.webp",
+        "/images/products/plate-compactors-3.webp"
       ],
       "features": [
         "High compaction force for efficient soil consolidation",
@@ -201,18 +305,29 @@
         "Durable plate material for long-lasting performance",
         "Easy-to-start engine for quick deployment"
       ],
-      "category": "Compaction Equipment"
+      "category": "Plate Compactoor",
+      "specifications": [
+        { "label": "Model Name/Number", "value": "FPC160" },
+        { "label": "Motor Power", "value": "4kW, 1440r/min" },
+        { "label": "Dimension", "value": "L865xW550xH1120mm" },
+        { "label": "Plate Size", "value": "L650xW500mm" },
+        { "label": "Net Weight", "value": "250kgs" },
+        { "label": "Centrifugal Force", "value": "30kn" },
+        { "label": "Frequency", "value": "95Hz" }
+      ],
+      "brochureUrl": "/brochures/bar-bending-machine.pdf"
     },
     {
       "id": 11,
       "name": "CNC Steel Bar Bender Machine",
       "shortDescription": "Automated precision bending for steel bars.",
+      "price": "₹80,000/-",
       "fullDescription": "Our CNC Steel Bar Bender Machine offers high-precision, automated bending of steel bars for construction and manufacturing applications. With computerized control, it ensures consistent and accurate bends, increasing productivity and reducing material waste.",
-      "mainImage": "/images/products/cnc-bar-bender-main.jpg",
+      "mainImage": "/images/products/cnc-bar-bender-main.webp",
       "gallery": [
-        "/images/products/cnc-bar-bender-1.jpg",
-        "/images/products/cnc-bar-bender-2.jpg",
-        "/images/products/cnc-bar-bender-3.jpg"
+        "/images/products/cnc-bar-bender-1.webp",
+        "/images/products/cnc-bar-bender-2.webp",
+        "/images/products/cnc-bar-bender-3.webp"
       ],
       "features": [
         "CNC control for precise and repeatable bends",
@@ -221,18 +336,31 @@
         "User-friendly interface for easy programming",
         "Memory storage for frequently used bend patterns"
       ],
-      "category": "CNC Machines"
+      "category": "Bending Machines",
+      "specifications": [
+        { "label": "Model Name/Number", "value": "CDRG 45" },
+        { "label": "Capacity", "value": "16-40mm" },
+        { "label": "Dimension", "value": "850x740x820mm" },
+        { "label": "Net Weight", "value": "380kgs" },
+        { "label": "Bend HRB400 Ribbed Steel Diameter", "value": "6-42mm" },
+        { "label": "Diameter of Working Disc", "value": "400mm" },
+        { "label": "Adjustable Bending Speed", "value": "5-10r/min" },
+        { "label": "Bend Round Steel Bar Diameter", "value": "6-42mm" },
+        { "label": "Type", "value": "Semi-Automatic" }
+      ],
+      "brochureUrl": "/brochures/bar-bending-machine.pdf"
     },
     {
       "id": 12,
       "name": "Threading Machine",
       "shortDescription": "Create precise threads on pipes and rods.",
+      "price": "₹80,000/-",
       "fullDescription": "Our Threading Machine is designed for cutting accurate threads on pipes, rods, and bolts. It's an essential tool for plumbing, manufacturing, and construction industries, offering precise and consistent threading for various materials and sizes.",
-      "mainImage": "/images/products/threading-machine-main.jpg",
+      "mainImage": "/images/products/threading-machine-main.webp",
       "gallery": [
-        "/images/products/threading-machine-1.jpg",
-        "/images/products/threading-machine-2.jpg",
-        "/images/products/threading-machine-3.jpg"
+        "/images/products/threading-machine-1.webp",
+        "/images/products/threading-machine-2.webp",
+        "/images/products/threading-machine-3.webp"
       ],
       "features": [
         "Accommodates a wide range of pipe and rod sizes",
@@ -241,18 +369,30 @@
         "Automatic lubrication system for extended tool life",
         "Portable design for on-site threading tasks"
       ],
-      "category": "Metalworking Machines"
+      "category": "Threading Machines",
+      "specifications": [
+        { "label": "Brand", "value": "HMS" },
+        { "label": "Model Name/Number", "value": "CDRG 45" },
+        { "label": "Capacity", "value": "16-40mm" },
+        { "label": "Net Weight", "value": "380kgs" },
+        { "label": "Main Shaft Speed", "value": "40-62r/m" },
+        { "label": "Max Roolling Length", "value": "100mm" },
+        { "label": "Thread Pitch", "value": "1.75,2.0,2.5,3.0" },
+        { "label": "Type", "value": "Semi-Automatic" }
+      ],
+      "brochureUrl": "/brochures/bar-bending-machine.pdf"
     },
     {
       "id": 13,
-      "name": "Power Trowel",
+      "name": "Ride On Power Trowel",
       "shortDescription": "Achieve smooth concrete surfaces efficiently.",
+      "price": "₹80,000/-",
       "fullDescription": "Our Power Trowel is designed for finishing and smoothing large concrete surfaces quickly and efficiently. It's ideal for creating a flat, dense, and durable finish on warehouse floors, parking decks, and other large concrete slabs.",
-      "mainImage": "/images/products/power-trowel-main.jpg",
+      "mainImage": "/images/products/power-trowel-main.webp",
       "gallery": [
-        "/images/products/power-trowel-1.jpg",
-        "/images/products/power-trowel-2.jpg",
-        "/images/products/power-trowel-3.jpg"
+        "/images/products/power-trowel-1.webp",
+        "/images/products/power-trowel-2.webp",
+        "/images/products/power-trowel-3.webp"
       ],
       "features": [
         "Adjustable blade pitch for different finishing stages",
@@ -261,18 +401,31 @@
         "Safety switch for immediate stop in emergencies",
         "Multiple blade options for various finishing needs"
       ],
-      "category": "Concrete Finishing Equipment"
+      "category": "Bending Machines",
+      "specifications": [
+        { "label": "Model", "value": "QUM80" },
+        { "label": "Power Source", "value": "Engine" },
+        { "label": "Dimension", "value": "L1980xW1020xH1500mm" },
+        { "label": "Engine Type", "value": "Air cooled 4 cycle gasoline" },
+        { "label": "Bend HRB400 Ribbed Steel Diameter", "value": "6-42mm" },
+        { "label": "Diameter of Working Disc", "value": "400mm" },
+        { "label": "Adjustable Bending Speed", "value": "5-10r/min" },
+        { "label": "Bend Round Steel Bar Diameter", "value": "6-42mm" },
+        { "label": "Type", "value": "Automatic/Manual" }
+      ],
+      "brochureUrl": "/brochures/bar-bending-machine.pdf"
     },
     {
       "id": 14,
       "name": "Floaters",
       "shortDescription": "Perfect for finishing and smoothing concrete surfaces.",
+      "price": "₹80,000/-",
       "fullDescription": "Our Concrete Floaters, also known as hand trowels, are essential tools for manually finishing and smoothing concrete surfaces. They are perfect for smaller areas or for adding the final touches to machine-troweled surfaces, ensuring a smooth and even finish.",
-      "mainImage": "/images/products/floaters-main.jpg",
+      "mainImage": "/images/products/floaters-main.webp",
       "gallery": [
-        "/images/products/floaters-1.jpg",
-        "/images/products/floaters-2.jpg",
-        "/images/products/floaters-3.jpg"
+        "/images/products/floaters-1.webp",
+        "/images/products/floaters-2.webp",
+        "/images/products/floaters-3.webp"
       ],
       "features": [
         "Ergonomic design for comfortable use",
@@ -281,18 +434,26 @@
         "Smooth edges to prevent marking the concrete",
         "Lightweight for reduced operator fatigue"
       ],
-      "category": "Concrete Finishing Tools"
+      "category": "Finishing Machines",
+      "specifications": [
+        { "label": "Model", "value": "FWT48" },
+        { "label": "Dimensions", "value": "L2080xW1250xH1020mm" },
+        { "label": "Max Output", "value": "7.0kW,9.OHP" },
+        { "label": "Speed", "value": "70-125rpm" }
+      ],
+      "brochureUrl": "/brochures/bar-bending-machine.pdf"
     },
     {
       "id": 15,
       "name": "Tamping Rammer",
       "shortDescription": "Compact soil or asphalt in trenches and confined areas.",
+      "price": "₹80,000/-",
       "fullDescription": "Our Tamping Rammer is designed for compacting soil, gravel, and asphalt in trenches, around foundations, and other confined areas. It delivers powerful impact force to ensure proper compaction, creating a stable base for construction projects.",
-      "mainImage": "/images/products/tamping-rammer-main.jpg",
+      "mainImage": "/images/products/tamping-rammer-main.webp",
       "gallery": [
-        "/images/products/tamping-rammer-1.jpg",
-        "/images/products/tamping-rammer-2.jpg",
-        "/images/products/tamping-rammer-3.jpg"
+        "/images/products/tamping-rammer-1.webp",
+        "/images/products/tamping-rammer-2.webp",
+        "/images/products/tamping-rammer-3.webp"
       ],
       "features": [
         "High impact force for effective compaction",
@@ -301,7 +462,17 @@
         "Easy-to-start engine for quick deployment",
         "Durable tamping shoe for long-lasting performance"
       ],
-      "category": "Compaction Equipment"
+      "category": "compaction Machinery",
+      "specifications": [
+        { "label": "Model", "value": "FTR100E" },
+        { "label": "Impacting Force", "value": "20kn" },
+        { "label": "Dimension", "value": "L600xW600xH1000mm" },
+        { "label": "Shoe Size", "value": "L300xW330mm" },
+        { "label": "Jumping Height", "value": "45-70mm" },
+        { "label": "weight", "value": "100Kgs" },
+        { "label": "", "value": "" }
+      ],
+      "brochureUrl": "/brochures/bar-bending-machine.pdf"
     }
   ]
 }

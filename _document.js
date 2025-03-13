@@ -1,4 +1,5 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+// app/_document.js
+import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
@@ -7,7 +8,7 @@ export default function Document() {
         {/* Google Analytics */}
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-C33Y4WJML3"
+          src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"
         />
         <script
           dangerouslySetInnerHTML={{
@@ -15,16 +16,21 @@ export default function Document() {
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-C33Y4WJML3');
+              gtag('config', 'YOUR_TRACKING_ID');
             `,
           }}
         />
-        {/* End Google Analytics */}
+        {/* Additional scripts can go here */}
+        <script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="9VXkNfUg4NaBwLYL+Cs0fQ"
+          async
+        ></script>
       </Head>
       <body>
         <Main />
         <NextScript />
       </body>
     </Html>
-  )
+  );
 }

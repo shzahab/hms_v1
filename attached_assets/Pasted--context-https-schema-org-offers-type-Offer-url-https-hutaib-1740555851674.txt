@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "offers": {
+    "@type": "Offer",
+    "url": "https://hutaibmachinery.com/product/1",
+    "priceCurrency": "INR",
+    "price": "84999",
+    "priceValidUntil": "2026-12-21",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition"
+  },
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://hutaibmachinery.com/product/1",
+      "url": "hhttps://hutaibmachinery.com/product/1",
+      "name": "Bar Bending Machine - High-Performance Rebar Bender",
+      "isPartOf": { "@id": "https://hutaibmachinery.com/#website" },
+      "datePublished": "2024-02-22T08:00:00+00:00",
+      "dateModified": "2025-02-22T12:00:00+00:00",
+      "description": "Discover high-quality Bar Bending Machines designed for precision and durability. Shop now at Hutaib Machinery.",
+      "breadcrumb": {
+        "@id": "https://hutaibmachinery.com/product/1/#breadcrumb"
+      },
+      "inLanguage": "en-IN",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": ["https://hutaibmachinery.com/product/1/"]
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hutaibmachinery.com/product/1/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hutaibmachinery.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Products",
+          "item": "https://hutaibmachinery.com/products/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Bar Bending Machine - Durable & High-Quality",
+          "item": "https://hutaibmachinery.com/product/1"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://hutaibmachinery.com/#website",
+      "url": "https://hutaibmachinery.com/",
+      "name": "Hutaib Machinery and Spares",
+      "description": "Hutaib Machinery and Spares - Supplier of premium industrial machinery and construction equipment across India.",
+      "inLanguage": "en-IN"
+    }
+  ]
+}

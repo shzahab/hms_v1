@@ -21,7 +21,10 @@
     text-wrap: balance;
   }
 }
-
+.rotate-45 {
+  transform: rotate(90deg); /* Rotate image by 45 degrees */
+  transition: transform 0.2s ease; /* Optional: for smooth transition */
+}
 @layer base {
   :root {
     --background: 0 0% 100%;
