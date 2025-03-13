@@ -7,7 +7,6 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { ShimmerButton } from "@/components/magicui/shimmer-button";
-import { InteractiveHoverButton } from "@/components/magicui/interactive-hover-button"; // Assuming this component exists
 import { ArrowRight, ChevronDown } from "lucide-react";
 import productsData from "@/app/data/products.json";
 import SpecificationsTable from "./specifications-table";
@@ -99,11 +98,11 @@ export default function BarBendingMachinePage() {
 
               {/* CTA Buttons */}
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
-                <InteractiveHoverButton className="w-full sm:w-auto h-[42px]"> {/* Replaced ShimmerButton */}
+                <ShimmerButton className="w-full sm:w-auto h-[42px]">
                   <span className="text-sm font-medium tracking-tight text-white px-6">
                     Get Quote
                   </span>
-                </InteractiveHoverButton>
+                </ShimmerButton>
                 <Button 
                   variant="outline" 
                   className="w-full sm:w-auto flex items-center justify-center gap-2 text-sm font-medium h-[42px]"
@@ -346,4 +345,4 @@ export default function BarBendingMachinePage() {
       </footer>
     </div>
   );
-}
+} 
