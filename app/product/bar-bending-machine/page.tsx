@@ -86,13 +86,44 @@ export default function BarBendingMachinePage() {
               </p>
 
               <div className="mb-8">
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Key Features:</h3>
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Advantages of Our Machines:</h3>
                 <ul className="list-disc pl-5 text-gray-600 space-y-2 text-lg">
-                  <li>Handles multiple steel bar sizes</li>
-                  <li>Customizable bending angles (0° to 180°)</li>
-                  <li>High-precision digital control panel</li>
-                  <li>Dual operation modes (automatic & manual)</li>
-                  <li>Motor protection with preventer</li>
+                  <li><strong>Unmatched Reliability</strong> – Designed for heavy-duty applications with reinforced components</li>
+                  <li><strong>Precision Bending</strong> – Supports multiple bar diameters with high accuracy</li>
+                  <li><strong>Advanced Safety Features</strong> – Includes hold-button control for safe operation</li>
+                  <li><strong>Customization Options</strong> – Tailor the machine to your specific requirements</li>
+                  <li><strong>Robust Build & Longevity</strong> – Engineered for low maintenance and extended service life</li>
+                </ul>
+              </div>
+
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Key Features and Performance:</h3>
+                <ul className="list-disc pl-5 text-gray-600 space-y-2 text-lg">
+                  <li><strong>Versatile Bending Capabilities</strong> – Handles multiple steel bar sizes and supports various materials</li>
+                  <li><strong>Customizable Bending Angles</strong> – Adjustable from 0° to 180°</li>
+                  <li><strong>High-Precision Digital Control Panel</strong> – Reduces material waste</li>
+                  <li><strong>Dual Operation Modes</strong> – Automatic and manual settings</li>
+                  <li><strong>Motor Protection</strong> – Equipped with preventer for power fluctuation protection</li>
+                  <li><strong>Hold-Button Safety Feature</strong> – Enhanced operator control and safety</li>
+                </ul>
+              </div>
+
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Comprehensive Support:</h3>
+                <ul className="list-disc pl-5 text-gray-600 space-y-2 text-lg">
+                  <li><strong>Dedicated Service Team</strong> – Ensuring long-term operational efficiency</li>
+                  <li><strong>Spare Parts Availability</strong> – Readily available components for maintenance</li>
+                  <li><strong>Expert Technical Assistance</strong> – Ongoing support to optimize performance</li>
+                  <li><strong>Fast & Reliable Delivery</strong> – Quick turnaround times for project deadlines</li>
+                </ul>
+              </div>
+
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Quality Assurance:</h3>
+                <ul className="list-disc pl-5 text-gray-600 space-y-2 text-lg">
+                  <li>Rigorous testing and quality control at every stage of production</li>
+                  <li>Use of high-grade materials to ensure durability and reliability</li>
+                  <li>Commitment to meeting and exceeding industry standards</li>
                 </ul>
               </div>
 
@@ -345,4 +376,4 @@ export default function BarBendingMachinePage() {
       </footer>
     </div>
   );
-} 
+}
