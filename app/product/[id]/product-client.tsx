@@ -1,21 +1,14 @@
-
-'use client';
+"use client";
 
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ChevronDown } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { ShimmerButton } from "@/components/magicui/shimmer-button";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Breadcrumbs from "@/components/Breadcrumb";
-import { ShimmerButton } from "@/components/magicui/shimmer-button";
-
-const tabs = [
-  { id: "description", label: "Description" },
-  { id: "specifications", label: "Specifications" },
-  { id: "benefits", label: "Benefits" },
-  { id: "applications", label: "Applications" },
-];
 
 function createSlug(name: string) {
   return name
@@ -25,227 +18,140 @@ function createSlug(name: string) {
 }
 
 export default function ProductClient({ product, otherProducts }: any) {
-  const [activeTab, setActiveTab] = useState("description");
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [mainImage, setMainImage] = useState(product.mainImage);
 
   return (
     <div className="min-h-screen bg-background text-foreground font-sans">
-      <Header />
-      <main className="mt-16 sm:mt-24">
+      <header>
+        <Header />
+      </header>
+      <main className="mt-24 sm:mt-32 md:mt-40 pb-16">
         <div className="flex justify-center">
           <Breadcrumbs />
         </div>
+        <div className="container mx-auto px-4">
+          <h1 className="text-3xl md:text-4xl font-bold mb-4">
+            {product.name}
+          </h1>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          {/* Product Title Section */}
-          <div className="mb-8">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-3 tracking-tight">
-              {product.name}
-            </h1>
-            <p className="text-xl text-gray-600 font-medium">{product.shortDescription}</p>
-          </div>
-
-          {/* Product Image Gallery */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            <div className="space-y-4">
-              <div className="aspect-square relative overflow-hidden rounded-lg">
-                <Image
-                  src={product.mainImage}
-                  alt={product.name}
-                  className="object-cover"
-                  fill
-                  priority
-                />
-              </div>
-            </div>
-            <div className="space-y-6">
-              <div className="prose max-w-none">
-                <p className="text-lg text-gray-600">{product.fullDescription}</p>
-              </div>
-              <div className="space-y-4">
-                <p className="text-2xl font-bold text-gray-900">{product.price}</p>
-                <div className="space-x-4">
-                  <a
-                    href={product.brochureUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700"
-                  >
-                    📄 Download Brochure
-                  </a>
-                  <ShimmerButton 
-                    className="shadow-2xl"
-                    onClick={() => {
-                      if (typeof window !== 'undefined') {
-                        window.open('https://wa.me/919740035153', '_blank')
-                      }
-                    }}
-                  >
-                    <span className="text-sm font-medium tracking-tight text-white lg:text-lg">
-                      Get Quote
-                    </span>
-                  </ShimmerButton>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Tabs Section */}
-          <div className="mb-12">
-            <div className="md:hidden border-b border-gray-200">
-              <button
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="flex items-center justify-between w-full px-4 py-4 text-left bg-gradient-to-r from-blue-50 to-white border-b-2 border-blue-100 hover:bg-blue-50 transition-all duration-300"
-              >
-                <span className="text-base font-semibold text-blue-900 flex items-center">
-                  <span className="mr-2">📑</span>
-                  {tabs.find(tab => tab.id === activeTab)?.label}
-                </span>
-                <ChevronDown 
-                  className={`w-6 h-6 text-blue-500 transition-transform duration-300 ${isMenuOpen ? 'transform rotate-180' : 'animate-bounce'}`}
-                />
-              </button>
-              {isMenuOpen && (
-                <div className="border-b border-gray-200">
-                  {tabs.map((tab) => (
-                    <button
-                      key={tab.id}
-                      onClick={() => {
-                        setActiveTab(tab.id);
-                        setIsMenuOpen(false);
-                      }}
-                      className={`block w-full px-4 py-2 text-left ${
-                        activeTab === tab.id
-                          ? "bg-blue-50 text-blue-800"
-                          : "hover:bg-gray-50"
-                      }`}
-                    >
-                      {tab.label}
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
-
-            <div className="hidden md:block">
-              <div className="border-b border-gray-200">
-                <nav className="-mb-px flex space-x-8">
-                  {tabs.map((tab) => (
-                    <button
-                      key={tab.id}
-                      onClick={() => setActiveTab(tab.id)}
-                      className={`
-                        whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm
-                        ${
-                          activeTab === tab.id
-                            ? "border-blue-500 text-blue-600"
-                            : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
-                        }
-                      `}
-                    >
-                      {tab.label}
-                    </button>
-                  ))}
-                </nav>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Product Images */}
+            <div>
+              <Image
+                src={mainImage}
+                alt={product.name}
+                width={600}
+                height={600}
+                className="w-full rounded-lg shadow-lg"
+              />
+              <h2 className="text-2xl font-semibold mt-6">Product Gallery</h2>
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-4">
+                {product.gallery.map((image: string, index: number) => (
+                  <Image
+                    key={index}
+                    src={image}
+                    alt={`${product.name} - Image ${index + 1}`}
+                    width={300}
+                    height={300}
+                    className="w-full rounded-lg shadow cursor-pointer hover:opacity-80 transition"
+                    onClick={() => setMainImage(image)}
+                  />
+                ))}
               </div>
             </div>
 
-            <div className="py-6">
-              {activeTab === "description" && (
-                <div className="prose max-w-none">
-                  <p className="text-gray-600">{product.fullDescription}</p>
-                </div>
-              )}
+            {/* Product Details */}
+            <div>
+              <p className="text-2xl font-semibold text-green-600 mb-2">
+                Starting from {product.price}
+              </p>
+              <p className="text-gray-700 mb-4">{product.fullDescription}</p>
 
-              {activeTab === "specifications" && (
-                <div className="overflow-x-auto">
-                  <table className="min-w-full divide-y divide-gray-200">
-                    <tbody className="divide-y divide-gray-200">
-                      {product.specifications.map((spec: any, index: number) => (
-                        <tr key={index}>
-                          <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                            {spec.label}
-                          </td>
-                          <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                            {spec.value}
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              )}
+              {/* Specifications */}
+              <div className="bg-gray-100 p-6 rounded-lg shadow-md">
+                <h2 className="text-2xl font-semibold mb-4">
+                  Product Specifications
+                </h2>
+                <table className="w-full border border-gray-300 bg-white rounded-lg shadow">
+                  <tbody>
+                    {product.specifications.map((spec: any, index: number) => (
+                      <tr
+                        key={index}
+                        className="border-b border-gray-300 text-sm sm:text-base"
+                      >
+                        <td className="p-3 font-semibold text-gray-700 border-r border-gray-300">
+                          {spec.label}
+                        </td>
+                        <td className="p-3 text-gray-600">{spec.value}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
 
-              {activeTab === "benefits" && (
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  {product.features.map((feature: string, index: number) => (
-                    <div
-                      key={index}
-                      className="bg-white p-6 rounded-lg shadow-sm border border-gray-100"
-                    >
-                      <p className="text-gray-600">{feature}</p>
-                    </div>
-                  ))}
-                </div>
-              )}
-
-              {activeTab === "applications" && (
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  {product.gallery.slice(0, 4).map((image: string, index: number) => (
-                    <div
-                      key={index}
-                      className="bg-white shadow rounded-lg overflow-hidden"
-                    >
-                      <div className="aspect-video relative">
-                        <Image
-                          src={image}
-                          alt={`${product.name} application ${index + 1}`}
-                          className="object-cover"
-                          fill
-                        />
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
-          </div>
-
-          {/* Related Products */}
-          <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Products</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {otherProducts.map((relatedProduct: any) => (
-                <Link
-                  key={relatedProduct.id}
-                  href={`/product/${createSlug(relatedProduct.name)}`}
-                  className="group"
+              {/* Buttons */}
+              <div className="mt-6 flex justify-center gap-4">
+                <a
+                  href="/hms-brochure.pdf"
+                  download="HMS-Brochure.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-green-600 text-white px-6 py-3 rounded-[30px] font-sembold shadow hover:bg-green-700 transition-all"
                 >
-                  <div className="bg-white rounded-lg shadow-sm overflow-hidden">
-                    <div className="aspect-square relative">
-                      <Image
-                        src={relatedProduct.mainImage}
-                        alt={relatedProduct.name}
-                        className="object-cover group-hover:scale-105 transition-transform duration-300"
-                        fill
-                      />
-                    </div>
-                    <div className="p-4">
-                      <h3 className="text-lg font-semibold text-gray-900 mb-1">
-                        {relatedProduct.name}
-                      </h3>
-                      <p className="text-sm text-gray-600">
-                        {relatedProduct.shortDescription}
-                      </p>
-                    </div>
-                  </div>
-                </Link>
-              ))}
+                  📄 Download Brochure
+                </a>
+                <ShimmerButton 
+                  className="shadow-2xl"
+                  onClick={() => {
+                    if (typeof window !== 'undefined') {
+                      window.open('https://wa.me/919740035153', '_blank')
+                    }
+                  }}
+                >
+                  <span className="text-sm font-medium tracking-tight text-white lg:text-lg">
+                    Get Quote
+                  </span>
+                </ShimmerButton>
+              </div>
             </div>
+          </div>
+
+          {/* Other Products Section */}
+          <h2 className="text-2xl font-semibold mt-12">Other Products</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6">
+            {otherProducts.map((p: any) => (
+              <div key={p.id} className="group ease-in duration-75 hover:bg-gray-100 rounded-lg p-2 ">
+                <div className="aspect-square bg-muted rounded-lg mb-4 overflow-hidden ">
+                  <Image
+                    src={p.mainImage}
+                    alt={p.name}
+                    width={300}
+                    height={300}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <h3 className="text-lg sm:text-xl font-semibold mb-2">
+                  {p.name}
+                </h3>
+                <p className="text-sm sm:text-base text-muted-foreground mb-2">
+                  {p.shortDescription}
+                </p>
+                <Link href={`/product/${createSlug(p.name)}`}>
+                  <Button
+                    variant="link"
+                    className="p-0 h-auto text-sm sm:text-base font-medium text-primary group-hover:underline"
+                  >
+                    Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </Link>
+              </div>
+            ))}
           </div>
         </div>
       </main>
-      <Footer />
+      <footer className="bg-muted py-12">
+        <Footer />
+      </footer>
     </div>
   );
 }
