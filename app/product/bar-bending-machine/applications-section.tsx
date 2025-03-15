@@ -73,16 +73,13 @@ export default function ApplicationsSection() {
           />
         </div>
 
-        <div className="bg-white shadow rounded-lg overflow-hidden">
-          <div className="p-5">
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">Bridge & Highway Projects</h3>
-            <ul className="list-disc pl-5 text-gray-600 mb-4">
-              <li>Handles <strong>complex bar shapes</strong> for <strong>infrastructure projects</strong>.</li>
-              <li>Switches seamlessly between <strong>manual and automatic functions</strong>.</li>
-            </ul>
-          </div>
+        <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
+          <h3 className="text-lg font-semibold text-gray-800 mb-2">Bridge & Highway Projects</h3>
+          <p className="text-gray-600 mb-4">
+            Handles <strong>complex bar shapes</strong> for <strong>infrastructure projects</strong> with seamless switching between <strong>manual and automatic functions</strong>.
+          </p>
           <Image
-            className="w-full h-48 object-cover"
+            className="w-full h-40 object-cover rounded mt-4"
             src="/images/products/bar-bending-machine-2.webp"
             alt="HMS Bar Bending Machine performing precision bending for infrastructure projects with both manual and automatic modes"
             width={400}
