@@ -10,14 +10,9 @@ export const metadata: Metadata = {
   title: "HMS Machinery and Spares",
   description: "HMS Machinery and Spares - Construction Equipment and Machinery",
   icons: {
-    icon: [
-      { url: '/favicon.ico' },
-      { url: '/favicon.ico', type: 'image/x-icon' },
-    ],
-    shortcut: ['/favicon.ico'],
-    apple: [
-      { url: '/favicon.ico' },
-    ],
+    icon: '/favicon.ico',
+    apple: '/favicon.ico',
+    shortcut: '/favicon.ico',
   },
 };
 
