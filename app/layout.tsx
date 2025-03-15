@@ -9,13 +9,16 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "HMS Machinery and Spares",
   description: "HMS Machinery and Spares - Construction Equipment and Machinery",
-  icons: [
-    {
-      rel: 'icon',
-      url: '/favicon.ico',
-      sizes: 'any',
-    },
-  ],
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon.ico', type: 'image/x-icon' },
+    ],
+    shortcut: ['/favicon.ico'],
+    apple: [
+      { url: '/favicon.ico' },
+    ],
+  },
 };
 
 // Google Analytics Script
