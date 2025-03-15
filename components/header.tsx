@@ -4,7 +4,7 @@ import { Phone, Mail, MessageCircle } from "lucide-react";
 
 export default function Header() {
   return (
-    <header className="md:fixed md:top-0 md:left-0 md:right-0 bg-background/80 backdrop-blur-sm z-50">
+    <header className="md:fixed md:top-0 md:left-0 md:right-0 bg-background/80 backdrop-blur-sm z-50" style={{ '--header-height': 'var(--header-height, auto)' } as React.CSSProperties}>
       <div className="container mx-auto px-4 py-4">
         <div className="flex flex-col items-center md:flex-row md:justify-between md:items-center">
           <div className="flex items-center justify-center mb-4 md:mb-0">

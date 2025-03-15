@@ -1,3 +1,14 @@
+
+:root {
+  --header-height: 0px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --header-height: 80px;
+  }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

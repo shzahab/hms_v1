@@ -45,7 +45,7 @@ export default function HomePage() {
       <header>
         <Header />
       </header>
-      <main className="mt-20 sm:mt-24 md:mt-28 pb-16">
+      <main className="mt-[calc(4rem+var(--header-height,0px))] pb-16">
         <div className="flex justify-center">
           <BreadCrumb />
         </div>
