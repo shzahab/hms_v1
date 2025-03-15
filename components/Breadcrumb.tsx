@@ -35,7 +35,7 @@ const Breadcrumbs = () => {
               </span>
             ) : (
               <Link 
-                href={href}
+                href={segment === "product" ? "/" : href}
                 className="hover:text-blue-600 transition-colors"
               >
                 {formattedSegment}
