@@ -28,18 +28,18 @@ export default function SpecificationsTable() {
           <tr>
             <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">GF20</td>
             <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">25mm</td>
-            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Contact for details</td>
-            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Contact for details</td>
-            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Contact for details</td>
-            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Contact for details</td>
+            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">90</td>
+            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">800x530x830</td>
+            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">2.2kw</td>
+            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">28 p/min</td>
           </tr>
           <tr>
             <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">GW42</td>
             <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">32mm</td>
-            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">450</td>
+            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">280</td>
             <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">850x740x820mm</td>
-            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">4hp 3phase</td>
-            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">10 r/min</td>
+            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">3.0kw</td>
+            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">10-20 r/min</td>
           </tr>
           <tr>
             <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">GW52</td>
@@ -47,7 +47,7 @@ export default function SpecificationsTable() {
             <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">550</td>
             <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">850x740x820mm</td>
             <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">4hp 3phase</td>
-            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">10 r/min</td>
+            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">15-25 r/min</td>
           </tr>
         </tbody>
       </table>
