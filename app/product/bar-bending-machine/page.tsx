@@ -46,7 +46,7 @@ export default function BarBendingMachinePage() {
         <Header />
       </header>
       <main className="mt-20 sm:mt-32 md:mt-40 pb-16">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <Breadcrumbs />
       </div>
 
