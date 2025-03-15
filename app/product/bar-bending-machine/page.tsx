@@ -256,12 +256,33 @@ export default function BarBendingMachinePage() {
                       <h3 className="text-2xl font-bold text-gray-800 mb-4">
                         The Power of HMS Bar Bending Machines
                       </h3>
-                      <p className="text-lg text-gray-600 leading-relaxed">
+                      <p className="text-lg text-gray-600 leading-relaxed mb-6">
                         In the world of <strong>construction equipment</strong>, <strong>HMS</strong> stands
                         as a <strong>symbol of excellence, innovation, and dependability</strong>. With a{" "}
                         <strong>proven track record</strong> in the industry, we continue to set{" "}
                         <strong>high standards in performance and efficiency</strong>.
                       </p>
+
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                        <div className="bg-gray-50 p-6 rounded-lg">
+                          <h4 className="text-xl font-semibold text-gray-800 mb-3">Performance Features</h4>
+                          <ul className="space-y-2 text-gray-600">
+                            <li>• Advanced motor protection system</li>
+                            <li>• High-precision digital controls</li>
+                            <li>• Dual operation modes</li>
+                            <li>• Quick angle adjustment</li>
+                          </ul>
+                        </div>
+                        <div className="bg-gray-50 p-6 rounded-lg">
+                          <h4 className="text-xl font-semibold text-gray-800 mb-3">Safety & Durability</h4>
+                          <ul className="space-y-2 text-gray-600">
+                            <li>• Built-in safety mechanisms</li>
+                            <li>• Heavy-duty construction</li>
+                            <li>• Low maintenance design</li>
+                            <li>• Long service life</li>
+                          </ul>
+                        </div>
+                      </div>>
                     </div>
 
                     <div>
