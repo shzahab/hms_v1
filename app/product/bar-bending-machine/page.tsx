@@ -26,7 +26,7 @@ function createSlug(name: string) {
 export default function BarBendingMachinePage() {
   const [activeTab, setActiveTab] = useState("description");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  
+
   const tabs = [
     { id: "description", label: "Description" },
     { id: "specifications", label: "Specifications" },
@@ -117,7 +117,7 @@ export default function BarBendingMachinePage() {
                 >
                   <Button 
                     variant="outline" 
-                    className="w-full h-[42px] flex items-center justify-center gap-2 text-sm font-medium"
+                    className="w-full h-[42px] flex items-center justify-center gap-2 text-sm font-medium bg-green-600 text-white rounded-full hover:bg-green-700 transition-colors"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -255,7 +255,7 @@ export default function BarBendingMachinePage() {
                         Motor Protection with Preventer – Equipped with a preventer to safeguard the motor from power fluctuations, ensuring longer machine life and stable performance.
                       </p>
                     </div>
-                    
+
                     <div>
                       <h3 className="text-2xl font-bold text-gray-800 mb-4">
                         Innovative Engineering for Efficiency & Operator Comfort
