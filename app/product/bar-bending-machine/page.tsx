@@ -57,27 +57,6 @@ export default function BarBendingMachinePage() {
               HMS Bar Bending Machine
             </h1>
             <p className="text-xl text-gray-600 font-medium">Precision, Efficiency & Reliability</p>
-            
-            <div className="mt-8 space-y-6">
-              <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Why Choose HMS Bar Bending Machine?</h2>
-                <ul className="space-y-3 text-gray-600">
-                  <li>• Handles Multiple Steel Bar Sizes – Suitable for all construction needs.</li>
-                  <li>• Customizable Bending Angles – Adjustable from 0° to 180°.</li>
-                  <li>• High-Precision Digital Control Panel – Reduces material waste.</li>
-                  <li>• Dual Operation Modes – Automatic and manual settings.</li>
-                  <li>• Reliable Performance – Built for high efficiency and minimal downtime.</li>
-                  <li>• Motor Protection with Preventer – Equipped with a preventer to safeguard the motor from power fluctuations, ensuring longer machine life and stable performance.</li>
-                </ul>
-              </div>
-              
-              <div>
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">Innovative Engineering for Efficiency & Operator Comfort</h2>
-                <p className="text-gray-600">
-                  HMS Bar Bending Machines are designed with advanced engineering innovations to reduce manual labor, enhance operator comfort, and maximize productivity. Our machines seamlessly combine modern technology with traditional craftsmanship, offering superior efficiency, durability, and ease of use.
-                </p>
-              </div>
-            </div>
           </div>
 
           {/* Product Overview Section */}
@@ -256,35 +235,35 @@ export default function BarBendingMachinePage() {
                       <h3 className="text-2xl font-bold text-gray-800 mb-4">
                         The Power of HMS Bar Bending Machines
                       </h3>
-                      <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                      <p className="text-lg text-gray-600 leading-relaxed">
                         In the world of <strong>construction equipment</strong>, <strong>HMS</strong> stands
                         as a <strong>symbol of excellence, innovation, and dependability</strong>. With a{" "}
                         <strong>proven track record</strong> in the industry, we continue to set{" "}
                         <strong>high standards in performance and efficiency</strong>.
                       </p>
-
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                        <div className="bg-gray-50 p-6 rounded-lg">
-                          <h4 className="text-xl font-semibold text-gray-800 mb-3">Performance Features</h4>
-                          <ul className="space-y-2 text-gray-600">
-                            <li>• Advanced motor protection system</li>
-                            <li>• High-precision digital controls</li>
-                            <li>• Dual operation modes</li>
-                            <li>• Quick angle adjustment</li>
-                          </ul>
-                        </div>
-                        <div className="bg-gray-50 p-6 rounded-lg">
-                          <h4 className="text-xl font-semibold text-gray-800 mb-3">Safety & Durability</h4>
-                          <ul className="space-y-2 text-gray-600">
-                            <li>• Built-in safety mechanisms</li>
-                            <li>• Heavy-duty construction</li>
-                            <li>• Low maintenance design</li>
-                            <li>• Long service life</li>
-                          </ul>
-                        </div>
-                      </div>>
                     </div>
-
+                    <div>
+                      <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                        Why Choose HMS Bar Bending Machine?
+                      </h3>
+                      <p className="text-lg text-gray-600 leading-relaxed">
+                        Handles Multiple Steel Bar Sizes – Suitable for all construction needs.<br />
+                        Customizable Bending Angles – Adjustable from 0° to 180°.<br />
+                        High-Precision Digital Control Panel – Reduces material waste.<br />
+                        Dual Operation Modes – Automatic and manual settings.<br />
+                        Reliable Performance – Built for high efficiency and minimal downtime.<br />
+                        Motor Protection with Preventer – Equipped with a preventer to safeguard the motor from power fluctuations, ensuring longer machine life and stable performance.
+                      </p>
+                    </div>
+                    
+                    <div>
+                      <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                        Innovative Engineering for Efficiency & Operator Comfort
+                      </h3>
+                      <p className="text-lg text-gray-600 leading-relaxed">
+                        HMS Bar Bending Machines are designed with advanced engineering innovations to reduce manual labor, enhance operator comfort, and maximize productivity. Our machines seamlessly combine modern technology with traditional craftsmanship, offering superior efficiency, durability, and ease of use.
+                      </p>
+                    </div>
                     <div>
                       <h3 className="text-2xl font-bold text-gray-800 mb-4">
                         Customization for Every Need
