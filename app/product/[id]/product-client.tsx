@@ -100,9 +100,16 @@ export default function ProductClient({ product, otherProducts }: any) {
                 >
                   📄 Download Brochure
                 </a>
-                <ShimmerButton className="shadow-2xl">
+                <ShimmerButton 
+                  className="shadow-2xl"
+                  onClick={() => {
+                    if (typeof window !== 'undefined') {
+                      window.open('https://wa.me/919740035153', '_blank')
+                    }
+                  }}
+                >
                   <span className="text-sm font-medium tracking-tight text-white lg:text-lg">
-                    Request a Quote
+                    Get Quote
                   </span>
                 </ShimmerButton>
               </div>
