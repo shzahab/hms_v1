@@ -45,8 +45,11 @@ export default function HomePage() {
       <header>
         <Header />
       </header>
-      <main className="mt-24 sm:mt-32 md:mt-40 pb-16">
-        <section className="container mx-auto px-4">
+      <main className="mt-20 sm:mt-24 md:mt-28 pb-16">
+        <div className="flex justify-center">
+          <BreadCrumb />
+        </div>
+        <section className="container mx-auto px-4 mt-6">
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 text-center">
             Hutaib Machinery and Spares
           </h1>
