@@ -274,14 +274,12 @@
       ],
       "category": "Road Roller",
       "specifications": [
-        { "label": "Model Name/Number", "value": "" },
-        { "label": "Motor Power", "value": "4kW, 1440r/min" },
-        { "label": "Dimension", "value": "850x740x820mm" },
-        { "label": "Net Weight", "value": "380kgs" },
-        { "label": "Bend HRB400 Ribbed Steel Diameter", "value": "6-42mm" },
-        { "label": "Diameter of Working Disc", "value": "400mm" },
-        { "label": "Adjustable Bending Speed", "value": "5-10r/min" },
-        { "label": "Bend Round Steel Bar Diameter", "value": "6-42mm" },
+        { "label": "Brand", "value": "HMS" },
+        { "label": "Power Source", "value": "Engine" },
+        { "label": "Vibrating Clutch Mode", "value": "Automatic" },
+        { "label": "Engine", "value": "Air cooled 4 cycle gasoline/diesel" },
+        { "label": "Centrifugal Force", "value": "15kn" },
+        { "label": "Speed", "value": "0-4Kmph" },
         { "label": "Type", "value": "Automatic/Manual" }
       ],
       "brochureUrl": "/brochures/bar-bending-machine.pdf"
