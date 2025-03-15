@@ -242,7 +242,28 @@ export default function BarBendingMachinePage() {
                         <strong>high standards in performance and efficiency</strong>.
                       </p>
                     </div>
-
+                    <div>
+                      <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                        Why Choose HMS Bar Bending Machine?
+                      </h3>
+                      <p className="text-lg text-gray-600 leading-relaxed">
+                        Handles Multiple Steel Bar Sizes – Suitable for all construction needs.<br />
+                        Customizable Bending Angles – Adjustable from 0° to 180°.<br />
+                        High-Precision Digital Control Panel – Reduces material waste.<br />
+                        Dual Operation Modes – Automatic and manual settings.<br />
+                        Reliable Performance – Built for high efficiency and minimal downtime.<br />
+                        Motor Protection with Preventer – Equipped with a preventer to safeguard the motor from power fluctuations, ensuring longer machine life and stable performance.
+                      </p>
+                    </div>
+                    
+                    <div>
+                      <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                        Innovative Engineering for Efficiency & Operator Comfort
+                      </h3>
+                      <p className="text-lg text-gray-600 leading-relaxed">
+                        HMS Bar Bending Machines are designed with advanced engineering innovations to reduce manual labor, enhance operator comfort, and maximize productivity. Our machines seamlessly combine modern technology with traditional craftsmanship, offering superior efficiency, durability, and ease of use.
+                      </p>
+                    </div>
                     <div>
                       <h3 className="text-2xl font-bold text-gray-800 mb-4">
                         Customization for Every Need
