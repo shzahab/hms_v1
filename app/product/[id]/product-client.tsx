@@ -78,7 +78,7 @@ export default function ProductClient({ product, otherProducts }: any) {
                     width={300}
                     height={300}
                     className="w-full rounded-lg shadow cursor-pointer hover:opacity-80 transition"
-                    onClick={() => setCurrentSlide(index + 1)}
+                    onClick={() => setCurrentSlide(index)}
                   />
                 ))}
               </div>
