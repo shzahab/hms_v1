@@ -57,6 +57,27 @@ export default function BarBendingMachinePage() {
               HMS Bar Bending Machine
             </h1>
             <p className="text-xl text-gray-600 font-medium">Precision, Efficiency & Reliability</p>
+            
+            <div className="mt-8 space-y-6">
+              <div>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">Why Choose HMS Bar Bending Machine?</h2>
+                <ul className="space-y-3 text-gray-600">
+                  <li>• Handles Multiple Steel Bar Sizes – Suitable for all construction needs.</li>
+                  <li>• Customizable Bending Angles – Adjustable from 0° to 180°.</li>
+                  <li>• High-Precision Digital Control Panel – Reduces material waste.</li>
+                  <li>• Dual Operation Modes – Automatic and manual settings.</li>
+                  <li>• Reliable Performance – Built for high efficiency and minimal downtime.</li>
+                  <li>• Motor Protection with Preventer – Equipped with a preventer to safeguard the motor from power fluctuations, ensuring longer machine life and stable performance.</li>
+                </ul>
+              </div>
+              
+              <div>
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">Innovative Engineering for Efficiency & Operator Comfort</h2>
+                <p className="text-gray-600">
+                  HMS Bar Bending Machines are designed with advanced engineering innovations to reduce manual labor, enhance operator comfort, and maximize productivity. Our machines seamlessly combine modern technology with traditional craftsmanship, offering superior efficiency, durability, and ease of use.
+                </p>
+              </div>
+            </div>
           </div>
 
           {/* Product Overview Section */}
