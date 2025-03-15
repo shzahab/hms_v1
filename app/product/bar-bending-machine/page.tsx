@@ -65,7 +65,7 @@ export default function BarBendingMachinePage() {
             <div className="bg-white p-4 rounded-lg shadow">
               <Image
                 src="/images/products/bar-bending-machine-main.webp"
-                alt="HMS Bar Bending Machine - High Precision Steel Rebar Bending Equipment"
+                alt="HMS Bar Bending Machine - Professional grade rebar bending equipment with digital control panel and dual operation modes"
                 width={600}
                 height={400}
                 className="w-full object-cover rounded"

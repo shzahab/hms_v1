@@ -14,7 +14,7 @@ export default function ApplicationsSection() {
           <Image
             className="w-full h-40 object-cover rounded mt-4"
             src="/images/products/bar-bending-machine-1.webp"
-            alt="HMS Bar Bending Machine used in construction"
+            alt="HMS Bar Bending Machine in action at a construction site, demonstrating reinforcement bar bending capabilities"
             width={400}
             height={300}
           />
@@ -29,7 +29,7 @@ export default function ApplicationsSection() {
           <Image
             className="w-full h-40 object-cover rounded mt-4"
             src="/images/products/bar-bending-machine-2.webp"
-            alt="HMS Bar Bending Machine used in manufacturing"
+            alt="HMS Bar Bending Machine operating in a manufacturing facility, showcasing precision bending of steel rods"
             width={400}
             height={300}
           />
@@ -44,7 +44,7 @@ export default function ApplicationsSection() {
           <Image
             className="w-full h-40 object-cover rounded mt-4"
             src="/images/products/bar-bending-machine-3.webp"
-            alt="HMS Bar Bending Machine used in heavy engineering"
+            alt="HMS Bar Bending Machine performing heavy-duty industrial bending operations with advanced controls"
             width={400}
             height={300}
           />
@@ -67,7 +67,7 @@ export default function ApplicationsSection() {
           <Image
             className="w-full h-48 object-cover"
             src="/images/products/bar-bending-machine-1.webp"
-            alt="HMS Bar Bending Machine used in skyscraper construction"
+            alt="HMS Bar Bending Machine demonstrating precise rebar bending for high-rise construction with digital controls"
             width={400}
             height={300}
           />
@@ -84,7 +84,7 @@ export default function ApplicationsSection() {
           <Image
             className="w-full h-48 object-cover"
             src="/images/products/bar-bending-machine-2.webp"
-            alt="HMS Bar Bending Machine used in bridge construction"
+            alt="HMS Bar Bending Machine performing precision bending for infrastructure projects with both manual and automatic modes"
             width={400}
             height={300}
           />
@@ -103,7 +103,7 @@ export default function ApplicationsSection() {
           <Image
             className="w-full h-48 object-cover"
             src="/images/products/bar-bending-machine-3.webp"
-            alt="HMS Bar Bending Machine used in prefabrication"
+            alt="HMS Bar Bending Machine in a prefabrication facility showing precise steel processing capabilities"
             width={400}
             height={300}
           />
@@ -111,4 +111,4 @@ export default function ApplicationsSection() {
       </div>
     </div>
   );
-} 
+}
