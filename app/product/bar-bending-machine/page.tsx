@@ -46,9 +46,9 @@ export default function BarBendingMachinePage() {
         <Header />
       </header>
       <main className="mt-20 sm:mt-32 md:mt-40 pb-16">
-      <div className="px-4 sm:ml-[50px] md:ml-[150px] sm:flex sm:justify-start">
-  <Breadcrumbs />
-</div>
+      <div className="container mx-auto px-4">
+        <Breadcrumbs />
+      </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           {/* Product Title Section */}
