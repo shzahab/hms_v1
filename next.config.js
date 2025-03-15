@@ -1,11 +1,15 @@
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  images: {
-    domains: ['hebbkx1anhila5yf.public.blob.vercel-storage.com'],
-    unoptimized: true,
+  reactStrictMode: true,
+  onDemandEntries: {
+    maxInactiveAge: 25 * 1000,
+    pagesBufferLength: 2,
   },
-  // Add any other configurations here
-};
+  webpackDevMiddleware: config => {
+    config.dev.errorOverlay = false
+    return config
+  }
+}
 
 module.exports = nextConfig
