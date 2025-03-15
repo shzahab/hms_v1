@@ -21,7 +21,7 @@ const Breadcrumbs = () => {
         const href = `/${pathSegments.slice(0, index + 1).join("/")}`;
         const isLast = index === pathSegments.length - 1;
         const formattedSegment = segment === "product" 
-          ? "Product"
+          ? "Products"
           : decodeURIComponent(segment)
               .replace(/-/g, ' ')
               .replace(/(^\w|\s\w)/g, m => m.toUpperCase());
@@ -35,7 +35,7 @@ const Breadcrumbs = () => {
               </span>
             ) : (
               <Link 
-                href={segment === "product" ? "/" : href}
+                href={href}
                 className="hover:text-blue-600 transition-colors"
               >
                 {formattedSegment}
