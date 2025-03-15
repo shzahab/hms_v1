@@ -146,13 +146,14 @@ export default function BarBendingMachinePage() {
             <div className="md:hidden border-b border-gray-200">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="flex items-center justify-between w-full px-4 py-3 text-left"
+                className="flex items-center justify-between w-full px-4 py-4 text-left bg-gradient-to-r from-blue-50 to-white border-b-2 border-blue-100 hover:bg-blue-50 transition-all duration-300"
               >
-                <span className="text-base font-semibold text-gray-900">
+                <span className="text-base font-semibold text-blue-900 flex items-center">
+                  <span className="mr-2">📑</span>
                   {tabs.find(tab => tab.id === activeTab)?.label}
                 </span>
                 <ChevronDown 
-                  className={`w-5 h-5 text-gray-500 transition-transform ${isMenuOpen ? 'transform rotate-180' : ''}`}
+                  className={`w-6 h-6 text-blue-500 transition-transform duration-300 ${isMenuOpen ? 'transform rotate-180' : 'animate-bounce'}`}
                 />
               </button>
               {isMenuOpen && (
