@@ -18,7 +18,7 @@ function createSlug(name: string) {
 }
 
 export default function ProductClient({ product, otherProducts }: any) {
-  const [mainImage, setMainImage] = useState(product.mainImage);
+  const [currentSlide, setCurrentSlide] = useState(0);
 
   return (
     <div className="min-h-screen bg-background text-foreground font-sans">
@@ -37,13 +37,37 @@ export default function ProductClient({ product, otherProducts }: any) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Product Images */}
             <div>
-              <Image
-                src={mainImage}
-                alt={product.name}
-                width={600}
-                height={600}
-                className="w-full rounded-lg shadow-lg"
-              />
+              <div className="relative overflow-hidden rounded-lg shadow-lg mb-6">
+                <div className="flex transition-transform duration-300 ease-in-out" 
+                  style={{ 
+                    transform: `translateX(-${currentSlide * 100}%)`,
+                    width: `${product.gallery.length * 100}%` 
+                  }}>
+                  {[product.mainImage, ...product.gallery].map((image, index) => (
+                    <div key={index} className="w-full flex-shrink-0">
+                      <Image
+                        src={image}
+                        alt={`${product.name} - Slide ${index + 1}`}
+                        width={600}
+                        height={600}
+                        className="w-full object-cover"
+                      />
+                    </div>
+                  ))}
+                </div>
+                <button 
+                  onClick={() => setCurrentSlide((prev) => prev === 0 ? [product.mainImage, ...product.gallery].length - 1 : prev - 1)}
+                  className="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full hover:bg-black/70"
+                >
+                  ←
+                </button>
+                <button 
+                  onClick={() => setCurrentSlide((prev) => prev === [product.mainImage, ...product.gallery].length - 1 ? 0 : prev + 1)}
+                  className="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white p-2 rounded-full hover:bg-black/70"
+                >
+                  →
+                </button>
+              </div>
               <h2 className="text-2xl font-semibold mt-6">Product Gallery</h2>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-4">
                 {product.gallery.map((image: string, index: number) => (
@@ -54,7 +78,7 @@ export default function ProductClient({ product, otherProducts }: any) {
                     width={300}
                     height={300}
                     className="w-full rounded-lg shadow cursor-pointer hover:opacity-80 transition"
-                    onClick={() => setMainImage(image)}
+                    onClick={() => setCurrentSlide(index + 1)}
                   />
                 ))}
               </div>
