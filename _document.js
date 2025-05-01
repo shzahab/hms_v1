@@ -32,6 +32,11 @@ export default function Document() {
             e.preventDefault();
           }}
         />
+        <script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key="9VXkNfUg4NaBwLYL+Cs0fQ"
+          async
+        ></script>
       </Head>
       <body>
         <Main />
