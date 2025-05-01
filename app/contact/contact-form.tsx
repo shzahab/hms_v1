@@ -25,13 +25,10 @@ export default function ContactForm() {
         },
         body: JSON.stringify(jsonData)
       });
-
-      if (response.ok) {
-        setStatus('success');
-        (e.target as HTMLFormElement).reset();
-      } else {
-        setStatus('error');
-      }
+      
+      // With no-cors, we can't check response.ok, but if we get here without an error, consider it success
+      setStatus('success');
+      (e.target as HTMLFormElement).reset();
     } catch (error) {
       setStatus('error');
     }
