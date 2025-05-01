@@ -24,7 +24,8 @@ function doPost(e) {
     }))
     .setMimeType(ContentService.MimeType.JSON)
     .setHeader('Access-Control-Allow-Origin', '*')
-    .setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+    .setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+    .setHeader('Access-Control-Allow-Headers', 'Content-Type');
     
   } catch (error) {
     return ContentService.createTextOutput(JSON.stringify({
@@ -33,7 +34,8 @@ function doPost(e) {
     }))
     .setMimeType(ContentService.MimeType.JSON)
     .setHeader('Access-Control-Allow-Origin', '*')
-    .setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+    .setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+    .setHeader('Access-Control-Allow-Headers', 'Content-Type');
   }
   
   finally {
@@ -43,6 +45,8 @@ function doPost(e) {
 
 function doGet(e) {
   return ContentService.createTextOutput('Form endpoint is working')
+  .setMimeType(ContentService.MimeType.TEXT)
   .setHeader('Access-Control-Allow-Origin', '*')
-  .setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
+  .setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+  .setHeader('Access-Control-Allow-Headers', 'Content-Type');
 }
