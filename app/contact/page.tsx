@@ -1,29 +1,12 @@
 
+"use client";
+
 import Image from 'next/image'
 import Link from 'next/link'
 import { Phone, Mail, MessageCircle, ArrowLeft, MapPin } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import Header from '@/components/header'
 import Footer from '@/components/footer'
-import { Metadata } from 'next'
-
-export const metadata: Metadata = {
-  title: 'Hutaib Machinery and Spares | Industrial Equipment Specialists',
-  description: 'Hutaib Machinery and Spares offers high-quality industrial machinery and spare parts. With over 20 years of experience, we provide efficient solutions for various industries.',
-  keywords: 'industrial machinery, spare parts, Hutaib, manufacturing equipment',
-  openGraph: {
-    title: 'Hutaib Machinery and Spares | Industrial Equipment Specialists',
-    description: 'High-quality industrial machinery and spare parts for efficient manufacturing solutions.',
-    images: [
-      {
-        url: 'https://example.com/og-image.jpg', // Replace with your actual OG image URL
-        width: 1200,
-        height: 630,
-        alt: 'Hutaib Machinery and Spares',
-      },
-    ],
-  },
-}
 
 export default function ContactPage() {
   return (
@@ -95,9 +78,19 @@ export default function ContactPage() {
                   onSubmit={(e) => {
                     e.preventDefault();
                     const formData = new FormData(e.target as HTMLFormElement);
+                    const jsonData = {
+                      name: formData.get('name'),
+                      email: formData.get('email'),
+                      phone: formData.get('phone'),
+                      message: formData.get('message')
+                    };
+                    
                     fetch(e.currentTarget.action, {
                       method: 'POST',
-                      body: formData,
+                      headers: {
+                        'Content-Type': 'application/json',
+                      },
+                      body: JSON.stringify(jsonData)
                     })
                     .then(response => {
                       if (response.ok) {
@@ -194,4 +187,3 @@ export default function ContactPage() {
     </div>
   )
 }
-
