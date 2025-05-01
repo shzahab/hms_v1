@@ -1,4 +1,3 @@
-
 import productsData from "@/app/data/products.json";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,10 +16,10 @@ export default function ProductsPage() {
     <div className="min-h-screen bg-background">
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-8">Our Products</h1>
-        
+
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {productsData.products.map((product) => (
-            <div key={product.id} className="group bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg">
+            <Link href={`/product/${createSlug(product.name)}`} key={product.id} className="block group bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg">
               <div className="aspect-square bg-gray-100 overflow-hidden">
                 <Image
                   src={product.mainImage}
@@ -37,16 +36,11 @@ export default function ProductsPage() {
                 <p className="text-sm text-gray-600 mb-4">
                   {product.shortDescription}
                 </p>
-                <Link href={`/product/${createSlug(product.name)}`}>
-                  <Button
-                    variant="link"
-                    className="p-0 h-auto text-sm font-medium text-primary group-hover:underline"
-                  >
-                    Learn More <ArrowRight className="ml-2 h-4 w-4" />
-                  </Button>
-                </Link>
+                <div className="flex items-center text-sm font-medium text-primary group-hover:underline">
+                  Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </main>
