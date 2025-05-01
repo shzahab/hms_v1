@@ -1,5 +1,5 @@
 
-import { productsData } from "../data/products.json";
+import productsData from "@/app/data/products.json";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
