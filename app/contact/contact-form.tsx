@@ -3,7 +3,11 @@
 
 import { useState } from 'react';
 
-export default function ContactForm() {
+interface ContactFormProps {
+  onSuccess?: () => void;
+}
+
+export default function ContactForm({ onSuccess }: ContactFormProps) {
   const [status, setStatus] = useState('');
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -29,6 +33,11 @@ export default function ContactForm() {
       // With no-cors, we can't check response.ok, but if we get here without an error, consider it success
       setStatus('success');
       (e.target as HTMLFormElement).reset();
+      if (onSuccess) {
+        setTimeout(() => {
+          onSuccess();
+        }, 2000); // Close after 2 seconds so user can see success message
+      }
     } catch (error) {
       setStatus('error');
     }

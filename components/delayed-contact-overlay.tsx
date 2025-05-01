@@ -15,6 +15,10 @@ export default function DelayedContactOverlay() {
     return () => clearTimeout(timer);
   }, []);
 
+  const handleFormSuccess = () => {
+    setShowOverlay(false);
+  };
+
   if (!showOverlay) return null;
 
   return (
@@ -30,7 +34,7 @@ export default function DelayedContactOverlay() {
         <p className="text-gray-600 mb-6">
           Get in touch with us for any inquiries about our products and services.
         </p>
-        <ContactForm />
+        <ContactForm onSuccess={handleFormSuccess} />
       </div>
     </div>
   );
