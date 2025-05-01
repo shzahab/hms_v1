@@ -66,7 +66,7 @@ export default function BenefitsSection() {
             <p className="text-gray-600">
               Equipped with a <strong>preventer that safeguards the motor</strong> from{" "}
               <strong>power fluctuations</strong>, ensuring <strong>consistent performance</strong> and{" "}
-              <strong>extending the machine's lifespan</strong>.
+              <strong>extending the machine&apos;s lifespan</strong>.
             </p>
           </div>
         </div>

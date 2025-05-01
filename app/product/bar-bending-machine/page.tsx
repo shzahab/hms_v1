@@ -271,7 +271,7 @@ export default function BarBendingMachinePage() {
                       </h3>
                       <p className="text-lg text-gray-600 leading-relaxed mb-4">
                         At HMS, we understand that every project has <strong>unique bending requirements</strong>.
-                        That's why we offer <strong>custom-built solutions</strong> tailored to your specific needs.
+                        That&apos;s why we offer <strong>custom-built solutions</strong> tailored to your specific needs.
                       </p>
                       <ul className="list-disc pl-6 text-lg text-gray-600 space-y-2">
                         <li><strong>Specific bar diameters and bending angles</strong> for <strong>varied construction needs</strong></li>

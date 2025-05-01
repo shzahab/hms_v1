@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Breadcrumb from "../components/Breadcrumb";
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,11 +21,13 @@ export const metadata: Metadata = {
 const GoogleAnalytics = () => {
   return (
     <>
-      <script
-        async
+      <Script
+        strategy="afterInteractive"
         src="https://www.googletagmanager.com/gtag/js?id=G-C33Y4WJML3"
       />
-      <script
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
