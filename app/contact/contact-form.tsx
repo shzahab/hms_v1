@@ -19,6 +19,7 @@ export default function ContactForm() {
     try {
       const response = await fetch('https://script.google.com/macros/s/AKfycbzD037U4RLuORIZ_xUZ5wRMz2Zc0SzcUk0nLuXflFNrMaRju4QjTXR6YRl122Lhbz20JA/exec', {
         method: 'POST',
+        mode: 'cors',
         headers: {
           'Content-Type': 'application/json',
         },
