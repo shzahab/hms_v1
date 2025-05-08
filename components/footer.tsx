@@ -27,6 +27,18 @@ export default function Footer() {
             <Link className="text-sm hover:text-primary transition-colors" href="/contact">
               Contact
             </Link>
+            <Link className="text-sm hover:text-primary transition-colors" href="/privacy-policy">
+              Privacy Policy
+            </Link>
+            <Link className="text-sm hover:text-primary transition-colors" href="/cancellations-refunds">
+              Cancellations and Refunds
+            </Link>
+            <Link className="text-sm hover:text-primary transition-colors" href="/terms-conditions">
+              Terms and Conditions
+            </Link>
+            <Link className="text-sm hover:text-primary transition-colors" href="/shipping-policy">
+              Shipping Policy
+            </Link>
           </nav>
         </div>
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8 mb-8">
