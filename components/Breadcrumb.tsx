@@ -10,7 +10,7 @@ const Breadcrumbs = () => {
   const pathSegments = pathname.split("/").filter((segment) => segment);
 
   return (
-    <nav className="inline-flex items-center justify-center space-x-2 text-sm font-medium text-gray-500 px-4 py-2 bg-white/50 backdrop-blur-sm rounded-lg shadow-sm border border-gray-100 mb-6">
+    <nav aria-label="Breadcrumb" className="inline-flex items-center justify-center space-x-2 text-sm font-medium text-gray-500 px-4 py-2 bg-white/50 backdrop-blur-sm rounded-lg shadow-sm border border-gray-100 mb-6">
       <Link 
         href="/" 
         className="hover:text-blue-600 transition-colors flex items-center"

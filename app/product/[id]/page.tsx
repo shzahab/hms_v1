@@ -261,10 +261,25 @@ export default function ProductPage({ params }: { params: { id: string } }) {
   return <ProductClient product={product} otherProducts={otherProducts} />;
 }
 
-export const metadata: Metadata = {
-  title: "Hutaib Machinery and Spares | Industrial Equipment Specialists",
-  description:
-    "Hutaib Machinery and Spares offers high-quality industrial machinery and spare parts.",
-  keywords:
-    "industrial machinery, spare parts, Hutaib, manufacturing equipment",
+export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
+  const product = getProductBySlug(params.id);
+  
+  if (!product) {
+    return {
+      title: "Product Not Found | HMS Machinery",
+      description: "The requested product could not be found.",
+    };
+  }
+
+  return {
+    title: `${product.name} | HMS Machinery and Spares`,
+    description: product.description,
+    keywords: `${product.name}, construction equipment, HMS machinery, ${product.category}`,
+    openGraph: {
+      title: `${product.name} | HMS Machinery and Spares`,
+      description: product.description,
+      images: [product.images[0]],
+    },
+  };
+}
 };
