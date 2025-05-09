@@ -63,6 +63,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <meta name="google-site-verification" content="ySrk2S0BA4MoBEM2PyvwdAqMYRO_pp3f0rEU1WuywAE" />
         <GoogleAnalytics />
       </head>
       <body className={inter.className}>
