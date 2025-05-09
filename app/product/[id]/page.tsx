@@ -14,7 +14,7 @@ function createSlug(name: string) {
 
 export async function generateStaticParams() {
   return productsData.products.map((product) => ({
-    id: createSlug(product.name), // Generate ID param from product name
+    id: createSlug(product.name),
   }));
 }
 
@@ -31,7 +31,7 @@ function getRandomProducts(count: number, excludeId: number) {
 }
 
 export default function ProductPage({ params }: { params: { id: string } }) {
-  const product = getProductBySlug(params.id); // Use the slug to find product
+  const product = getProductBySlug(params.id);
 
   if (!product) {
     notFound();
