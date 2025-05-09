@@ -5,7 +5,8 @@ const nextConfig = {
     domains: ['hebbkx1anhila5yf.public.blob.vercel-storage.com'],
     unoptimized: true,
   },
-  // Add any other configurations here
+  // Enable sitemap generation
+  generateSitemap: true,
 };
 
 module.exports = nextConfig
