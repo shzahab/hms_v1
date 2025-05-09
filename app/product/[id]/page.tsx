@@ -1,3 +1,4 @@
+
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import productsData from "@/app/data/products.json";
@@ -61,5 +62,4 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
       images: [product.images[0]],
     },
   };
-}
 }
