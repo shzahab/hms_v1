@@ -1,3 +1,4 @@
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
@@ -5,8 +6,6 @@ const nextConfig = {
     domains: ['hebbkx1anhila5yf.public.blob.vercel-storage.com'],
     unoptimized: true,
   },
-  // Enable sitemap generation
-  generateSitemap: true,
 };
 
 module.exports = nextConfig
