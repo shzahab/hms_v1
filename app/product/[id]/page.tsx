@@ -29,7 +29,7 @@ function getRandomProducts(count: number, excludeId: number) {
   return shuffled.slice(0, count);
 }
 
-export default function ProductPage({ params }: { params: { id: string } }) {
+export default function ProductPage({ params }: { params: Promise<any> & { id: string } }) {
   const product = getProductBySlug(params.id);
 
   if (!product) {
@@ -41,8 +41,12 @@ export default function ProductPage({ params }: { params: { id: string } }) {
   return <ProductClient product={product} otherProducts={otherProducts} />;
 }
 
-export async function generateMetadata(props: { params: { id: string } }): Promise<Metadata> {
-  const product = getProductBySlug(props.params.id);
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<any> & { id: string };
+}): Promise<Metadata> {
+  const product = getProductBySlug(params.id);
 
   if (!product) {
     return {
