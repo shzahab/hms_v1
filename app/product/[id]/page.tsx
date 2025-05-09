@@ -57,11 +57,11 @@ export async function generateMetadata({
 
   return {
     title: `${product.name} | HMS Machinery and Spares`,
-    description: product.description,
+    description: product.shortDescription,
     keywords: `${product.name}, construction equipment, HMS machinery, ${product.category}`,
     openGraph: {
       title: `${product.name} | HMS Machinery and Spares`,
-      description: product.description,
+      description: product.shortDescription,
       images: [product.mainImage],
     },
   };
