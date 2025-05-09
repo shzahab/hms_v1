@@ -43,7 +43,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
 }
 
 export async function generateMetadata(props: { params: { id: string } }): Promise<Metadata> {
-  const product = getProductBySlug(params.id);
+  const product = getProductBySlug(props.params.id);
 
   if (!product) {
     return {
