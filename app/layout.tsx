@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   title: "HMS Machinery and Spares | Construction Equipment Specialists",
   description: "Leading supplier of high-quality construction equipment and machinery. Specializing in bar bending machines, concrete mixers, and industrial equipment.",
   keywords: "construction equipment, machinery, bar bending machine, concrete mixer, industrial equipment, HMS machinery",
-  metadataBase: new URL('https://hutaib.com'),
   icons: {
     icon: '/favicon.ico',
     apple: '/favicon.ico',
@@ -24,12 +23,8 @@ export const metadata: Metadata = {
     type: 'website',
   },
   robots: "index, follow",
-};
-
-export const viewport = {
-  width: 'device-width',
-  initialScale: 1,
-  themeColor: '#ffffff',
+  viewport: "width=device-width, initial-scale=1",
+  themeColor: "#ffffff",
 };
 
 const GoogleAnalytics = () => {

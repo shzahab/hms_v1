@@ -19,15 +19,6 @@ function createSlug(name: string) {
 
 export default function ProductClient({ product, otherProducts }: any) {
   const [mainImage, setMainImage] = useState(product.mainImage);
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-
-  if (!isClient) {
-    return null; // or a loading state
-  }
 
   return (
     <div className="min-h-screen bg-background text-foreground font-sans">
