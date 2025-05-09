@@ -1,4 +1,3 @@
-
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import productsData from "@/app/data/products.json";
@@ -59,7 +58,7 @@ export async function generateMetadata(props: { params: { id: string } }): Promi
     openGraph: {
       title: `${product.name} | HMS Machinery and Spares`,
       description: product.description,
-      images: [product.images[0]],
+      images: [product.mainImage],
     },
   };
 }
