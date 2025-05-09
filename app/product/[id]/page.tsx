@@ -279,7 +279,6 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
       title: `${product.name} | HMS Machinery and Spares`,
       description: product.description,
       images: [product.images[0]],
-    },
-  };
+    }
+  }
 }
-};
