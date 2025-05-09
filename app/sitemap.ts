@@ -10,7 +10,7 @@ function createSlug(name: string) {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://hutaib.com'
+  const baseUrl = 'https://www.hutaibmachinery.com'
   
   // Base pages
   const routes = [
