@@ -46,6 +46,15 @@ const GoogleAnalytics = () => {
           `,
         }}
       />
+      <Script
+        id="google-ads-conversion"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            gtag('event', 'conversion', {'send_to': 'AW-11527740144/0-RhCLyQ-tYaEPC17fgq'});
+          `,
+        }}
+      />
       <script
         src="https://analytics.ahrefs.com/analytics.js"
         data-key="9VXkNfUg4NaBwLYL+Cs0fQ"
