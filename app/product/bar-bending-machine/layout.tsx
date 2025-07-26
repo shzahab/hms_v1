@@ -1,5 +1,11 @@
 
-import { Metadata } from "next";
+import { Metadata, Viewport } from "next";
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#ffffff',
+};
 
 export const metadata: Metadata = {
   title: "HMS Bar Bending Machine | Heavy Duty Construction Equipment",
