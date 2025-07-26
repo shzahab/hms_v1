@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import BuyNowButton from "@/components/buy-now-button";
 
 function createSlug(name: string) {
   return name
@@ -33,11 +34,22 @@ export default function ProductsPage() {
                 <h3 className="text-lg font-semibold text-gray-800 mb-2 group-hover:text-blue-600 transition-colors">
                   {product.name}
                 </h3>
-                <p className="text-sm text-gray-600 mb-4">
+                <p className="text-sm text-gray-600 mb-3">
                   {product.shortDescription}
                 </p>
-                <div className="flex items-center text-sm font-medium text-primary group-hover:underline">
-                  Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                <p className="text-lg font-bold text-gray-900 mb-4">
+                  {product.price}
+                </p>
+                <div className="space-y-3">
+                  {product.paymentLink && (
+                    <BuyNowButton 
+                      paymentLink={product.paymentLink}
+                      className="w-full h-[36px] bg-red-600 hover:bg-red-700 text-white font-bold text-xs px-6 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200"
+                    />
+                  )}
+                  <div className="flex items-center justify-center text-sm font-medium text-primary group-hover:underline">
+                    Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                  </div>
                 </div>
               </div>
             </Link>

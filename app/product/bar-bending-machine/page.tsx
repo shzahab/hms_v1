@@ -104,7 +104,9 @@ export default function BarBendingMachinePage() {
                     className="w-full sm:w-auto h-[42px] bg-red-600 hover:bg-red-700 text-white font-bold text-sm px-8 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200"
                     onClick={() => {
                       if (typeof window !== 'undefined') {
-                        window.open('https://rzp.io/rzp/7xCMmzB', '_blank')
+                        const barBendingMachine = productsData.products.find(p => p.name === "Bar / Rebar Bending Machine");
+                        const paymentLink = barBendingMachine?.paymentLink || 'https://rzp.io/rzp/nqqImPY2';
+                        window.open(paymentLink, '_blank')
                       }
                     }}
                   >
