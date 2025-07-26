@@ -98,6 +98,16 @@ export default function BarBendingMachinePage() {
 
               {/* CTA Buttons */}
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
+                <Button
+                  className="w-full sm:w-auto h-[42px] bg-red-600 hover:bg-red-700 text-white font-bold text-sm px-8 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200"
+                  onClick={() => {
+                    if (typeof window !== 'undefined') {
+                      window.open('https://rzp.io/rzp/7xCMmzB', '_blank')
+                    }
+                  }}
+                >
+                  🛒 BUY NOW!
+                </Button>
                 <ShimmerButton 
                   className="w-full sm:w-auto h-[42px]"
                   onClick={() => {
