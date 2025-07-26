@@ -99,28 +99,47 @@ export default function ProductClient({ product, otherProducts }: any) {
               </div>
 
               {/* Buttons */}
-              <div className="mt-6 flex justify-center gap-4">
-                <a
-                  href="/hms-brochure.pdf"
-                  download="HMS-Brochure.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-green-600 text-white px-6 py-3 rounded-[30px] font-sembold shadow hover:bg-green-700 transition-all"
-                >
-                  📄 Download Brochure
-                </a>
-                <ShimmerButton 
-                  className="shadow-2xl"
-                  onClick={() => {
-                    if (typeof window !== 'undefined') {
-                      window.open('https://wa.me/919740035153', '_blank')
-                    }
-                  }}
-                >
-                  <span className="text-sm font-medium tracking-tight text-white lg:text-lg">
-                    Get Quote
-                  </span>
-                </ShimmerButton>
+              <div className="mt-6 space-y-4">
+                {/* First Row - BUY NOW Button */}
+                {product.paymentLink && (
+                  <div className="flex justify-center">
+                    <Button
+                      className="w-full sm:w-auto h-[42px] bg-red-600 hover:bg-red-700 text-white font-bold text-sm px-8 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200"
+                      onClick={() => {
+                        if (typeof window !== 'undefined') {
+                          window.open(product.paymentLink, '_blank')
+                        }
+                      }}
+                    >
+                      🛒 BUY NOW!
+                    </Button>
+                  </div>
+                )}
+                
+                {/* Second Row - Download Brochure and Get Quote */}
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <a
+                    href="/hms-brochure.pdf"
+                    download="HMS-Brochure.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-green-600 text-white px-6 py-3 rounded-[30px] font-sembold shadow hover:bg-green-700 transition-all text-center"
+                  >
+                    📄 Download Brochure
+                  </a>
+                  <ShimmerButton 
+                    className="shadow-2xl"
+                    onClick={() => {
+                      if (typeof window !== 'undefined') {
+                        window.open('https://wa.me/919740035153', '_blank')
+                      }
+                    }}
+                  >
+                    <span className="text-sm font-medium tracking-tight text-white lg:text-lg">
+                      Get Quote
+                    </span>
+                  </ShimmerButton>
+                </div>
               </div>
             </div>
           </div>
