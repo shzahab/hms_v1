@@ -1,28 +1,28 @@
 export default function FAQSection() {
   const faqs = [
     {
-      question: "What types of bars can this machine bend?",
-      answer: "Our machine supports steel bars, rebars, and TMT bars of various diameters, making it versatile for different construction needs."
+      question: "What TMT bar grades can this machine bend?",
+      answer: "Our bar bending machine handles all standard Indian TMT grades including Fe415, Fe500, Fe500D, and Fe550D, with consistent performance across varying steel hardness levels. The machine can bend bars from 8mm to 42mm diameter."
     },
     {
-      question: "Can I use this machine for small-scale projects?",
-      answer: "Yes, its dual operation modes (automatic and manual) make it suitable for both large and small projects, offering flexibility in usage."
+      question: "What is the power requirement for installation?",
+      answer: "The machine requires a 3-phase, 415V, 50Hz power supply with a minimum 10kVA connected load. Our installation team assesses your site's electrical infrastructure before delivery across South India."
     },
     {
-      question: "Does the digital control panel require training?",
-      answer: "No, the user-friendly interface allows quick setup and operation. The intuitive design makes it easy for both new and experienced operators."
+      question: "Do you provide operator training?",
+      answer: "Yes, every purchase includes free on-site training for 2-3 operators covering machine operation, basic maintenance, and safety procedures. Training is available across Karnataka, Tamil Nadu, Kerala, Andhra Pradesh, and Telangana."
     },
     {
-      question: "What is the power consumption?",
-      answer: "The machine uses an energy-efficient motor designed for optimal performance while minimizing power consumption."
+      question: "What is the delivery time to Chennai/Hyderabad/Bengaluru?",
+      answer: "Standard delivery to major South Indian cities takes 5-7 working days from our Bengaluru warehouse. Express delivery is available for urgent requirements with additional charges."
     },
     {
-      question: "What is the maximum bending capacity?",
-      answer: "The machine can handle bars up to 42mm in diameter, depending on the model."
+      question: "What warranty and support is included?",
+      answer: "Every machine includes a 1-year comprehensive warranty covering parts and labor, lifetime technical support via phone and WhatsApp, and free installation. Our service technicians cover all South Indian states with 24-48 hour response times."
     },
     {
-      question: "Is maintenance difficult?",
-      answer: "No, the machine is designed for easy maintenance with readily available spare parts."
+      question: "Can this machine handle both manual and automatic operation?",
+      answer: "Yes, our bar bending machines feature dual operation modes - fully automatic for high-volume production and manual mode for custom bending requirements, making them suitable for projects of all scales."
     }
   ];
 

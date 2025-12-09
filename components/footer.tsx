@@ -56,7 +56,7 @@ export default function Footer() {
           </div>
           <div className="flex items-center space-x-2 bg-green-500 hover:bg-green-600 text-white rounded-full px-4 py-2 transition-colors duration-300">
               <MessageCircle className="h-4 w-4" />
-              <Link href="https://wa.me/919740035153" target="_blank" rel="noopener noreferrer">
+              <Link href="https://wa.me/918074949635" target="_blank" rel="noopener noreferrer">
               <span className="text-sm font-medium">WA: +91 9740035153</span>
               </Link>
             </div>

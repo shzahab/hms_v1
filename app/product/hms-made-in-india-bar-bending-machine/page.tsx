@@ -1,0 +1,189 @@
+"use client";
+
+import { useState, useEffect } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
+import { Button } from "@/components/ui/button";
+import { ShimmerButton } from "@/components/magicui/shimmer-button";
+import { ArrowRight } from "lucide-react";
+import productsData from "@/app/data/products.json";
+import SpecificationsTable from "./specifications-table";
+import BenefitsSection from "./benefits-section";
+import ApplicationsSection from "./applications-section";
+import TestimonialsSection from "./testimonials-section";
+import FAQSection from "./faq-section";
+import Breadcrumbs from "@/components/Breadcrumb";
+
+export default function HMSMadeInIndiaBarBendingMachinePage() {
+  const [otherProducts, setOtherProducts] = useState<any[]>([]);
+
+  useEffect(() => {
+    const randomProducts = productsData.products
+      .filter(p => p.slug !== "hms-made-in-india-bar-bending-machine")
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 4);
+    setOtherProducts(randomProducts);
+  }, []);
+
+  return (
+    <div className="min-h-screen bg-background text-foreground font-sans">
+      <header><Header /></header>
+      <main className="mt-20 sm:mt-32 md:mt-40 pb-16">
+        <div className="flex justify-center"><Breadcrumbs /></div>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="mb-8">
+            <Link href="/category/bar-rebar-bending-machines" className="text-sm text-blue-600 hover:text-blue-700 mb-2 inline-block">
+              ← Back to Bar Bending Machines
+            </Link>
+            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-3 tracking-tight">
+              HMS Made in India Bar Bending Machine (16-32mm)
+            </h1>
+            <p className="text-xl text-gray-600 font-medium">🇮🇳 Premium Indian Manufacturing | Best-in-Class Durability</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <div className="bg-white p-4 rounded-lg shadow">
+              <div className="aspect-square bg-gray-100 rounded flex items-center justify-center">
+                <div className="text-center p-8">
+                  <div className="w-32 h-32 mx-auto mb-4 bg-orange-100 rounded-lg flex items-center justify-center">
+                    <span className="text-5xl">🇮🇳</span>
+                  </div>
+                  <p className="text-gray-500 text-sm">Product Image</p>
+                  <p className="text-gray-400 text-xs mt-1">HMS Made in India</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white p-8 rounded-lg shadow">
+              <div className="mb-4 inline-block bg-orange-100 text-orange-800 text-sm px-3 py-1 rounded-full">
+                🇮🇳 Proudly Made in India
+              </div>
+              <h2 className="text-3xl font-bold text-gray-800 mb-4 tracking-tight">
+                The Finest Indian-Made Bar Bending Machine
+              </h2>
+              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                Our flagship Made in India bar bending machine represents the pinnacle of Indian manufacturing. Built with premium Indian steel, precision-machined components, and assembled under strict quality control at our facility. This machine proves that Indian manufacturing can match and exceed international standards.
+              </p>
+
+              <div className="mb-8">
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Why Choose HMS Made in India:</h3>
+                <ul className="list-none pl-0 text-gray-600 space-y-3 text-base">
+                  <li><strong>Premium Indian Steel</strong> — Sourced from leading Indian steel mills</li>
+                  <li><strong>Precision Manufacturing</strong> — CNC machined components for accuracy</li>
+                  <li><strong>Best-in-Class Durability</strong> — Engineered for decades of service</li>
+                  <li><strong>Supporting Atmanirbhar Bharat</strong> — 100% Indian value addition</li>
+                  <li><strong>Direct Factory Support</strong> — Spare parts and service always available</li>
+                </ul>
+              </div>
+
+              <div className="mb-6 p-4 bg-gradient-to-r from-orange-50 to-green-50 rounded-lg border border-orange-200">
+                <div className="flex items-baseline gap-2">
+                  <span className="text-3xl font-bold text-orange-700">₹1,55,000</span>
+                  <span className="text-gray-500 text-sm">+ GST (18%)</span>
+                </div>
+                <p className="text-sm text-gray-600 mt-1">Delivery: 1-3 days | Charges as per actuals</p>
+              </div>
+
+              <div className="mt-8 space-y-4">
+                <div className="flex justify-center">
+                  <Button className="w-full sm:w-auto h-[42px] bg-orange-600 hover:bg-orange-700 text-white font-bold text-sm px-8 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200"
+                    onClick={() => window.open('https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20HMS%20Made%20in%20India%20Bar%20Bending%20Machine%20at%20Rs.1%2C55%2C000', '_blank')}>
+                    🛒 BUY NOW - ₹1,55,000
+                  </Button>
+                </div>
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <ShimmerButton className="w-full sm:w-auto h-[42px]"
+                    onClick={() => window.open('https://wa.me/918074949635?text=Hi%2C%20I%20need%20a%20quote%20for%20HMS%20Made%20in%20India%20Bar%20Bending%20Machine', '_blank')}>
+                    <span className="text-sm font-medium tracking-tight text-white px-6">Get Quote on WhatsApp</span>
+                  </ShimmerButton>
+                  <a href="tel:+919886474441" className="w-full sm:w-auto">
+                    <Button variant="outline" className="w-full h-[42px] flex items-center justify-center gap-2 text-sm font-medium bg-green-600 text-white rounded-full hover:bg-green-700 transition-colors">
+                      📞 Call: +91 9886474441
+                    </Button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-lg shadow mb-12 p-8">
+            <div className="prose prose-lg max-w-none">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 tracking-tight">
+                HMS Made in India - Our Pride, Your Asset
+              </h2>
+              <div className="space-y-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">The Premium Indian Choice</h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    After 25+ years in the industry, we&apos;ve developed this machine to be the <strong>best bar bender made in India</strong>. Every component is selected for longevity: premium Bhilai steel for the frame, precision-ground gears from Bangalore, and heavy-duty motors from Coimbatore. This is Indian engineering at its finest.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">Why Premium Pricing?</h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    At ₹1,55,000, this is our highest-priced 32mm machine. The difference is in what you can&apos;t see: <strong>thicker steel plates, precision-ground gears, sealed bearings, and extensive quality testing</strong>. Customers who&apos;ve used cheaper machines appreciate the difference - this machine is built to last 15-20 years with proper maintenance.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">Supporting Indian Manufacturing</h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    Every purchase of the HMS Made in India machine supports Indian workers, Indian suppliers, and Indian manufacturing capability. For contractors who value the Atmanirbhar Bharat vision and want the best Indian-made equipment, this is your machine.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-lg shadow mb-12 p-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6 tracking-tight">Technical Specifications</h2>
+            <SpecificationsTable />
+          </div>
+
+          <div className="bg-white rounded-lg shadow mb-12 p-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6 tracking-tight">Benefits of HMS Made in India</h2>
+            <BenefitsSection />
+          </div>
+
+          <div className="bg-white rounded-lg shadow mb-12 p-8">
+            <ApplicationsSection />
+          </div>
+
+          <div className="bg-white rounded-lg shadow mb-12 p-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 tracking-tight">Customer Reviews</h2>
+            <TestimonialsSection />
+          </div>
+
+          <div className="bg-white rounded-lg shadow mb-12 p-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 tracking-tight">Frequently Asked Questions</h2>
+            <FAQSection />
+          </div>
+
+          <section className="bg-white rounded-lg shadow p-8 mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 tracking-tight">More Equipment</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+              {otherProducts.map((product) => (
+                <Link href={`/product/${product.slug}`} key={product.id}>
+                  <div className="group bg-gray-50 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg h-full flex flex-col">
+                    <div className="aspect-square bg-white overflow-hidden">
+                      <Image src={product.mainImage} alt={product.name} width={500} height={500} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                    </div>
+                    <div className="p-4 flex flex-col flex-grow">
+                      <h3 className="text-lg font-semibold text-gray-800 mb-2 group-hover:text-blue-600 transition-colors">{product.name}</h3>
+                      <p className="text-sm text-gray-600 mb-4 flex-grow">{product.shortDescription}</p>
+                      <Button variant="link" className="p-0 h-auto text-sm font-medium text-blue-600">Learn More <ArrowRight className="h-4 w-4" /></Button>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </section>
+        </div>
+      </main>
+      <footer className="bg-muted py-12"><Footer /></footer>
+    </div>
+  );
+}
+

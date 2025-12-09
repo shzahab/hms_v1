@@ -1,0 +1,334 @@
+{
+  "categories": [
+    {
+      "id": 2,
+      "name": "Bar / Rebar Bending Machines",
+      "slug": "bar-rebar-bending-machines",
+      "description": "Discover our range of high-precision bar and rebar bending machines designed for construction professionals. From manual to CNC-controlled models, our bending machines deliver accurate, consistent bends for reinforced concrete structures.",
+      "shortDescription": "Precision bending machines for steel bars and rebars.",
+      "icon": "Wrench",
+      "order": 1,
+      "seo": {
+        "title": "Bar Bending Machines | Rebar Bending Machine Price India | HMS",
+        "description": "Buy high-quality Bar Bending Machines at best prices. Manual & CNC rebar benders with 0°-180° adjustable angles. Free delivery across India. Call +91 9886474441.",
+        "keywords": ["bar bending machine", "rebar bending machine", "steel bar bender", "TMT bar bending machine", "CNC bar bender", "construction machinery"]
+      },
+      "benefits": [
+        {
+          "title": "Precision Bending",
+          "description": "Achieve accurate bends from 0° to 180° with digital control panels for consistent results."
+        },
+        {
+          "title": "Multiple Capacities",
+          "description": "Handle various bar diameters from 6mm to 42mm to suit different project requirements."
+        },
+        {
+          "title": "Dual Operation Modes",
+          "description": "Switch between automatic and manual modes for flexibility in different work scenarios."
+        },
+        {
+          "title": "Built for Durability",
+          "description": "Heavy-duty construction with motor protection ensures long-lasting performance."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": 3,
+      "name": "Bar / Rebar Cutting Machines",
+      "slug": "bar-rebar-cutting-machines",
+      "description": "High-speed, precision cutting machines for steel reinforcement bars. Our rebar cutting machines are built for durability and efficiency, making them essential for construction sites and steel fabrication workshops.",
+      "shortDescription": "High-speed cutting machines for steel reinforcement.",
+      "icon": "Scissors",
+      "order": 2,
+      "seo": {
+        "title": "Bar Cutting Machines | Rebar Cutting Machine Price India | HMS",
+        "description": "Professional Bar Cutting Machines for steel reinforcement. Cuts rebar up to 60mm diameter. Safety guards, easy blade replacement. Best prices with pan-India delivery.",
+        "keywords": ["bar cutting machine", "rebar cutting machine", "steel bar cutter", "TMT bar cutting machine", "rebar cutter", "construction equipment"]
+      },
+      "benefits": [
+        {
+          "title": "High-Speed Cutting",
+          "description": "Increase productivity with fast cutting speeds up to 32 cuts per minute."
+        },
+        {
+          "title": "Safety First",
+          "description": "Built-in safety guards protect operators during cutting operations."
+        },
+        {
+          "title": "Easy Blade Replacement",
+          "description": "Quick-change blade system minimizes downtime and maintenance."
+        },
+        {
+          "title": "Portable Design",
+          "description": "Compact and portable for easy transportation between job sites."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": 4,
+      "name": "Concrete Mixers",
+      "slug": "concrete-mixers",
+      "description": "Professional-grade concrete mixers for construction sites of all sizes. Our mixers ensure thorough, consistent mixing of cement, aggregates, and water for high-quality concrete every time.",
+      "shortDescription": "Reliable mixers for consistent concrete production.",
+      "icon": "Container",
+      "order": 3,
+      "seo": {
+        "title": "Concrete Mixer Machine | Cement Mixer Price India | HMS",
+        "description": "Buy Concrete Mixer Machines with Kirloskar engine. 1 Bag capacity, tilting drum, portable design. Ideal for construction sites. Best prices across India.",
+        "keywords": ["concrete mixer", "cement mixer", "concrete mixer machine", "1 bag mixer", "tilting drum mixer", "construction mixer"]
+      },
+      "benefits": [
+        {
+          "title": "Consistent Mixing",
+          "description": "Achieve uniform concrete mixes with optimal drum speed and mixing action."
+        },
+        {
+          "title": "Reliable Engines",
+          "description": "Powered by trusted Kirloskar engines for dependable performance."
+        },
+        {
+          "title": "Easy Discharge",
+          "description": "Tilting drum mechanism allows quick and complete concrete discharge."
+        },
+        {
+          "title": "Site Mobility",
+          "description": "Sturdy wheels enable easy movement around construction sites."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": 5,
+      "name": "Concrete / Groove Cutting Machine",
+      "slug": "concrete-groove-cutting-machines",
+      "description": "Precision concrete and groove cutting machines for road construction, expansion joints, and utility installations. Featuring adjustable cutting depths and dust extraction systems for clean, professional cuts.",
+      "shortDescription": "Precision cutting for concrete and road surfaces.",
+      "icon": "CircleDot",
+      "order": 4,
+      "seo": {
+        "title": "Concrete Cutting Machine | Groove Cutter Price India | HMS",
+        "description": "Professional Concrete Cutting Machines with 240mm max depth. Perfect for expansion joints, road repairs, utility trenches. Dust extraction included. Pan-India delivery.",
+        "keywords": ["concrete cutting machine", "groove cutting machine", "road cutting machine", "floor saw", "concrete saw", "pavement cutter"]
+      },
+      "benefits": [
+        {
+          "title": "Adjustable Depth",
+          "description": "Cut up to 240mm deep with precise depth adjustment controls."
+        },
+        {
+          "title": "Clean Operation",
+          "description": "Built-in dust extraction and water tank for cleaner cutting."
+        },
+        {
+          "title": "Smooth Cuts",
+          "description": "Achieve straight, chip-free cuts on concrete and asphalt surfaces."
+        },
+        {
+          "title": "Versatile Blades",
+          "description": "Compatible with multiple blade types for different materials."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": 6,
+      "name": "Lifting Machinery",
+      "slug": "lifting-machinery",
+      "description": "Safe and efficient material hoists and lifting equipment for multi-story construction projects. Our building lifts transport heavy materials, tools, and equipment to elevated work areas with multiple safety features.",
+      "shortDescription": "Safe material transport for multi-story projects.",
+      "icon": "ArrowUpFromLine",
+      "order": 5,
+      "seo": {
+        "title": "Lifting Machinery | Building Material Hoist Price India | HMS",
+        "description": "Heavy-duty Lifting Machinery and Material Hoists with 350kg capacity. 60m rope length, emergency brakes, weather-resistant. Perfect for multi-story construction. Best prices.",
+        "keywords": ["lifting machinery", "building material hoist", "construction hoist", "material lift", "construction elevator", "mini lift", "building lift"]
+      },
+      "benefits": [
+        {
+          "title": "High Capacity",
+          "description": "Lift up to 350kg of materials safely to elevated floors."
+        },
+        {
+          "title": "Safety Features",
+          "description": "Emergency brakes and clutch mechanism ensure safe operation."
+        },
+        {
+          "title": "Extended Reach",
+          "description": "60m rope length services buildings up to 20 floors."
+        },
+        {
+          "title": "Weather Resistant",
+          "description": "Built for outdoor use in various weather conditions."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": 7,
+      "name": "Soil Compaction Machines",
+      "slug": "soil-compaction-machines",
+      "description": "Professional soil compaction equipment including plate compactors and tamping rammers for ground preparation. Essential for foundation work, trench backfilling, and pavement preparation on construction sites.",
+      "shortDescription": "Ground compaction equipment for foundation work.",
+      "icon": "Layers",
+      "order": 6,
+      "seo": {
+        "title": "Soil Compaction Machines | Plate Compactor Price India | HMS",
+        "description": "Buy Soil Compaction Machines - Plate Compactors & Tamping Rammers. Perfect for foundation work, trench compaction. Petrol & diesel models. Best prices across India.",
+        "keywords": ["soil compaction machine", "plate compactor", "tamping rammer", "ground compactor", "vibratory compactor", "construction compactor"]
+      },
+      "benefits": [
+        {
+          "title": "Efficient Compaction",
+          "description": "Achieve optimal soil density with powerful vibratory force for stable foundations."
+        },
+        {
+          "title": "Versatile Applications",
+          "description": "Suitable for granular soils, asphalt, pavers, and trench backfilling."
+        },
+        {
+          "title": "Easy Operation",
+          "description": "Ergonomic handles and simple controls for operator comfort and efficiency."
+        },
+        {
+          "title": "Durable Build",
+          "description": "Heavy-duty construction withstands demanding site conditions."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": 8,
+      "name": "Road Rollers",
+      "slug": "road-rollers",
+      "description": "Compact road rollers for asphalt and soil compaction in road construction and repair projects. Our rollers deliver consistent compaction for driveways, parking lots, and road surfaces.",
+      "shortDescription": "Compact rollers for road and surface compaction.",
+      "icon": "Cylinder",
+      "order": 7,
+      "seo": {
+        "title": "Road Rollers | Mini Road Roller Price India | HMS",
+        "description": "Buy Road Rollers - Mini & compact rollers for asphalt compaction. Ideal for driveways, parking lots, road repairs. Diesel powered. Pan-India delivery available.",
+        "keywords": ["road roller", "mini road roller", "asphalt roller", "compaction roller", "vibratory roller", "tandem roller"]
+      },
+      "benefits": [
+        {
+          "title": "Smooth Compaction",
+          "description": "Achieve uniform surface finish on asphalt and granular materials."
+        },
+        {
+          "title": "Compact Design",
+          "description": "Maneuver easily in confined spaces and tight work areas."
+        },
+        {
+          "title": "Vibration Control",
+          "description": "Adjustable vibration settings for different material requirements."
+        },
+        {
+          "title": "Operator Comfort",
+          "description": "Ergonomic controls and comfortable operation for extended use."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": 9,
+      "name": "Generators",
+      "slug": "generators",
+      "description": "Reliable power generators for construction sites and industrial applications. Our generators provide consistent power supply for tools, equipment, and site operations in remote locations.",
+      "shortDescription": "Reliable power supply for construction sites.",
+      "icon": "Zap",
+      "order": 8,
+      "seo": {
+        "title": "Generators | Portable Generator Price India | HMS",
+        "description": "Buy Generators for construction sites. Portable & silent generators with various KVA capacities. Diesel & petrol models. Reliable power supply. Best prices in India.",
+        "keywords": ["generator", "portable generator", "diesel generator", "construction generator", "power generator", "silent generator"]
+      },
+      "benefits": [
+        {
+          "title": "Reliable Power",
+          "description": "Consistent power output for tools and equipment on remote sites."
+        },
+        {
+          "title": "Fuel Efficient",
+          "description": "Optimized engines deliver maximum runtime with minimal fuel consumption."
+        },
+        {
+          "title": "Multiple Capacities",
+          "description": "Range of KVA options to match your specific power requirements."
+        },
+        {
+          "title": "Easy Maintenance",
+          "description": "Simple servicing requirements keep your generator running smoothly."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": 10,
+      "name": "Air Compressors (VERX)",
+      "slug": "air-compressors-verx",
+      "description": "VERX brand air compressors for pneumatic tools and industrial applications. High-performance compressors delivering consistent air pressure for spray painting, pneumatic tools, and construction equipment.",
+      "shortDescription": "VERX air compressors for pneumatic applications.",
+      "icon": "Wind",
+      "order": 9,
+      "seo": {
+        "title": "VERX Air Compressors | Air Compressor Price India | HMS",
+        "description": "Buy VERX Air Compressors for pneumatic tools & spray painting. Oil-free & lubricated models. Various CFM capacities. Reliable performance. Best prices in India.",
+        "keywords": ["air compressor", "VERX air compressor", "pneumatic compressor", "industrial air compressor", "portable air compressor", "oil free compressor"]
+      },
+      "benefits": [
+        {
+          "title": "Consistent Pressure",
+          "description": "Maintain steady air pressure for optimal pneumatic tool performance."
+        },
+        {
+          "title": "VERX Quality",
+          "description": "Trusted VERX brand known for reliability and durability."
+        },
+        {
+          "title": "Low Noise",
+          "description": "Quiet operation suitable for indoor and outdoor use."
+        },
+        {
+          "title": "Easy Portability",
+          "description": "Compact designs with handles and wheels for site mobility."
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": 1,
+      "name": "Other Products",
+      "slug": "other-products",
+      "description": "Explore our comprehensive range of high-quality construction machinery and equipment. From concrete vibrators to road rollers, we offer reliable solutions for all your construction needs.",
+      "shortDescription": "Additional construction machinery and equipment.",
+      "icon": "Package",
+      "order": 99,
+      "seo": {
+        "title": "Construction Machinery & Equipment | HMS Machinery",
+        "description": "Browse our complete collection of construction machinery including vibrators, compactors, road rollers, and more. Quality equipment with competitive pricing.",
+        "keywords": ["construction machinery", "construction equipment", "road roller", "plate compactor", "tamping rammer", "building equipment"]
+      },
+      "benefits": [
+        {
+          "title": "Premium Quality",
+          "description": "All machines are built with high-grade materials for durability and long-lasting performance."
+        },
+        {
+          "title": "Competitive Pricing",
+          "description": "Get the best value with our factory-direct pricing on all construction equipment."
+        },
+        {
+          "title": "Expert Support",
+          "description": "Our technical team provides guidance on selection, installation, and maintenance."
+        },
+        {
+          "title": "Fast Delivery",
+          "description": "Quick dispatch and reliable shipping across India for all orders."
+        }
+      ],
+      "featured": false
+    }
+  ]
+}

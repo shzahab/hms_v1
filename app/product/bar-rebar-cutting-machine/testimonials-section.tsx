@@ -1,20 +1,19 @@
-
 export default function TestimonialsSection() {
   const testimonials = [
     {
-      quote: "Outstanding cutting machine - fast, precise, and incredibly reliable. It has transformed our steel processing operations and improved our project delivery times.",
-      name: "Vikram Singh",
-      role: "Steel Fabricator"
+      quote: "The best bar cutting machine we've used—fast, precise, and incredibly reliable. It has significantly improved our rebar processing efficiency across multiple sites in Bengaluru.",
+      name: "Suresh Reddy",
+      role: "Civil Contractor, Bengaluru"
     },
     {
-      quote: "The safety features are excellent, and the cutting speed is impressive. We've significantly reduced our labor costs while improving quality.",
-      name: "Pradeep Kumar",
-      role: "Construction Manager"
+      quote: "Durable and cost-effective. We've reduced material waste by 30% while increasing cutting speed on our Chennai metro infrastructure projects. Hutaib's after-sales support has been excellent.",
+      name: "Karthik Subramanian",
+      role: "Site Engineer, Chennai"
     },
     {
-      quote: "Easy blade replacement and consistent performance make this our go-to cutting machine. Perfect for our high-volume operations.",
-      name: "Manoj Agarwal",
-      role: "Workshop Owner"
+      quote: "The safety features are outstanding, and the blade replacement is incredibly quick. Been using it for 3 years on high-rise projects in Hyderabad with zero accidents and minimal downtime.",
+      name: "Mohammed Khaleel",
+      role: "Project Manager, Hyderabad"
     }
   ];
 
@@ -25,7 +24,7 @@ export default function TestimonialsSection() {
           key={index} 
           className="bg-gray-50 p-4 sm:p-5 rounded-lg border-l-4 border-blue-500 hover:shadow-md transition-shadow"
         >
-          <p className="text-gray-600 italic mb-4 text-sm sm:text-base">{testimonial.quote}</p>
+          <p className="text-gray-600 italic mb-4 text-sm sm:text-base">&ldquo;{testimonial.quote}&rdquo;</p>
           <p className="font-semibold text-gray-800">{testimonial.name}</p>
           <p className="text-xs sm:text-sm text-gray-500">{testimonial.role}</p>
         </div>

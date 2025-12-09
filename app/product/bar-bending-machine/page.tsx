@@ -7,7 +7,7 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { ShimmerButton } from "@/components/magicui/shimmer-button";
-import { ArrowRight, ChevronDown } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import productsData from "@/app/data/products.json";
 import SpecificationsTable from "./specifications-table";
 import BenefitsSection from "./benefits-section";
@@ -24,21 +24,16 @@ function createSlug(name: string) {
 }
 
 export default function BarBendingMachinePage() {
-  const [activeTab, setActiveTab] = useState("description");
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [otherProducts, setOtherProducts] = useState<any[]>([]);
 
-  const tabs = [
-    { id: "description", label: "Description" },
-    { id: "specifications", label: "Specifications" },
-    { id: "benefits", label: "Benefits" },
-    { id: "applications", label: "Applications" },
-  ];
-
-  // Get random products excluding the current one
-  const otherProducts = productsData.products
-    .filter(p => p.name !== "Bar / Rebar Bending Machine")
-    .sort(() => 0.5 - Math.random())
-    .slice(0, 4);
+  // Get random products excluding the current one (client-side only to avoid hydration errors)
+  useEffect(() => {
+    const randomProducts = productsData.products
+      .filter(p => p.name !== "Bar / Rebar Bending Machine")
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 4);
+    setOtherProducts(randomProducts);
+  }, []);
 
   return (
     <div className="min-h-screen bg-background text-foreground font-sans">
@@ -54,9 +49,9 @@ export default function BarBendingMachinePage() {
           {/* Product Title Section */}
           <div className="mb-8">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-3 tracking-tight">
-              HMS Bar Bending Machine
+              Bar Bending Machine for South Indian Construction Projects
             </h1>
-            <p className="text-xl text-gray-600 font-medium">Precision, Efficiency & Reliability</p>
+            <p className="text-xl text-gray-600 font-medium">Precision Rebar Forming | 25+ Years Trusted Supplier</p>
           </div>
 
           {/* Product Overview Section */}
@@ -65,7 +60,7 @@ export default function BarBendingMachinePage() {
             <div className="bg-white p-4 rounded-lg shadow">
               <Image
                 src="/images/products/bar-bending-machine-main.webp"
-                alt="HMS Bar Bending Machine - Professional grade rebar bending equipment with digital control panel and dual operation modes"
+                alt="Hutaib Machinery bar bending machine 42mm bending TMT steel rebar at construction site in South India"
                 width={600}
                 height={400}
                 className="w-full object-cover rounded"
@@ -76,24 +71,30 @@ export default function BarBendingMachinePage() {
             {/* Product Quick Details */}
             <div className="bg-white p-8 rounded-lg shadow">
               <h2 className="text-3xl font-bold text-gray-800 mb-4 tracking-tight">
-                Revolutionizing Construction with Advanced Bending Technology
+                Trusted Bar Bending Solutions Since 1999
               </h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                The <strong>HMS Bar Bending Machine</strong> is a cutting-edge tool designed for{" "}
-                <strong>precision, efficiency, and durability</strong>. It streamlines{" "}
-                <strong>steel bar and rebar bending</strong>, making it essential for{" "}
-                <strong>high-rise buildings, bridges, highways, and infrastructure projects</strong>.
+                The Bar Bending Machine from Hutaib Machinery delivers precision rebar forming for construction projects across South India. Designed for rebar fabricators, construction contractors, and infrastructure developers, this machine bends steel bars up to 42mm diameter with 180-degree accuracy. With digital control automation, it increases productivity by up to 40% compared to manual bending methods while ensuring consistent quality for TMT and HYSD bars used in Indian construction standards.
               </p>
 
               <div className="mb-8">
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Key Features:</h3>
-                <ul className="list-disc pl-5 text-gray-600 space-y-2 text-lg">
-                  <li>Handles multiple steel bar sizes</li>
-                  <li>Customizable bending angles (0° to 180°)</li>
-                  <li>High-precision digital control panel</li>
-                  <li>Dual operation modes (automatic & manual)</li>
-                  <li>Motor protection with preventer</li>
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Key Features & Benefits:</h3>
+                <ul className="list-none pl-0 text-gray-600 space-y-3 text-base">
+                  <li><strong>180-Degree Bending Capacity</strong> — Achieves full stirrup formation in single operation, reducing labor time</li>
+                  <li><strong>42mm Maximum Bar Diameter</strong> — Handles all standard TMT bar sizes used in Indian construction (8mm to 42mm)</li>
+                  <li><strong>Digital Control System</strong> — Programmable angles for repeatable accuracy across large projects</li>
+                  <li><strong>Heavy-Duty Steel Frame</strong> — Built for 24/7 operation in harsh construction site conditions</li>
+                  <li><strong>Dual Operation Modes</strong> — Automatic and manual settings for flexibility across project scales</li>
                 </ul>
+              </div>
+
+              {/* Pricing */}
+              <div className="mb-6 p-4 bg-gradient-to-r from-green-50 to-blue-50 rounded-lg border border-green-200">
+                <div className="flex items-baseline gap-2">
+                  <span className="text-3xl font-bold text-green-700">₹75,000</span>
+                  <span className="text-gray-500 text-sm">+ GST</span>
+                </div>
+                <p className="text-sm text-gray-600 mt-1">Free installation & training across South India</p>
               </div>
 
               {/* CTA Buttons */}
@@ -120,7 +121,7 @@ export default function BarBendingMachinePage() {
                     className="w-full sm:w-auto h-[42px]"
                     onClick={() => {
                       if (typeof window !== 'undefined') {
-                        window.open('https://wa.me/919740035153', '_blank')
+                        window.open('https://wa.me/918074949635', '_blank')
                       }
                     }}
                   >
@@ -159,185 +160,133 @@ export default function BarBendingMachinePage() {
             </div>
           </div>
 
-          {/* Product Description Tabs */}
-          <div className="bg-white rounded-lg shadow mb-12">
-            {/* Mobile Dropdown */}
-            <div className="md:hidden border-b border-gray-200">
-              <button
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="flex items-center justify-between w-full px-4 py-4 text-left bg-gradient-to-r from-blue-50 to-white border-b-2 border-blue-100 hover:bg-blue-50 transition-all duration-300"
-              >
-                <span className="text-base font-semibold text-blue-900 flex items-center">
-                  <span className="mr-2">📑</span>
-                  {tabs.find(tab => tab.id === activeTab)?.label}
-                </span>
-                <ChevronDown 
-                  className={`w-6 h-6 text-blue-500 transition-transform duration-300 ${isMenuOpen ? 'transform rotate-180' : 'animate-bounce'}`}
-                />
-              </button>
-              {isMenuOpen && (
-                <div className="border-t border-gray-200">
-                  {tabs.map((tab) => (
-                    <button
-                      key={tab.id}
-                      onClick={() => {
-                        setActiveTab(tab.id);
-                        setIsMenuOpen(false);
-                      }}
-                      className={`block w-full px-4 py-3 text-left text-base ${
-                        activeTab === tab.id
-                          ? "bg-blue-50 text-blue-600 font-semibold"
-                          : "text-gray-500 hover:bg-gray-50"
-                      }`}
-                    >
-                      {tab.label}
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
+          {/* Description Section */}
+          <div className="bg-white rounded-lg shadow mb-12 p-8">
+            <div className="prose prose-lg max-w-none">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 tracking-tight">
+                Bar Bending Machine - Engineered for South Indian Construction Excellence
+              </h2>
 
-            {/* Desktop Tabs */}
-            <div className="hidden md:block border-b border-gray-200">
-              <nav className="flex -mb-px">
-                {tabs.map((tab) => (
-                  <button
-                    key={tab.id}
-                    onClick={() => setActiveTab(tab.id)}
-                    className={`${
-                      activeTab === tab.id
-                        ? "border-blue-500 text-blue-600"
-                        : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
-                    } whitespace-nowrap py-4 px-6 border-b-2 font-semibold text-sm transition-colors flex-1 md:flex-none md:px-8`}
-                  >
-                    {tab.label}
-                  </button>
-                ))}
-              </nav>
-            </div>
-
-            {/* Tab Contents */}
-            <div className="p-8">
-              {activeTab === "description" && (
-                <div className="prose prose-lg max-w-none">
-                  <h2 className="text-3xl font-bold text-gray-900 mb-6 tracking-tight">
-                    HMS Bar Bending Machine - Engineered for Accuracy, Efficiency, and Durability
-                  </h2>
-
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                        Impact on Construction Projects
-                      </h3>
-                      <p className="text-lg text-gray-600 leading-relaxed">
-                        Bar bending machines <strong>significantly improve productivity and safety</strong> in
-                        construction. By ensuring <strong>uniform bends</strong>, they contribute to the{" "}
-                        <strong>strength and longevity</strong> of reinforced concrete structures, helping
-                        projects <strong>comply with safety and durability standards</strong>.
-                        Additionally, automated bending minimizes <strong>errors, material waste, and manual inconsistencies</strong>,
-                        resulting in <strong>higher-quality construction</strong> with <strong>optimized resources</strong>.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                        Company Advantages
-                      </h3>
-                      <p className="text-lg text-gray-600 leading-relaxed">
-                        Choosing <strong>HMS Bar Bending Machines</strong> means investing in{" "}
-                        <strong>reliability, performance, and innovation</strong>. Built for{" "}
-                        <strong>precision and durability</strong>, our machines are trusted by{" "}
-                        <strong>contractors, engineers, and infrastructure developers</strong> across industries.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                        The Power of HMS Bar Bending Machines
-                      </h3>
-                      <p className="text-lg text-gray-600 leading-relaxed">
-                        In the world of <strong>construction equipment</strong>, <strong>HMS</strong> stands
-                        as a <strong>symbol of excellence, innovation, and dependability</strong>. With a{" "}
-                        <strong>proven track record</strong> in the industry, we continue to set{" "}
-                        <strong>high standards in performance and efficiency</strong>.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                        Why Choose HMS Bar Bending Machine?
-                      </h3>
-                      <p className="text-lg text-gray-600 leading-relaxed">
-                        Handles Multiple Steel Bar Sizes – Suitable for all construction needs.<br />
-                        Customizable Bending Angles – Adjustable from 0° to 180°.<br />
-                        High-Precision Digital Control Panel – Reduces material waste.<br />
-                        Dual Operation Modes – Automatic and manual settings.<br />
-                        Reliable Performance – Built for high efficiency and minimal downtime.<br />
-                        Motor Protection with Preventer – Equipped with a preventer to safeguard the motor from power fluctuations, ensuring longer machine life and stable performance.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                        Innovative Engineering for Efficiency & Operator Comfort
-                      </h3>
-                      <p className="text-lg text-gray-600 leading-relaxed">
-                        HMS Bar Bending Machines are designed with advanced engineering innovations to reduce manual labor, enhance operator comfort, and maximize productivity. Our machines seamlessly combine modern technology with traditional craftsmanship, offering superior efficiency, durability, and ease of use.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                        Customization for Every Need
-                      </h3>
-                      <p className="text-lg text-gray-600 leading-relaxed mb-4">
-                        At HMS, we understand that every project has <strong>unique bending requirements</strong>.
-                        That&apos;s why we offer <strong>custom-built solutions</strong> tailored to your specific needs.
-                      </p>
-                      <ul className="list-disc pl-6 text-lg text-gray-600 space-y-2">
-                        <li><strong>Specific bar diameters and bending angles</strong> for <strong>varied construction needs</strong></li>
-                        <li><strong>Automated and manual configurations</strong> to suit different project scales</li>
-                        <li><strong>Enhanced machine settings</strong> based on <strong>customer feedback</strong> for <strong>optimized performance</strong></li>
-                      </ul>
-                    </div>
-
-                    {/* Gallery */}
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-                      {[1, 2, 3].map((i) => (
-                        <Image
-                          key={i}
-                          src={`/images/products/bar-bending-machine-${i}.webp`}
-                          alt={`HMS Bar Bending Machine View ${i}`}
-                          width={400}
-                          height={300}
-                          className="w-full h-48 object-cover rounded-lg shadow-md"
-                        />
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              )}
-
-              {activeTab === "specifications" && (
+              <div className="space-y-6">
                 <div>
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Technical Specifications</h2>
-                  <SpecificationsTable />
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                    Impact on Construction Projects Across Karnataka, Tamil Nadu & Kerala
+                  </h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    Bar bending machines <strong>significantly improve productivity and safety</strong> in
+                    construction projects throughout South India. By ensuring <strong>uniform bends</strong>, they contribute to the{" "}
+                    <strong>strength and longevity</strong> of reinforced concrete structures in Bengaluru, Chennai, and Hyderabad, helping
+                    projects <strong>comply with IS standards and safety regulations</strong>.
+                    Additionally, automated bending minimizes <strong>errors, material waste, and manual inconsistencies</strong>,
+                    resulting in <strong>higher-quality construction</strong> with <strong>optimized resources</strong> for infrastructure development across Karnataka, Tamil Nadu, Kerala, Andhra Pradesh, and Telangana.
+                  </p>
                 </div>
-              )}
 
-              {activeTab === "benefits" && (
                 <div>
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">
-                    Benefits of Bar Bending Machines
-                  </h2>
-                  <BenefitsSection />
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                    Why Choose Hutaib Machinery - 25+ Years of Excellence
+                  </h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    Choosing <strong>Hutaib Machinery Bar Bending Machines</strong> means investing in{" "}
+                    <strong>reliability, performance, and innovation</strong>. Serving South Indian industries since 1999, our machines are built for{" "}
+                    <strong>precision and durability</strong>. Trusted by{" "}
+                    <strong>contractors, engineers, and infrastructure developers</strong> across Karnataka, Tamil Nadu, and Kerala, we deliver equipment that meets the demanding requirements of Indian construction projects.
+                  </p>
                 </div>
-              )}
 
-              {activeTab === "applications" && (
                 <div>
-                  <ApplicationsSection />
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                    Proven Performance in South Indian Climate
+                  </h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    Our bar bending machines are engineered to perform reliably in the challenging conditions of South Indian construction sites. From the humid coastal regions of Kerala and Goa to the metropolitan construction boom in Bengaluru and Hyderabad, Hutaib Machinery equipment delivers{" "}
+                    <strong>consistent performance, minimal downtime, and long-term durability</strong>. With a{" "}
+                    <strong>proven track record spanning over 25 years</strong>, we continue to set{" "}
+                    <strong>high standards in performance and efficiency</strong> for the South Indian construction industry.
+                  </p>
                 </div>
-              )}
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                    Why Choose HMS Bar Bending Machine?
+                  </h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    Handles Multiple Steel Bar Sizes – Suitable for all construction needs.<br />
+                    Customizable Bending Angles – Adjustable from 0° to 180°.<br />
+                    High-Precision Digital Control Panel – Reduces material waste.<br />
+                    Dual Operation Modes – Automatic and manual settings.<br />
+                    Reliable Performance – Built for high efficiency and minimal downtime.<br />
+                    Motor Protection with Preventer – Equipped with a preventer to safeguard the motor from power fluctuations, ensuring longer machine life and stable performance.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                    Innovative Engineering for Efficiency & Operator Comfort
+                  </h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    HMS Bar Bending Machines are designed with advanced engineering innovations to reduce manual labor, enhance operator comfort, and maximize productivity. Our machines seamlessly combine modern technology with traditional craftsmanship, offering superior efficiency, durability, and ease of use.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                    Customization for Every Need
+                  </h3>
+                  <p className="text-lg text-gray-600 leading-relaxed mb-4">
+                    At HMS, we understand that every project has <strong>unique bending requirements</strong>.
+                    That&apos;s why we offer <strong>custom-built solutions</strong> tailored to your specific needs.
+                  </p>
+                  <ul className="list-disc pl-6 text-lg text-gray-600 space-y-2">
+                    <li><strong>Specific bar diameters and bending angles</strong> for <strong>varied construction needs</strong></li>
+                    <li><strong>Automated and manual configurations</strong> to suit different project scales</li>
+                    <li><strong>Enhanced machine settings</strong> based on <strong>customer feedback</strong> for <strong>optimized performance</strong></li>
+                  </ul>
+                </div>
+
+                {/* Gallery */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+                  <Image
+                    src="/images/products/bar-bending-machine-1.webp"
+                    alt="Bar bending machine 42mm front view showing digital control panel and steel frame construction"
+                    width={400}
+                    height={300}
+                    className="w-full h-48 object-cover rounded-lg shadow-md"
+                  />
+                  <Image
+                    src="/images/products/bar-bending-machine-2.webp"
+                    alt="Hutaib bar bending machine in operation bending reinforcement bars at Bengaluru construction site"
+                    width={400}
+                    height={300}
+                    className="w-full h-48 object-cover rounded-lg shadow-md"
+                  />
+                  <Image
+                    src="/images/products/bar-bending-machine-3.webp"
+                    alt="Close-up detail view of bar bending machine motor and bending mechanism for TMT rebar"
+                    width={400}
+                    height={300}
+                    className="w-full h-48 object-cover rounded-lg shadow-md"
+                  />
+                </div>
+              </div>
             </div>
+          </div>
+
+          {/* Specifications Section */}
+          <div className="bg-white rounded-lg shadow mb-12 p-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6 tracking-tight">Technical Specifications</h2>
+            <SpecificationsTable />
+          </div>
+
+          {/* Benefits Section */}
+          <div className="bg-white rounded-lg shadow mb-12 p-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6 tracking-tight">
+              Benefits of Bar Bending Machines
+            </h2>
+            <BenefitsSection />
+          </div>
+
+          {/* Applications Section */}
+          <div className="bg-white rounded-lg shadow mb-12 p-8">
+            <ApplicationsSection />
           </div>
 
           {/* Testimonials Section */}
@@ -348,6 +297,69 @@ export default function BarBendingMachinePage() {
             <TestimonialsSection />
           </div>
 
+          {/* Service and Support Section */}
+          <div className="bg-white rounded-lg shadow mb-12 p-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6 tracking-tight">
+              Support and Warranty
+            </h2>
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+              Every bar bending machine from Hutaib Machinery includes comprehensive support across South India:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-100">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">✓ 1-Year Comprehensive Warranty</h3>
+                <p className="text-blue-700">Covering parts and labor for complete peace of mind</p>
+              </div>
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-100">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">✓ Free Installation and Training</h3>
+                <p className="text-blue-700">On-site setup and operator training at your location across South India</p>
+              </div>
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-100">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">✓ Lifetime Technical Support</h3>
+                <p className="text-blue-700">Available via phone and WhatsApp for ongoing assistance</p>
+              </div>
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-100">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">✓ Spare Parts Availability</h3>
+                <p className="text-blue-700">Same-day dispatch from our Bengaluru warehouse</p>
+              </div>
+            </div>
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Our service technicians cover <strong>Karnataka, Tamil Nadu, Kerala, Andhra Pradesh, Telangana, South Maharashtra, and Goa</strong> with response times typically within <strong>24-48 hours</strong>. Annual Maintenance Contracts available for extended coverage.
+            </p>
+            
+            {/* Trust Signals */}
+            <div className="bg-gradient-to-r from-gray-50 to-blue-50 p-6 rounded-lg border border-gray-200 mt-6">
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">Why Hutaib Machinery?</h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-blue-600 mb-1">25+</div>
+                  <div className="text-sm text-gray-600">Years in Business</div>
+                  <div className="text-xs text-gray-500">(Since 1999)</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-blue-600 mb-1">7</div>
+                  <div className="text-sm text-gray-600">States Served</div>
+                  <div className="text-xs text-gray-500">South India Coverage</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-blue-600 mb-1">1000+</div>
+                  <div className="text-sm text-gray-600">Happy Customers</div>
+                  <div className="text-xs text-gray-500">Across Industries</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-blue-600 mb-1">24-48h</div>
+                  <div className="text-sm text-gray-600">Service Response</div>
+                  <div className="text-xs text-gray-500">Across South India</div>
+                </div>
+              </div>
+              <div className="mt-6 pt-6 border-t border-gray-300">
+                <p className="text-sm text-gray-700 text-center">
+                  <strong>📍 Headquarters:</strong> No. 78, N. R. Road, Kalasipalyam, Bengaluru - 560002, Karnataka, India
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* FAQ Section */}
           <div className="bg-white rounded-lg shadow mb-12 p-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-8 tracking-tight">
@@ -356,9 +368,46 @@ export default function BarBendingMachinePage() {
             <FAQSection />
           </div>
 
+          {/* Related Equipment Section */}
+          <section className="bg-white rounded-lg shadow p-8 mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6 tracking-tight">Related Equipment</h2>
+            <p className="text-gray-600 mb-8 leading-relaxed">
+              Complete your rebar fabrication line with these complementary machines:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Bar Cutting Machine</h3>
+                <p className="text-gray-600 mb-4">
+                  Pair with bender for complete rebar fabrication line. Cut TMT bars up to 42mm with precision.
+                </p>
+                <Link href="/product/bar-rebar-cutting-machine" className="text-blue-600 hover:text-blue-700 font-medium flex items-center gap-1">
+                  View Details <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Concrete Mixer</h3>
+                <p className="text-gray-600 mb-4">
+                  Essential companion for construction sites. Available in 500L capacity for large projects.
+                </p>
+                <Link href="/product" className="text-blue-600 hover:text-blue-700 font-medium flex items-center gap-1">
+                  View All Products <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Spare Parts & Accessories</h3>
+                <p className="text-gray-600 mb-4">
+                  Bending pins, motor assemblies, and replacement parts available with same-day dispatch.
+                </p>
+                <Link href="/contact" className="text-blue-600 hover:text-blue-700 font-medium flex items-center gap-1">
+                  Contact for Parts <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
+            </div>
+          </section>
+
           {/* Other Products Section */}
           <section className="bg-white rounded-lg shadow p-8 mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 tracking-tight">Other Products</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 tracking-tight">More Construction Equipment</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
               {otherProducts.map((product) => (
                 <Link href={`/product/${createSlug(product.name)}`} key={product.id}>

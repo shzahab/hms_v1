@@ -22,6 +22,8 @@ const Breadcrumbs = () => {
         const isLast = index === pathSegments.length - 1;
         const formattedSegment = segment === "product" 
           ? "Products"
+          : segment === "category"
+          ? "Categories"
           : decodeURIComponent(segment)
               .replace(/-/g, ' ')
               .replace(/(^\w|\s\w)/g, m => m.toUpperCase());

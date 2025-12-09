@@ -2,6 +2,8 @@
   "products": [
     {
       "id": 1,
+      "slug": "bar-bending-machine",
+      "categorySlug": "other-products",
       "name": "Bar / Rebar Bending Machine",
       "shortDescription": "Precision bending for construction projects.",
       "price": "₹75,000/-",
@@ -33,11 +35,38 @@
         { "label": "Cutting Steel Bar Diameter", "value": "8-32mm" },
         { "label": "Type", "value": "Automatic/Manual" }
       ],
-      "brochureUrl": "/brochures/bar-bending-machine.pdf"
+      "brochureUrl": "/brochures/bar-bending-machine.pdf",
+      "seo": {
+        "title": "Bar Bending Machine | Rebar Bending Machine Price in India",
+        "description": "Buy high-quality Bar Bending Machine at best prices. Precision rebar bending up to 42mm diameter. Digital control panel, automatic/manual modes. 6-month warranty. Fast delivery 1-3 days.",
+        "keywords": ["bar bending machine", "rebar bending machine", "steel bar bender", "construction machinery", "TMT bar bending machine"]
+      },
+      "applications": [
+        "Reinforced concrete construction",
+        "Bridge and flyover construction",
+        "High-rise building projects",
+        "Infrastructure development",
+        "Precast concrete manufacturing"
+      ],
+      "faq": [
+        {
+          "question": "What is the maximum bending capacity of this machine?",
+          "answer": "This bar bending machine can bend steel bars up to 42mm diameter with adjustable angles from 0° to 180°."
+        },
+        {
+          "question": "Does it come with a warranty?",
+          "answer": "Yes, all our bar bending machines come with a 6-month warranty covering manufacturing defects. Does not cover spares or damage from manual misuse."
+        },
+        {
+          "question": "Can it operate in both automatic and manual modes?",
+          "answer": "Yes, the machine features both automatic and manual operation modes for flexibility in different work scenarios."
+        }
+      ]
     },
-
     {
       "id": 2,
+      "slug": "bar-rebar-cutting-machine",
+      "categorySlug": "other-products",
       "name": "Bar / Rebar Cutting Machine",
       "shortDescription": "Efficient cutting for steel reinforcement bars.",
       "price": "₹72,000/-",
@@ -66,10 +95,38 @@
         { "label": "Cutting Steel Bar Diameter", "value": "8-32mm" },
         { "label": "Type", "value": "Automatic/Manual" }
       ],
-      "brochureUrl": "/brochures/bar-bending-machine.pdf"
+      "brochureUrl": "/brochures/bar-bending-machine.pdf",
+      "seo": {
+        "title": "Bar Cutting Machine | Rebar Cutting Machine Price in India",
+        "description": "High-performance Bar Cutting Machine for steel reinforcement. Cuts rebar up to 60mm diameter. Safety guards, easy blade replacement. Best prices with pan-India delivery.",
+        "keywords": ["bar cutting machine", "rebar cutting machine", "steel bar cutter", "TMT bar cutting machine", "construction equipment"]
+      },
+      "applications": [
+        "Construction site rebar processing",
+        "Steel fabrication workshops",
+        "Precast concrete plants",
+        "Infrastructure projects",
+        "Bridge construction"
+      ],
+      "faq": [
+        {
+          "question": "What is the maximum cutting diameter?",
+          "answer": "This machine can efficiently cut steel bars up to 60mm diameter."
+        },
+        {
+          "question": "How easy is it to replace the cutting blade?",
+          "answer": "The machine features an easy blade replacement system that allows quick blade changes with minimal downtime."
+        },
+        {
+          "question": "Is it safe to operate?",
+          "answer": "Yes, the machine comes with safety guards for operator protection and meets all safety standards."
+        }
+      ]
     },
     {
       "id": 3,
+      "slug": "concrete-cutting-machine",
+      "categorySlug": "other-products",
       "name": "Concrete Cutting Machine",
       "shortDescription": "Precise concrete cutting for construction and renovation.",
       "price": "₹65,000/-",
@@ -98,10 +155,38 @@
         { "label": "Driving Method", "value": "Manual Push" },
         { "label": "Disk Size", "value": "600mm" }
       ],
-      "brochureUrl": "/brochures/bar-bending-machine.pdf"
+      "brochureUrl": "/brochures/bar-bending-machine.pdf",
+      "seo": {
+        "title": "Concrete Cutting Machine | Road Cutting Machine Price India",
+        "description": "Professional Concrete Cutting Machine with 240mm max depth. Perfect for expansion joints, road repairs, and utility installations. Dust extraction system included.",
+        "keywords": ["concrete cutting machine", "road cutting machine", "groove cutting machine", "floor saw", "concrete saw"]
+      },
+      "applications": [
+        "Road construction and repair",
+        "Expansion joint cutting",
+        "Utility trench cutting",
+        "Concrete floor renovation",
+        "Pavement maintenance"
+      ],
+      "faq": [
+        {
+          "question": "What is the maximum cutting depth?",
+          "answer": "The machine offers a maximum cutting depth of 240mm, suitable for most concrete cutting applications."
+        },
+        {
+          "question": "Does it have a water tank for wet cutting?",
+          "answer": "Yes, it features a 35L water tank capacity for wet cutting, which reduces dust and extends blade life."
+        },
+        {
+          "question": "What blade sizes does it accept?",
+          "answer": "The machine accepts 600mm diameter blades for optimal cutting performance."
+        }
+      ]
     },
     {
       "id": 4,
+      "slug": "ring-making-machine-spiral-machine",
+      "categorySlug": "other-products",
       "name": "Ring Making Machine / Spiral Machine",
       "shortDescription": "Create perfect rings and spirals for various applications.",
       "price": "₹75,000/-",
@@ -131,10 +216,38 @@
         { "label": "Diameter of Working", "value": ">300mm" },
         { "label": "Type", "value": "Automatic/Manual" }
       ],
-      "brochureUrl": "/brochures/bar-bending-machine.pdf"
+      "brochureUrl": "/brochures/bar-bending-machine.pdf",
+      "seo": {
+        "title": "Ring Making Machine | Spiral Bending Machine Price India",
+        "description": "Premium Ring Making Machine for creating perfect stirrups and spirals. Handles 16-32mm steel bars. High-speed operation with adjustable diameter settings.",
+        "keywords": ["ring making machine", "spiral machine", "stirrup bending machine", "rebar ring bender", "steel ring maker"]
+      },
+      "applications": [
+        "Stirrup making for columns and beams",
+        "Spiral reinforcement manufacturing",
+        "Decorative metalwork",
+        "Industrial component fabrication",
+        "Construction rebar processing"
+      ],
+      "faq": [
+        {
+          "question": "What steel bar diameters can this machine handle?",
+          "answer": "The machine can bend round steel bars from 16-32mm and HRB400 ribbed steel from 16-28mm diameter."
+        },
+        {
+          "question": "Can it create different ring sizes?",
+          "answer": "Yes, the adjustable diameter settings allow creating rings with working diameter greater than 300mm."
+        },
+        {
+          "question": "What is the production speed?",
+          "answer": "The machine operates at 5-10 rings per minute depending on the material and size."
+        }
+      ]
     },
     {
       "id": 5,
+      "slug": "building-material-hoist",
+      "categorySlug": "other-products",
       "name": "Building Material Hoist",
       "shortDescription": "Safely transport materials to elevated work areas.",
       "price": "₹34,000/-",
@@ -165,10 +278,38 @@
         { "label": "Clutch", "value": "Yes" },
         { "label": "Trolley Option", "value": "Without Trolley" }
       ],
-      "brochureUrl": "/brochures/bar-bending-machine.pdf"
+      "brochureUrl": "/brochures/bar-bending-machine.pdf",
+      "seo": {
+        "title": "Building Material Hoist | Construction Hoist Price India",
+        "description": "Heavy-duty Building Material Hoist with 350kg capacity. 60m rope length, emergency brakes, weather-resistant. Perfect for multi-story construction projects.",
+        "keywords": ["building material hoist", "construction hoist", "material lift", "building lift", "construction elevator"]
+      },
+      "applications": [
+        "Multi-story building construction",
+        "High-rise material transport",
+        "Renovation projects",
+        "Industrial facility construction",
+        "Commercial building projects"
+      ],
+      "faq": [
+        {
+          "question": "What is the maximum lifting capacity?",
+          "answer": "The hoist can safely lift up to 350kg of materials per load."
+        },
+        {
+          "question": "How high can it lift materials?",
+          "answer": "With a 60m rope length, it can service buildings up to approximately 20 floors."
+        },
+        {
+          "question": "Does it have safety features?",
+          "answer": "Yes, it includes emergency brakes, clutch mechanism, and weather-resistant construction for safe operation."
+        }
+      ]
     },
     {
       "id": 6,
+      "slug": "concrete-vibrator",
+      "categorySlug": "other-products",
       "name": "Concrete Vibrator",
       "shortDescription": "Ensure proper concrete consolidation in construction.",
       "price": "₹10,500/-",
@@ -196,10 +337,38 @@
         { "label": "Working Speed", "value": "30m/min" },
         { "label": "Type", "value": "Automatic" }
       ],
-      "brochureUrl": "/brochures/bar-bending-machine.pdf"
+      "brochureUrl": "/brochures/bar-bending-machine.pdf",
+      "seo": {
+        "title": "Concrete Vibrator | Needle Vibrator Machine Price India",
+        "description": "Electric Concrete Vibrator for perfect concrete consolidation. 2HP motor, 50Hz frequency, flexible shaft. Removes air bubbles for stronger concrete structures.",
+        "keywords": ["concrete vibrator", "needle vibrator", "concrete consolidation", "immersion vibrator", "poker vibrator"]
+      },
+      "applications": [
+        "Column and beam concrete pouring",
+        "Foundation concrete work",
+        "Slab construction",
+        "Precast concrete manufacturing",
+        "RCC structure construction"
+      ],
+      "faq": [
+        {
+          "question": "What power source does it require?",
+          "answer": "This is an electric concrete vibrator requiring single-phase power supply."
+        },
+        {
+          "question": "What is the vibration frequency?",
+          "answer": "The vibrator operates at 50Hz frequency for effective air bubble removal."
+        },
+        {
+          "question": "Can it reach into narrow formwork?",
+          "answer": "Yes, flexible shaft options are available for reaching hard-to-access areas."
+        }
+      ]
     },
     {
       "id": 7,
+      "slug": "scrap-straightening-machine",
+      "categorySlug": "other-products",
       "name": "Scrap Straightening Machine",
       "shortDescription": "Reclaim and straighten scrap metal efficiently.",
       "price": "₹1,80,000/-",
@@ -227,10 +396,38 @@
         { "label": "Working Speed", "value": "30m/min" },
         { "label": "Type", "value": "Semi-Automatic" }
       ],
-      "brochureUrl": "/brochures/bar-bending-machine.pdf"
+      "brochureUrl": "/brochures/bar-bending-machine.pdf",
+      "seo": {
+        "title": "Scrap Straightening Machine | Steel Bar Straightener Price",
+        "description": "Industrial Scrap Straightening Machine for reclaiming bent steel bars. 6-14mm capacity, 30m/min speed. Reduce waste and maximize scrap metal value.",
+        "keywords": ["scrap straightening machine", "steel bar straightener", "rebar straightening machine", "metal straightener", "wire straightening machine"]
+      },
+      "applications": [
+        "Scrap metal recycling yards",
+        "Steel fabrication workshops",
+        "Construction site waste recovery",
+        "Metal processing plants",
+        "Rebar reclamation operations"
+      ],
+      "faq": [
+        {
+          "question": "What diameter range can it straighten?",
+          "answer": "The machine handles steel bars from 6mm to 14mm diameter."
+        },
+        {
+          "question": "What is the processing speed?",
+          "answer": "It operates at 30 meters per minute for high-volume processing."
+        },
+        {
+          "question": "Is it fully automatic?",
+          "answer": "It's semi-automatic with an automated feed system for continuous operation while allowing operator control."
+        }
+      ]
     },
     {
       "id": 8,
+      "slug": "concrete-mixer",
+      "categorySlug": "other-products",
       "name": "Concrete Mixer",
       "shortDescription": "Blend concrete ingredients for consistent mixtures.",
       "price": "₹1,22,000/-",
@@ -259,10 +456,38 @@
         { "label": "weight", "value": "1000Kgs" },
         { "label": "Automation Grade", "value": "Manual" }
       ],
-      "brochureUrl": "/brochures/bar-bending-machine.pdf"
+      "brochureUrl": "/brochures/bar-bending-machine.pdf",
+      "seo": {
+        "title": "Concrete Mixer Machine | 1 Bag Mixer Price India",
+        "description": "Professional 1 Bag Concrete Mixer with Kirloskar engine. 560L drum capacity, tilting mechanism for easy discharge. Ideal for construction sites.",
+        "keywords": ["concrete mixer", "cement mixer", "concrete mixer machine", "1 bag mixer", "tilting drum mixer"]
+      },
+      "applications": [
+        "Building construction sites",
+        "Road construction projects",
+        "Small to medium construction works",
+        "Precast concrete production",
+        "Landscaping and paving projects"
+      ],
+      "faq": [
+        {
+          "question": "What is the drum capacity?",
+          "answer": "The drum has a 560-liter capacity, suitable for 1-bag mixing operations."
+        },
+        {
+          "question": "What engine brand is used?",
+          "answer": "It's powered by a reliable Kirloskar engine for consistent performance."
+        },
+        {
+          "question": "Is it portable?",
+          "answer": "Yes, it features sturdy wheels for easy site mobility despite its 1000kg weight."
+        }
+      ]
     },
     {
       "id": 9,
+      "slug": "road-rollers",
+      "categorySlug": "other-products",
       "name": "Road Rollers",
       "shortDescription": "Compact soil, gravel, and asphalt in road construction.",
       "price": "₹1,85,000/-",
@@ -291,10 +516,38 @@
         { "label": "Speed", "value": "0-4Kmph" },
         { "label": "Type", "value": "Automatic/Manual" }
       ],
-      "brochureUrl": "/brochures/bar-bending-machine.pdf"
+      "brochureUrl": "/brochures/bar-bending-machine.pdf",
+      "seo": {
+        "title": "Road Roller Machine | Vibratory Roller Price India",
+        "description": "Heavy-duty Road Roller with vibration technology. 15kN centrifugal force for effective compaction. Ideal for road construction and asphalt work.",
+        "keywords": ["road roller", "vibratory roller", "compaction roller", "asphalt roller", "construction roller"]
+      },
+      "applications": [
+        "Road construction and repair",
+        "Asphalt compaction",
+        "Parking lot construction",
+        "Foundation soil compaction",
+        "Highway maintenance"
+      ],
+      "faq": [
+        {
+          "question": "What is the centrifugal force?",
+          "answer": "The roller delivers 15kN centrifugal force for effective soil and asphalt compaction."
+        },
+        {
+          "question": "What fuel type does it use?",
+          "answer": "It runs on an air-cooled 4-cycle engine compatible with gasoline or diesel."
+        },
+        {
+          "question": "What is the operating speed?",
+          "answer": "Operating speed ranges from 0-4 km/h for controlled compaction."
+        }
+      ]
     },
     {
       "id": 10,
+      "slug": "plate-compactors",
+      "categorySlug": "other-products",
       "name": "Plate Compactors",
       "shortDescription": "Ideal for compacting granular soils in confined areas.",
       "price": "₹38,000/-",
@@ -313,7 +566,7 @@
         "Durable plate material for long-lasting performance",
         "Easy-to-start engine for quick deployment"
       ],
-      "category": "Plate Compactoor",
+      "category": "Plate Compactor",
       "specifications": [
         { "label": "Model Name/Number", "value": "FPC160" },
         { "label": "Motor Power", "value": "4kW, 1440r/min" },
@@ -323,10 +576,38 @@
         { "label": "Centrifugal Force", "value": "30kn" },
         { "label": "Frequency", "value": "95Hz" }
       ],
-      "brochureUrl": "/brochures/bar-bending-machine.pdf"
+      "brochureUrl": "/brochures/bar-bending-machine.pdf",
+      "seo": {
+        "title": "Plate Compactor Machine | Vibratory Plate Compactor Price",
+        "description": "Heavy-duty Plate Compactor with 30kN centrifugal force. Perfect for trenches, confined areas, and soil compaction. 250kg weight for effective compaction.",
+        "keywords": ["plate compactor", "vibratory plate compactor", "soil compactor", "ground compactor", "compaction equipment"]
+      },
+      "applications": [
+        "Trench backfill compaction",
+        "Paver base preparation",
+        "Pipe bedding compaction",
+        "Patch work on roads",
+        "Landscape and hardscape installation"
+      ],
+      "faq": [
+        {
+          "question": "What is the compaction force?",
+          "answer": "The plate compactor delivers 30kN centrifugal force for effective soil consolidation."
+        },
+        {
+          "question": "What size plate does it have?",
+          "answer": "The plate measures 650mm x 500mm, ideal for medium to large area compaction."
+        },
+        {
+          "question": "Is it suitable for confined spaces?",
+          "answer": "Yes, its compact design makes it perfect for trenches and areas where larger equipment cannot access."
+        }
+      ]
     },
     {
       "id": 11,
+      "slug": "cnc-steel-bar-bender-machine",
+      "categorySlug": "other-products",
       "name": "CNC Steel Bar Bender Machine",
       "shortDescription": "Automated precision bending for steel bars.",
       "price": "₹1,10,000/-",
@@ -357,10 +638,38 @@
         { "label": "Bend Round Steel Bar Diameter", "value": "6-42mm" },
         { "label": "Type", "value": "Semi-Automatic" }
       ],
-      "brochureUrl": "/brochures/bar-bending-machine.pdf"
+      "brochureUrl": "/brochures/bar-bending-machine.pdf",
+      "seo": {
+        "title": "CNC Bar Bending Machine | Automatic Steel Bender Price",
+        "description": "Advanced CNC Steel Bar Bender for precision rebar bending. 6-42mm capacity, programmable patterns, high-speed operation. Ideal for large construction projects.",
+        "keywords": ["CNC bar bending machine", "automatic bar bender", "steel bar bender", "programmable bar bender", "rebar bending machine"]
+      },
+      "applications": [
+        "Large-scale construction projects",
+        "Precast concrete factories",
+        "Steel fabrication workshops",
+        "Infrastructure development",
+        "High-volume rebar processing"
+      ],
+      "faq": [
+        {
+          "question": "What diameter range can it bend?",
+          "answer": "The machine handles steel bars from 6mm to 42mm diameter for both round and ribbed steel."
+        },
+        {
+          "question": "Can it store bending programs?",
+          "answer": "Yes, it features memory storage for saving frequently used bend patterns for quick recall."
+        },
+        {
+          "question": "What is the bending speed?",
+          "answer": "Adjustable bending speed of 5-10 rotations per minute for optimal productivity."
+        }
+      ]
     },
     {
       "id": 12,
+      "slug": "threading-machine",
+      "categorySlug": "other-products",
       "name": "Threading Machine",
       "shortDescription": "Create precise threads on pipes and rods.",
       "price": "₹95,000/-",
@@ -390,10 +699,38 @@
         { "label": "Thread Pitch", "value": "1.75,2.0,2.5,3.0" },
         { "label": "Type", "value": "Semi-Automatic" }
       ],
-      "brochureUrl": "/brochures/bar-bending-machine.pdf"
+      "brochureUrl": "/brochures/bar-bending-machine.pdf",
+      "seo": {
+        "title": "Threading Machine | Rebar Threading Machine Price India",
+        "description": "Professional Threading Machine for pipes and rods. 16-40mm capacity, multiple thread pitches, automatic lubrication. Perfect for construction and plumbing.",
+        "keywords": ["threading machine", "rebar threading machine", "pipe threading machine", "bolt threading machine", "thread rolling machine"]
+      },
+      "applications": [
+        "Rebar coupler threading",
+        "Pipe fitting preparation",
+        "Bolt manufacturing",
+        "Construction site threading",
+        "Plumbing installations"
+      ],
+      "faq": [
+        {
+          "question": "What thread pitches can it create?",
+          "answer": "The machine supports thread pitches of 1.75, 2.0, 2.5, and 3.0mm."
+        },
+        {
+          "question": "What is the maximum threading length?",
+          "answer": "It can create threads up to 100mm in length."
+        },
+        {
+          "question": "Does it have automatic lubrication?",
+          "answer": "Yes, the automatic lubrication system extends die life and ensures smooth threading."
+        }
+      ]
     },
     {
       "id": 13,
+      "slug": "ride-on-power-trowel",
+      "categorySlug": "other-products",
       "name": "Ride On Power Trowel",
       "shortDescription": "Achieve smooth concrete surfaces efficiently.",
       "price": "₹3,20,000/-",
@@ -412,22 +749,49 @@
         "Safety switch for immediate stop in emergencies",
         "Multiple blade options for various finishing needs"
       ],
-      "category": "Bending Machines",
+      "category": "Power Trowel",
       "specifications": [
         { "label": "Model", "value": "QUM80" },
         { "label": "Power Source", "value": "Engine" },
         { "label": "Dimension", "value": "L1980xW1020xH1500mm" },
         { "label": "Engine Type", "value": "Air cooled 4 cycle gasoline" },
-        { "label": "Bend HRB400 Ribbed Steel Diameter", "value": "6-42mm" },
-        { "label": "Diameter of Working Disc", "value": "400mm" },
-        { "label": "Adjustable Bending Speed", "value": "5-10r/min" },
-        { "label": "Bend Round Steel Bar Diameter", "value": "6-42mm" },
-        { "label": "Type", "value": "Automatic/Manual" }
+        { "label": "Blade Diameter", "value": "Double 36 inch" },
+        { "label": "Working Width", "value": "1820mm" },
+        { "label": "Blade Speed", "value": "60-140rpm" },
+        { "label": "Type", "value": "Ride-On" }
       ],
-      "brochureUrl": "/brochures/bar-bending-machine.pdf"
+      "brochureUrl": "/brochures/bar-bending-machine.pdf",
+      "seo": {
+        "title": "Ride On Power Trowel | Concrete Finishing Machine Price",
+        "description": "Professional Ride On Power Trowel for large concrete floors. Double 36-inch blades, 1820mm working width. Perfect for warehouses and industrial floors.",
+        "keywords": ["power trowel", "ride on power trowel", "concrete finishing machine", "floor polishing machine", "concrete trowel machine"]
+      },
+      "applications": [
+        "Warehouse floor finishing",
+        "Industrial floor construction",
+        "Parking deck finishing",
+        "Commercial floor polishing",
+        "Large slab concrete work"
+      ],
+      "faq": [
+        {
+          "question": "What is the working width?",
+          "answer": "The double 36-inch blades provide a 1820mm working width for efficient large area coverage."
+        },
+        {
+          "question": "What is the blade speed range?",
+          "answer": "Blade speed is adjustable from 60 to 140 RPM for different finishing requirements."
+        },
+        {
+          "question": "Is it suitable for large projects?",
+          "answer": "Yes, ride-on design is specifically made for large warehouse and industrial floor finishing."
+        }
+      ]
     },
     {
       "id": 14,
+      "slug": "floaters",
+      "categorySlug": "other-products",
       "name": "Floaters",
       "shortDescription": "Perfect for finishing and smoothing concrete surfaces.",
       "price": "₹30,000/-",
@@ -453,10 +817,38 @@
         { "label": "Max Output", "value": "7.0kW,9.OHP" },
         { "label": "Speed", "value": "70-125rpm" }
       ],
-      "brochureUrl": "/brochures/bar-bending-machine.pdf"
+      "brochureUrl": "/brochures/bar-bending-machine.pdf",
+      "seo": {
+        "title": "Concrete Floater Machine | Walk Behind Power Trowel Price",
+        "description": "Walk Behind Concrete Floater for smooth floor finishing. 7kW output, 70-125 RPM speed. Ideal for medium-sized concrete finishing projects.",
+        "keywords": ["concrete floater", "walk behind power trowel", "floor finishing machine", "concrete smoother", "power float"]
+      },
+      "applications": [
+        "Medium area floor finishing",
+        "Residential concrete work",
+        "Driveway finishing",
+        "Patio construction",
+        "Detail work on large floors"
+      ],
+      "faq": [
+        {
+          "question": "What is the power output?",
+          "answer": "The machine delivers 7.0kW (9 HP) for effective concrete finishing."
+        },
+        {
+          "question": "What speed range does it operate at?",
+          "answer": "Operating speed ranges from 70-125 RPM for different finishing stages."
+        },
+        {
+          "question": "Is it suitable for residential projects?",
+          "answer": "Yes, the walk-behind design is perfect for medium-sized residential and commercial projects."
+        }
+      ]
     },
     {
       "id": 15,
+      "slug": "tamping-rammer",
+      "categorySlug": "other-products",
       "name": "Tamping Rammer",
       "shortDescription": "Compact soil or asphalt in trenches and confined areas.",
       "price": "₹36,000/-",
@@ -475,17 +867,1059 @@
         "Easy-to-start engine for quick deployment",
         "Durable tamping shoe for long-lasting performance"
       ],
-      "category": "compaction Machinery",
+      "category": "Compaction Machinery",
       "specifications": [
         { "label": "Model", "value": "FTR100E" },
         { "label": "Impacting Force", "value": "20kn" },
         { "label": "Dimension", "value": "L600xW600xH1000mm" },
         { "label": "Shoe Size", "value": "L300xW330mm" },
         { "label": "Jumping Height", "value": "45-70mm" },
-        { "label": "weight", "value": "100Kgs" },
-        { "label": "", "value": "" }
+        { "label": "Weight", "value": "100Kgs" }
       ],
-      "brochureUrl": "/brochures/bar-bending-machine.pdf"
+      "brochureUrl": "/brochures/bar-bending-machine.pdf",
+      "seo": {
+        "title": "Tamping Rammer | Jumping Rammer Machine Price India",
+        "description": "Heavy-duty Tamping Rammer with 20kN impact force. Perfect for trench compaction, foundations, and confined spaces. 100kg weight for effective compaction.",
+        "keywords": ["tamping rammer", "jumping rammer", "compaction rammer", "trench compactor", "soil rammer"]
+      },
+      "applications": [
+        "Trench backfill compaction",
+        "Foundation soil compaction",
+        "Pipe bedding",
+        "Repair work in confined areas",
+        "Landscaping compaction"
+      ],
+      "faq": [
+        {
+          "question": "What is the impact force?",
+          "answer": "The rammer delivers 20kN impacting force for effective soil compaction."
+        },
+        {
+          "question": "What is the shoe size?",
+          "answer": "The tamping shoe measures 300mm x 330mm, ideal for confined area work."
+        },
+        {
+          "question": "Is it suitable for trench work?",
+          "answer": "Yes, its compact design and high impact force make it perfect for trench and confined area compaction."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "slug": "gf20-single-phase-bar-bending-machine",
+      "categorySlug": "bar-rebar-bending-machines",
+      "name": "GF20 Single Phase Bar Bending Machine (8-16mm)",
+      "shortDescription": "Compact single-phase bar bender for small contractors. Bends 8-16mm TMT bars on 220V power.",
+      "price": "₹33,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GF20%20Single%20Phase%20Bar%20Bending%20Machine",
+      "fullDescription": "The GF20 Single Phase Bar Bending Machine is engineered for small contractors and residential construction projects. Running on standard 220V single-phase electricity, this compact machine eliminates the need for three-phase power connections. Perfect for bending TMT and HYSD bars from 8mm to 16mm diameter with precision foot pedal control.",
+      "mainImage": "/images/products/gf20-single-phase-main.webp",
+      "gallery": [
+        "/images/products/gf20-single-phase-1.webp",
+        "/images/products/gf20-single-phase-2.webp",
+        "/images/products/gf20-single-phase-3.webp"
+      ],
+      "features": [
+        "Single Phase 220V Operation - No 3-phase required",
+        "8mm to 16mm bending capacity",
+        "Foot pedal control for hands-free operation",
+        "Compact design - only 75kg weight",
+        "0° to 180° adjustable bending angles",
+        "Angle stopper for consistent bends"
+      ],
+      "category": "Bending Machines",
+      "specifications": [
+        { "label": "Model Number", "value": "GF20-1PH" },
+        { "label": "Bending Capacity", "value": "8mm - 16mm" },
+        { "label": "Power Supply", "value": "220V, Single Phase, 50Hz" },
+        { "label": "Motor Power", "value": "1.5 kW / 2 HP" },
+        { "label": "Bending Angle", "value": "0° - 180°" },
+        { "label": "Bending Speed", "value": "20-25 bends/min" },
+        { "label": "Machine Weight", "value": "~75 kg" },
+        { "label": "Dimensions", "value": "650mm × 450mm × 700mm" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "GF20 Single Phase Bar Bending Machine 8-16mm | ₹33,000 | HMS",
+        "description": "Buy GF20 Single Phase Bar Bending Machine at ₹33,000. Bends 8-16mm TMT bars on 220V power. Ideal for small contractors. 6-month warranty. Fast delivery 1-3 days.",
+        "keywords": ["GF20 bar bending machine", "single phase bar bender", "16mm bar bending machine", "small bar bending machine", "portable rebar bender"]
+      },
+      "applications": [
+        "Residential house construction",
+        "Compound wall and fencing",
+        "Small commercial buildings",
+        "Rural area construction",
+        "Individual building projects"
+      ],
+      "faq": [
+        {
+          "question": "Can the GF20 single phase run on home electricity?",
+          "answer": "Yes, it runs on standard 220V single-phase power available in homes and shops. No special electrical setup needed."
+        },
+        {
+          "question": "What is the maximum bar diameter?",
+          "answer": "The GF20 single phase can bend TMT bars from 8mm to 16mm diameter."
+        },
+        {
+          "question": "Is it portable?",
+          "answer": "Yes, weighing only 75kg, it can be easily transported in a small pickup or tempo."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "slug": "gf20-three-phase-bar-bending-machine",
+      "categorySlug": "bar-rebar-bending-machines",
+      "name": "GF20 Three Phase Bar Bending Machine (8-16mm)",
+      "shortDescription": "Industrial 3-phase bar bender for heavy-duty use. Same 8-16mm capacity with continuous operation.",
+      "price": "₹35,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GF20%20Three%20Phase%20Bar%20Bending%20Machine",
+      "fullDescription": "The GF20 Three Phase Bar Bending Machine delivers industrial-grade performance for fabrication units and large construction sites. With a powerful 2.2kW three-phase motor running on 415V, this machine handles continuous heavy-duty operation without overheating. Perfect for high-volume stirrup production.",
+      "mainImage": "/images/products/gf20-three-phase-main.webp",
+      "gallery": [
+        "/images/products/gf20-three-phase-1.webp",
+        "/images/products/gf20-three-phase-2.webp",
+        "/images/products/gf20-three-phase-3.webp"
+      ],
+      "features": [
+        "Three Phase 415V Industrial Power",
+        "8mm to 16mm bending capacity",
+        "2.2kW motor - 45% more power than single phase",
+        "Continuous duty rating for all-day operation",
+        "28-32 bends per minute",
+        "Foot pedal control"
+      ],
+      "category": "Bending Machines",
+      "specifications": [
+        { "label": "Model Number", "value": "GF20-3PH" },
+        { "label": "Bending Capacity", "value": "8mm - 16mm" },
+        { "label": "Power Supply", "value": "415V, Three Phase, 50Hz" },
+        { "label": "Motor Power", "value": "2.2 kW / 3 HP" },
+        { "label": "Bending Speed", "value": "28-32 bends/min" },
+        { "label": "Machine Weight", "value": "~85 kg" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "GF20 Three Phase Bar Bending Machine | Industrial Grade | HMS",
+        "description": "Buy GF20 Three Phase Bar Bending Machine at ₹35,000. Industrial 415V power for continuous operation. 8-16mm capacity. 6-month warranty. Fast delivery.",
+        "keywords": ["GF20 three phase bar bender", "industrial bar bending machine", "3 phase rebar bender", "heavy duty bar bender"]
+      },
+      "applications": [
+        "Fabrication units",
+        "Large construction sites",
+        "High-volume stirrup production",
+        "Multi-building projects"
+      ],
+      "faq": [
+        {
+          "question": "What's the difference from single phase GF20?",
+          "answer": "The three phase version has a more powerful 2.2kW motor with continuous duty rating for all-day operation and faster bending speeds."
+        },
+        {
+          "question": "Do I need special electrical setup?",
+          "answer": "Yes, you need 415V three-phase power connection with minimum 5kVA capacity."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "slug": "gf25-single-phase-bar-bending-machine",
+      "categorySlug": "bar-rebar-bending-machines",
+      "name": "GF25 Single Phase Bar Bending Machine (8-20mm)",
+      "shortDescription": "Higher capacity single-phase bar bender. Bends up to 20mm TMT bars on 220V power.",
+      "price": "₹35,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GF25%20Single%20Phase%20Bar%20Bending%20Machine",
+      "fullDescription": "The GF25 Single Phase breaks the barrier - bend bars up to 20mm diameter using standard 220V single-phase power. This machine bridges the gap between entry-level and industrial equipment, perfect for growing contractors handling G+2 and G+3 buildings.",
+      "mainImage": "/images/products/gf25-single-phase-main.webp",
+      "gallery": [
+        "/images/products/gf25-single-phase-1.webp",
+        "/images/products/gf25-single-phase-2.webp",
+        "/images/products/gf25-single-phase-3.webp"
+      ],
+      "features": [
+        "20mm capacity on single phase power",
+        "220V single phase operation",
+        "2.2kW high-torque motor",
+        "8mm to 20mm bending range",
+        "Ideal for G+2/G+3 buildings",
+        "No 3-phase connection required"
+      ],
+      "category": "Bending Machines",
+      "specifications": [
+        { "label": "Model Number", "value": "GF25-1PH" },
+        { "label": "Bending Capacity", "value": "8mm - 20mm" },
+        { "label": "Power Supply", "value": "220V, Single Phase, 50Hz" },
+        { "label": "Motor Power", "value": "2.2 kW / 3 HP" },
+        { "label": "Bending Speed", "value": "18-22 bends/min" },
+        { "label": "Machine Weight", "value": "~95 kg" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "GF25 Single Phase Bar Bending Machine 20mm | ₹35,000 | HMS",
+        "description": "Buy GF25 Single Phase Bar Bending Machine at ₹35,000. Bend 20mm TMT bars on 220V power. Perfect for G+2/G+3 buildings. 6-month warranty. Fast delivery.",
+        "keywords": ["GF25 bar bending machine", "20mm bar bender single phase", "higher capacity bar bender", "G+3 building bar bender"]
+      },
+      "applications": [
+        "G+2 and G+3 residential buildings",
+        "Small commercial buildings",
+        "Rural and semi-urban sites",
+        "Projects without 3-phase power"
+      ],
+      "faq": [
+        {
+          "question": "Can GF25 really bend 20mm on single phase?",
+          "answer": "Yes, it uses a specially designed high-torque motor optimized for 220V single phase to achieve 20mm capacity."
+        },
+        {
+          "question": "What's the difference from GF20?",
+          "answer": "GF25 bends up to 20mm vs 16mm for GF20. It has a more powerful motor and larger bending disc."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "slug": "gf25-three-phase-bar-bending-machine",
+      "categorySlug": "bar-rebar-bending-machines",
+      "name": "GF25 Three Phase Bar Bending Machine (8-20mm)",
+      "shortDescription": "Professional 20mm capacity with industrial 3-phase power. Best value for medium contractors.",
+      "price": "₹38,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GF25%20Three%20Phase%20Bar%20Bending%20Machine",
+      "fullDescription": "The GF25 Three Phase combines 20mm bending capacity with industrial three-phase power for continuous heavy-duty operation. The professional contractor's choice for apartment buildings, commercial projects, and fabrication units.",
+      "mainImage": "/images/products/gf25-three-phase-main.webp",
+      "gallery": [
+        "/images/products/gf25-three-phase-1.webp",
+        "/images/products/gf25-three-phase-2.webp",
+        "/images/products/gf25-three-phase-3.webp"
+      ],
+      "features": [
+        "20mm capacity with 3-phase power",
+        "3.0kW industrial motor",
+        "415V three phase operation",
+        "Continuous duty for all-day use",
+        "25-30 bends per minute",
+        "Professional grade construction"
+      ],
+      "category": "Bending Machines",
+      "specifications": [
+        { "label": "Model Number", "value": "GF25-3PH" },
+        { "label": "Bending Capacity", "value": "8mm - 20mm" },
+        { "label": "Power Supply", "value": "415V, Three Phase, 50Hz" },
+        { "label": "Motor Power", "value": "3.0 kW / 4 HP" },
+        { "label": "Bending Speed", "value": "25-30 bends/min" },
+        { "label": "Machine Weight", "value": "~105 kg" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "GF25 Three Phase Bar Bending Machine 20mm | ₹38,000 | HMS",
+        "description": "Buy GF25 Three Phase Bar Bending Machine at ₹38,000. Professional 20mm capacity with 415V industrial power. Best value for medium contractors.",
+        "keywords": ["GF25 three phase bar bender", "professional bar bending machine", "20mm industrial bar bender", "medium contractor equipment"]
+      },
+      "applications": [
+        "Apartment buildings G+3/G+4",
+        "Commercial construction",
+        "Fabrication yards",
+        "Multi-project operations"
+      ],
+      "faq": [
+        {
+          "question": "Why choose GF25 three phase over single phase?",
+          "answer": "The three phase version has a 3kW motor with continuous duty rating for faster speeds and all-day operation without overheating."
+        },
+        {
+          "question": "Is this suitable for fabrication businesses?",
+          "answer": "Yes, it's excellent for small to medium fabrication units. The industrial duty cycle handles daily production reliably."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "slug": "gw42-three-phase-bar-bending-machine",
+      "categorySlug": "bar-rebar-bending-machines",
+      "name": "GW42 Bar Bending Machine (16-32mm)",
+      "shortDescription": "Heavy-duty 32mm capacity bar bender. Best seller for infrastructure projects.",
+      "price": "₹75,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GW42%20Bar%20Bending%20Machine",
+      "fullDescription": "The GW42 is the industry workhorse - our best-selling heavy-duty bar bending machine. With 32mm capacity and digital control panel, it handles infrastructure projects, high-rises, and commercial buildings with ease.",
+      "mainImage": "/images/products/gw42-bar-bending-main.webp",
+      "gallery": ["/images/products/gw42-bar-bending-1.webp", "/images/products/gw42-bar-bending-2.webp"],
+      "features": ["32mm maximum capacity", "Digital control panel", "3.2kW industrial motor", "10-20 bends per minute", "Heavy-duty gearbox"],
+      "category": "Bending Machines",
+      "specifications": [
+        { "label": "Model", "value": "GW42-J" },
+        { "label": "Capacity", "value": "16-32mm" },
+        { "label": "Motor", "value": "3.2kW / 4.3HP" },
+        { "label": "Weight", "value": "~320kg" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "GW42 Bar Bending Machine 32mm | Best Seller | ₹75,000",
+        "description": "Buy GW42 Bar Bending Machine at ₹75,000. 32mm capacity with digital control. Best seller for infrastructure. 6-month warranty. Fast delivery.",
+        "keywords": ["GW42 bar bending machine", "32mm bar bender", "heavy duty bar bender", "infrastructure bar bender"]
+      },
+      "applications": ["Infrastructure projects", "High-rise buildings", "Fabrication yards", "Commercial construction"],
+      "faq": [{ "question": "Why is GW42 the best seller?", "answer": "It offers the best balance of 32mm capacity, digital control features, and price at ₹75,000." }]
+    },
+    {
+      "id": 21,
+      "slug": "gw52-three-phase-bar-bending-machine",
+      "categorySlug": "bar-rebar-bending-machines",
+      "name": "GW52 Bar Bending Machine (16-42mm)",
+      "shortDescription": "Maximum 42mm capacity for bridges and heavy infrastructure.",
+      "price": "₹95,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GW52%20Bar%20Bending%20Machine",
+      "fullDescription": "The GW52 delivers maximum 42mm bending capacity for heavy infrastructure projects. Built for bridges, metro viaducts, and industrial foundations with a powerful 4HP motor.",
+      "mainImage": "/images/products/gw52-bar-bending-main.webp",
+      "gallery": ["/images/products/gw52-bar-bending-1.webp", "/images/products/gw52-bar-bending-2.webp"],
+      "features": ["42mm maximum capacity", "4HP industrial motor", "Heavy-duty 550kg frame", "Digital control panel", "For bridges and metros"],
+      "category": "Bending Machines",
+      "specifications": [
+        { "label": "Model", "value": "GW52-J" },
+        { "label": "Capacity", "value": "16-42mm" },
+        { "label": "Motor", "value": "4.0kW / 5.4HP" },
+        { "label": "Weight", "value": "~550kg" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "GW52 Bar Bending Machine 42mm | Heavy Infrastructure | ₹95,000",
+        "description": "Buy GW52 Bar Bending Machine at ₹95,000. Maximum 42mm capacity for bridges and metro projects. 6-month warranty. Fast delivery.",
+        "keywords": ["GW52 bar bending machine", "42mm bar bender", "bridge construction equipment", "metro bar bender"]
+      },
+      "applications": ["Bridge construction", "Metro rail projects", "Heavy industrial foundations", "Dam and spillway work"],
+      "faq": [{ "question": "When do I need GW52?", "answer": "Only if your projects require 36-42mm bars - typically bridges, metro viaducts, and heavy industrial work." }]
+    },
+    {
+      "id": 22,
+      "slug": "gute-bar-bending-machine",
+      "categorySlug": "bar-rebar-bending-machines",
+      "name": "GUTE Bar Bending Machine (16-32mm)",
+      "shortDescription": "Premium imported brand with superior build quality.",
+      "price": "₹1,15,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GUTE%20Bar%20Bending%20Machine",
+      "fullDescription": "GUTE is a globally recognized brand known for precision engineering and durability. Premium components, tighter tolerances, and longer service life than standard machines.",
+      "mainImage": "/images/products/gute-bar-bending-main.webp",
+      "gallery": ["/images/products/gute-bar-bending-1.webp", "/images/products/gute-bar-bending-2.webp"],
+      "features": ["Premium imported brand", "Precision-ground gears", "Superior bearings", "Tighter tolerances", "Extended service life"],
+      "category": "Bending Machines",
+      "specifications": [
+        { "label": "Brand", "value": "GUTE (Imported)" },
+        { "label": "Capacity", "value": "16-32mm" },
+        { "label": "Motor", "value": "3.5kW / 4.7HP" },
+        { "label": "Weight", "value": "~340kg" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "GUTE Bar Bending Machine | Premium Import | ₹1,15,000",
+        "description": "Buy GUTE Bar Bending Machine at ₹1,15,000. Premium imported quality, 32mm capacity. Authorized dealer HMS India.",
+        "keywords": ["GUTE bar bending machine", "premium bar bender", "imported bar bending machine", "high quality bar bender"]
+      },
+      "applications": ["High-volume fabrication", "Premium construction projects", "Precision requirements"],
+      "faq": [{ "question": "Why is GUTE more expensive?", "answer": "Premium components, precision manufacturing, and longer service life justify the premium." }]
+    },
+    {
+      "id": 23,
+      "slug": "hms-made-in-india-bar-bending-machine",
+      "categorySlug": "bar-rebar-bending-machines",
+      "name": "HMS Made in India Bar Bending Machine (16-32mm)",
+      "shortDescription": "Premium Indian manufacturing. Best-in-class durability.",
+      "price": "₹1,55,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20HMS%20Made%20in%20India%20Bar%20Bending%20Machine",
+      "fullDescription": "Our flagship Made in India bar bending machine. Premium Bhilai steel, CNC machined components, built for 15-20 years of service. The finest Indian-made bar bender.",
+      "mainImage": "/images/products/hms-india-bar-bending-main.webp",
+      "gallery": ["/images/products/hms-india-bar-bending-1.webp", "/images/products/hms-india-bar-bending-2.webp"],
+      "features": ["100% Made in India", "Premium Bhilai steel frame", "CNC machined gears", "15-20 year service life", "Direct factory support"],
+      "category": "Bending Machines",
+      "specifications": [
+        { "label": "Brand", "value": "HMS India (100% Indian)" },
+        { "label": "Capacity", "value": "16-32mm" },
+        { "label": "Motor", "value": "4.0kW / 5.4HP" },
+        { "label": "Weight", "value": "~380kg" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "HMS Made in India Bar Bending Machine | Premium | ₹1,55,000",
+        "description": "Buy HMS Made in India Bar Bending Machine at ₹1,55,000. Premium Indian manufacturing, 32mm capacity. Atmanirbhar Bharat.",
+        "keywords": ["HMS Made in India bar bender", "premium Indian bar bending machine", "Atmanirbhar Bharat", "best Indian bar bender"]
+      },
+      "applications": ["Long-term projects", "Established fabrication", "Government projects", "Quality-first operations"],
+      "faq": [{ "question": "Why is this the most expensive?", "answer": "Premium Indian materials, extra-thick construction, CNC machined parts, built for 15-20 years." }]
+    },
+    {
+      "id": 24,
+      "slug": "nrb32-portable-bar-bending-machine",
+      "categorySlug": "bar-rebar-bending-machines",
+      "name": "NRB32 Portable Bar Bending Machine (32mm)",
+      "shortDescription": "Portable 32mm capacity. Easy site-to-site transport.",
+      "price": "₹95,000/- + GST 18%",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20NRB32%20Portable%20Bar%20Bending%20Machine",
+      "fullDescription": "The NRB32 gives you 32mm capacity in a portable package. At 180kg with integrated handles, 4 workers can move it without cranes. Designed for contractors working across multiple sites.",
+      "mainImage": "/images/products/nrb32-portable-main.webp",
+      "gallery": ["/images/products/nrb32-portable-1.webp", "/images/products/nrb32-portable-2.webp"],
+      "features": ["32mm portable capacity", "180kg lightweight design", "Integrated carry handles", "Quick site setup", "No crane needed"],
+      "category": "Bending Machines",
+      "specifications": [
+        { "label": "Model", "value": "NRB32" },
+        { "label": "Capacity", "value": "Up to 32mm" },
+        { "label": "Motor", "value": "3.0kW / 4HP" },
+        { "label": "Weight", "value": "~180kg (Portable)" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "NRB32 Portable Bar Bending Machine 32mm | ₹95,000 + GST",
+        "description": "Buy NRB32 Portable Bar Bending Machine at ₹95,000 + GST. 32mm capacity in portable design. No crane needed.",
+        "keywords": ["NRB32 portable bar bender", "portable 32mm bar bending machine", "mobile bar bender", "site portable rebar bender"]
+      },
+      "applications": ["Multi-site contractors", "Remote access sites", "Equipment rental", "Mobile operations"],
+      "faq": [{ "question": "How portable is NRB32?", "answer": "At 180kg with handles, 4 workers can move it. No crane needed unlike standard 320kg machines." }]
+    },
+    {
+      "id": 25,
+      "slug": "concrete-mixer-240l-1-5hp-staring-type",
+      "categorySlug": "concrete-mixers",
+      "name": "Concrete Mixer 240L - 1.5HP Staring Type",
+      "shortDescription": "Compact half-bag mixer with 1.5HP staring type motor. Single phase operation for small sites.",
+      "price": "₹23,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20240L%20Concrete%20Mixer%20(Staring%20Type)%20at%20Rs.23%2C000",
+      "fullDescription": "The 240L Concrete Mixer with 1.5HP Staring Type Motor is the perfect entry-level machine for small contractors, individual builders, and residential projects. With half-bag mixing capacity and single-phase power operation, this mixer delivers professional-quality concrete without the high investment of larger industrial units.",
+      "mainImage": "/images/products/concrete-mixer-240l-staring-main.webp",
+      "gallery": [
+        "/images/products/concrete-mixer-240l-staring-1.webp",
+        "/images/products/concrete-mixer-240l-staring-2.webp",
+        "/images/products/concrete-mixer-240l-staring-3.webp"
+      ],
+      "features": [
+        "240L drum capacity - Half bag mixing",
+        "1.5HP Staring Type Motor - Smooth start, less power surge",
+        "Single Phase 220V Operation",
+        "Tilting drum for easy discharge",
+        "Portable with sturdy wheels",
+        "Budget-friendly entry-level option"
+      ],
+      "category": "Concrete Mixer",
+      "specifications": [
+        { "label": "Drum Capacity", "value": "240 Liters (Half Bag)" },
+        { "label": "Motor Power", "value": "1.5 HP" },
+        { "label": "Motor Type", "value": "Staring Type (Star-Delta Start)" },
+        { "label": "Power Supply", "value": "220V, Single Phase, 50Hz" },
+        { "label": "Drum Speed", "value": "14-16 RPM" },
+        { "label": "Drum Type", "value": "Tilting Drum" },
+        { "label": "Mixing Output", "value": "~160-180 Liters/batch" },
+        { "label": "Warranty", "value": "6 Months" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "Concrete Mixer 240L 1.5HP Staring Type | ₹23,000 | HMS",
+        "description": "Buy 240L Concrete Mixer with 1.5HP Staring Type Motor at ₹23,000. Half-bag capacity, single phase operation. Perfect for small construction sites. 6-month warranty.",
+        "keywords": ["240L concrete mixer", "1.5HP cement mixer", "half bag mixer", "staring type motor mixer", "small concrete mixer price", "portable mixer India"]
+      },
+      "applications": [
+        "Individual house construction",
+        "Compound walls and fencing",
+        "Repair and renovation work",
+        "Small commercial buildings",
+        "Farm and agricultural construction"
+      ],
+      "faq": [
+        {
+          "question": "What does 'Staring Type' motor mean?",
+          "answer": "Staring type refers to star-delta starting mechanism that reduces initial current surge by ~33%, making it easier on weak power supplies and extending motor life."
+        },
+        {
+          "question": "Can this run on home electricity?",
+          "answer": "Yes, it works on standard 220V single-phase power available at homes and small sites. No special electrical setup needed."
+        },
+        {
+          "question": "What is the actual mixing output?",
+          "answer": "The 240L drum produces approximately 160-180 liters of concrete per batch - perfect for half-bag mixing operations."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "slug": "concrete-mixer-280l-1-5hp-handy-type",
+      "categorySlug": "concrete-mixers",
+      "name": "Concrete Mixer 280L - 1.5HP Handy Type",
+      "shortDescription": "Slightly larger capacity mixer with 1.5HP handy type motor. Simple DOL start for stable power.",
+      "price": "₹26,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20280L%20Concrete%20Mixer%20(Handy%20Type)%20at%20Rs.26%2C000",
+      "fullDescription": "The 280L Concrete Mixer with 1.5HP Handy Type Motor offers 40 liters more capacity than the 240L model for just ₹3,000 extra. The handy type motor features simple direct-on-line starting - fewer components, less maintenance, and robust performance for sites with stable power supply.",
+      "mainImage": "/images/products/concrete-mixer-280l-handy-main.webp",
+      "gallery": [
+        "/images/products/concrete-mixer-280l-handy-1.webp",
+        "/images/products/concrete-mixer-280l-handy-2.webp",
+        "/images/products/concrete-mixer-280l-handy-3.webp"
+      ],
+      "features": [
+        "280L drum capacity - 40L more than 240L",
+        "1.5HP Handy Type Motor - Simple DOL start",
+        "Single Phase 220V Operation",
+        "Tilting drum for easy discharge",
+        "Portable with sturdy wheels",
+        "Best value upgrade from 240L"
+      ],
+      "category": "Concrete Mixer",
+      "specifications": [
+        { "label": "Drum Capacity", "value": "280 Liters" },
+        { "label": "Motor Power", "value": "1.5 HP" },
+        { "label": "Motor Type", "value": "Handy Type (DOL Start)" },
+        { "label": "Power Supply", "value": "220V, Single Phase, 50Hz" },
+        { "label": "Drum Speed", "value": "14-16 RPM" },
+        { "label": "Drum Type", "value": "Tilting Drum" },
+        { "label": "Mixing Output", "value": "~180-200 Liters/batch" },
+        { "label": "Warranty", "value": "6 Months" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "Concrete Mixer 280L 1.5HP Handy Type | ₹26,000 | HMS",
+        "description": "Buy 280L Concrete Mixer with 1.5HP Handy Type Motor at ₹26,000. 40L more than 240L model. Simple DOL motor for stable power. 6-month warranty.",
+        "keywords": ["280L concrete mixer", "1.5HP cement mixer", "handy type motor mixer", "small concrete mixer", "DOL motor mixer"]
+      },
+      "applications": [
+        "G+1 and G+2 houses",
+        "Small commercial structures",
+        "Compound walls and driveways",
+        "Multi-floor residential projects"
+      ],
+      "faq": [
+        {
+          "question": "What's the difference between Handy and Staring type?",
+          "answer": "Handy type uses simple DOL starting - robust and low maintenance. Staring type uses star-delta starting to reduce current surge on weak power."
+        },
+        {
+          "question": "Why pay ₹3,000 more than 240L?",
+          "answer": "You get 40L extra drum capacity (17% more) and simpler motor design. Good value for sites with stable power supply."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "slug": "concrete-mixer-250l-2hp-indian-motor",
+      "categorySlug": "concrete-mixers",
+      "name": "Concrete Mixer 250L - 2HP Indian Motor",
+      "shortDescription": "Premium build quality with 2HP Indian motor. Heavy-duty construction for professional contractors.",
+      "price": "₹58,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20250L%202HP%20Indian%20Motor%20Concrete%20Mixer%20at%20Rs.58%2C000",
+      "fullDescription": "The 250L Concrete Mixer with 2HP Indian Motor is built for professional contractors who prioritize durability over initial cost. Premium construction - heavier gauge steel frame, quality Indian-made 2HP motor, better bearings, and components built for years of daily operation.",
+      "mainImage": "/images/products/concrete-mixer-250l-indian-main.webp",
+      "gallery": [
+        "/images/products/concrete-mixer-250l-indian-1.webp",
+        "/images/products/concrete-mixer-250l-indian-2.webp",
+        "/images/products/concrete-mixer-250l-indian-3.webp"
+      ],
+      "features": [
+        "2HP Indian Motor - 33% more power",
+        "Made in India premium quality",
+        "Heavy-duty steel frame construction",
+        "Better bearings and gears",
+        "Built for daily professional use",
+        "Lower total cost of ownership"
+      ],
+      "category": "Concrete Mixer",
+      "specifications": [
+        { "label": "Drum Capacity", "value": "250 Liters" },
+        { "label": "Motor Power", "value": "2 HP Indian Motor" },
+        { "label": "Motor Origin", "value": "Made in India" },
+        { "label": "Power Supply", "value": "220V, Single Phase, 50Hz" },
+        { "label": "Drum Speed", "value": "16-18 RPM" },
+        { "label": "Build Quality", "value": "Professional/Commercial Grade" },
+        { "label": "Mixing Output", "value": "~160-180 Liters/batch" },
+        { "label": "Warranty", "value": "6 Months" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "Concrete Mixer 250L 2HP Indian Motor | ₹58,000 | HMS",
+        "description": "Buy 250L Concrete Mixer with 2HP Indian Motor at ₹58,000. Premium heavy-duty construction. Made in India quality. 6-month warranty.",
+        "keywords": ["250L concrete mixer", "2HP cement mixer", "Indian motor mixer", "heavy duty concrete mixer", "professional mixer"]
+      },
+      "applications": [
+        "Commercial construction",
+        "Multi-project contractors",
+        "Equipment rental business",
+        "Daily professional use"
+      ],
+      "faq": [
+        {
+          "question": "Why is 250L more expensive than 280L?",
+          "answer": "Price reflects build quality, not just capacity. 2HP motor, heavier frame, premium components - built for years of professional daily use."
+        },
+        {
+          "question": "What's special about Indian motors?",
+          "answer": "Designed for Indian voltage conditions (220V with fluctuations), spare parts available everywhere, local mechanics know them."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "slug": "concrete-mixer-350l-3hp-indian-motor",
+      "categorySlug": "concrete-mixers",
+      "name": "Concrete Mixer 350L - 3HP Indian Motor",
+      "shortDescription": "Large 3/4 bag capacity with 3HP motor. Maximum single-phase electric mixer available.",
+      "price": "₹68,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20350L%203HP%20Indian%20Motor%20Concrete%20Mixer%20at%20Rs.68%2C000",
+      "fullDescription": "The 350L Concrete Mixer with 3HP Indian Motor is the largest single-phase electric mixer in our range. With 3/4 bag capacity and double the motor power of entry-level models, it bridges the gap between small electric mixers and full-bag diesel machines.",
+      "mainImage": "/images/products/concrete-mixer-350l-indian-main.webp",
+      "gallery": [
+        "/images/products/concrete-mixer-350l-indian-1.webp",
+        "/images/products/concrete-mixer-350l-indian-2.webp",
+        "/images/products/concrete-mixer-350l-indian-3.webp"
+      ],
+      "features": [
+        "350L drum - 3/4 bag capacity",
+        "3HP Indian Motor - Double power",
+        "Single Phase 220V (25-30A recommended)",
+        "Still electric - no diesel needed",
+        "Fewer batches per pour",
+        "Only ₹10K more than 250L"
+      ],
+      "category": "Concrete Mixer",
+      "specifications": [
+        { "label": "Drum Capacity", "value": "350 Liters (3/4 Bag)" },
+        { "label": "Motor Power", "value": "3 HP Indian Motor" },
+        { "label": "Power Supply", "value": "220V, Single Phase (25-30A)" },
+        { "label": "Drum Speed", "value": "14-16 RPM" },
+        { "label": "Build Quality", "value": "Professional/Commercial Grade" },
+        { "label": "Mixing Output", "value": "~230-260 Liters/batch" },
+        { "label": "Warranty", "value": "6 Months" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "Concrete Mixer 350L 3HP Indian Motor | ₹68,000 | HMS",
+        "description": "Buy 350L Concrete Mixer with 3HP Indian Motor at ₹68,000. Largest single-phase electric mixer. 3/4 bag capacity. 6-month warranty.",
+        "keywords": ["350L concrete mixer", "3HP cement mixer", "large concrete mixer", "3/4 bag mixer", "commercial mixer"]
+      },
+      "applications": [
+        "G+3 and G+4 buildings",
+        "Commercial construction",
+        "Apartment complexes",
+        "Electric-only sites"
+      ],
+      "faq": [
+        {
+          "question": "Does 3HP need three-phase power?",
+          "answer": "No, our 3HP Indian motor runs on single-phase 220V. However, 25-30A dedicated connection recommended."
+        },
+        {
+          "question": "Why not just buy 500L diesel?",
+          "answer": "350L electric costs ₹62K less, has lower running cost, and simpler maintenance. Choose diesel only if you need full-bag or no electricity."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "slug": "concrete-mixer-500l-6hp-kirloskar-diesel",
+      "categorySlug": "concrete-mixers",
+      "name": "Concrete Mixer 500L - 6HP Kirloskar Diesel (Full Bag)",
+      "shortDescription": "Professional full 1-bag mixer with 6HP Kirloskar diesel engine. Industry standard for commercial work.",
+      "price": "₹1,30,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20500L%20Kirloskar%20Diesel%20Concrete%20Mixer%20at%20Rs.1%2C30%2C000",
+      "fullDescription": "The 500L Concrete Mixer with 6HP Kirloskar Diesel Engine is our flagship professional mixer - the industry standard for commercial construction, infrastructure projects, and high-volume work. True full 1-bag capacity powered by India's most trusted diesel engine brand.",
+      "mainImage": "/images/products/concrete-mixer-500l-kirloskar-main.webp",
+      "gallery": [
+        "/images/products/concrete-mixer-500l-kirloskar-1.webp",
+        "/images/products/concrete-mixer-500l-kirloskar-2.webp",
+        "/images/products/concrete-mixer-500l-kirloskar-3.webp"
+      ],
+      "features": [
+        "500L drum - True full 1-bag capacity",
+        "6HP Kirloskar Diesel Engine",
+        "No electricity needed - diesel powered",
+        "Maximum production output",
+        "Industrial grade construction",
+        "Nationwide Kirloskar service network"
+      ],
+      "category": "Concrete Mixer",
+      "specifications": [
+        { "label": "Drum Capacity", "value": "500 Liters (Full 1-Bag)" },
+        { "label": "Engine Power", "value": "6 HP Kirloskar Diesel" },
+        { "label": "Fuel Type", "value": "Diesel" },
+        { "label": "Fuel Consumption", "value": "~1-1.5 Liters/Hour" },
+        { "label": "Drum Speed", "value": "14 RPM" },
+        { "label": "Build Quality", "value": "Industrial Grade" },
+        { "label": "Mixing Output", "value": "~350-400 Liters/batch" },
+        { "label": "Warranty", "value": "6 Months + Kirloskar terms" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "Concrete Mixer 500L 6HP Kirloskar Diesel | ₹1,30,000 | HMS",
+        "description": "Buy 500L Full Bag Concrete Mixer with 6HP Kirloskar Diesel Engine at ₹1,30,000. Industry standard for commercial work. No electricity needed.",
+        "keywords": ["500L concrete mixer", "Kirloskar diesel mixer", "full bag mixer", "1 bag concrete mixer", "commercial mixer"]
+      },
+      "applications": [
+        "Commercial construction",
+        "Infrastructure projects",
+        "Large residential complexes",
+        "Remote sites without power"
+      ],
+      "faq": [
+        {
+          "question": "Why Kirloskar engine?",
+          "answer": "India's most trusted diesel brand - 75+ years heritage, nationwide service, parts available everywhere, government contract acceptance."
+        },
+        {
+          "question": "What's the fuel consumption?",
+          "answer": "Approximately 1-1.5 liters diesel per hour under normal mixing load. Daily (8 hours) around 10 liters."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "slug": "gq42-bar-cutting-machine",
+      "categorySlug": "bar-rebar-cutting-machines",
+      "name": "GQ42 Bar Cutting Machine (8-16mm)",
+      "shortDescription": "Compact bar cutter for small contractors. Cuts 8-16mm TMT bars with precision. Entry-level cutting machine.",
+      "price": "₹75,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GQ42%20Bar%20Cutting%20Machine%20at%20Rs.75%2C000",
+      "fullDescription": "The GQ42 Bar Cutting Machine is engineered for small contractors, individual builders, and residential construction projects. This compact yet powerful machine cuts TMT and HYSD bars from 8mm to 16mm with clean, precise cuts. With its robust construction and safety features, it increases productivity significantly compared to manual cutting methods.",
+      "mainImage": "/images/products/gq42-bar-cutting-main.webp",
+      "gallery": [
+        "/images/products/gq42-bar-cutting-1.webp",
+        "/images/products/gq42-bar-cutting-2.webp",
+        "/images/products/gq42-bar-cutting-3.webp"
+      ],
+      "features": [
+        "8mm to 16mm cutting capacity",
+        "25-30 cuts per minute",
+        "Safety blade guard and emergency stop",
+        "Compact design - ~120kg weight",
+        "High-strength alloy steel blade",
+        "Heavy-duty cast iron frame"
+      ],
+      "category": "Cutting Machines",
+      "specifications": [
+        { "label": "Model Number", "value": "GQ42" },
+        { "label": "Cutting Capacity", "value": "8mm - 16mm" },
+        { "label": "Power Supply", "value": "415V, Three Phase, 50Hz" },
+        { "label": "Motor Power", "value": "2.2 kW / 3 HP" },
+        { "label": "Cutting Speed", "value": "25-30 cuts/min" },
+        { "label": "Machine Weight", "value": "~120 kg" },
+        { "label": "Dimensions", "value": "750mm × 450mm × 650mm" },
+        { "label": "Warranty", "value": "6 Months" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "GQ42 Bar Cutting Machine 8-16mm | ₹75,000 | Hutaib Machinery",
+        "description": "Buy GQ42 Bar Cutting Machine at ₹75,000. Cuts 8-16mm TMT bars with precision. Ideal for small contractors. 6-month warranty. Fast delivery across South India.",
+        "keywords": ["GQ42 bar cutting machine", "16mm bar cutter", "small bar cutting machine", "rebar cutter India", "TMT bar cutting machine"]
+      },
+      "applications": [
+        "Residential house construction",
+        "Compound wall and fencing",
+        "Small commercial buildings",
+        "Rural area construction",
+        "Individual building projects"
+      ],
+      "faq": [
+        {
+          "question": "What is the maximum cutting capacity?",
+          "answer": "The GQ42 can cut TMT and HYSD bars from 8mm to 16mm diameter - ideal for residential construction."
+        },
+        {
+          "question": "What power supply does it need?",
+          "answer": "The GQ42 requires 415V, 3-phase power supply. A stable 3-phase electrical connection is needed."
+        },
+        {
+          "question": "Is the GQ42 portable?",
+          "answer": "Yes, at ~120kg it can be transported in a small vehicle and moved between sites as needed."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "slug": "gq52-bar-cutting-machine",
+      "categorySlug": "bar-rebar-cutting-machines",
+      "name": "GQ52 Bar Cutting Machine (8-42mm)",
+      "shortDescription": "Heavy-duty bar cutter for infrastructure & commercial projects. Cuts 8-42mm TMT bars with industrial 4kW motor.",
+      "price": "₹93,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GQ52%20Bar%20Cutting%20Machine%20at%20Rs.93%2C000",
+      "fullDescription": "The GQ52 Bar Cutting Machine is the workhorse for serious construction projects. With 42mm maximum capacity and a powerful 4kW industrial motor, it handles everything from stirrups to heavy main reinforcement bars for bridges, high-rises, and industrial structures. Built for continuous operation in demanding conditions.",
+      "mainImage": "/images/products/gq52-bar-cutting-main.webp",
+      "gallery": [
+        "/images/products/gq52-bar-cutting-1.webp",
+        "/images/products/gq52-bar-cutting-2.webp",
+        "/images/products/gq52-bar-cutting-3.webp"
+      ],
+      "features": [
+        "8mm to 42mm cutting capacity",
+        "20-28 cuts per minute",
+        "4kW / 5.4HP industrial motor",
+        "Full blade guard and emergency stop",
+        "Motor protection system",
+        "Heavy-duty cast iron frame (~280kg)"
+      ],
+      "category": "Cutting Machines",
+      "specifications": [
+        { "label": "Model Number", "value": "GQ52" },
+        { "label": "Cutting Capacity", "value": "8mm - 42mm" },
+        { "label": "Power Supply", "value": "415V, Three Phase, 50Hz" },
+        { "label": "Motor Power", "value": "4.0 kW / 5.4 HP" },
+        { "label": "Cutting Speed", "value": "20-28 cuts/min" },
+        { "label": "Machine Weight", "value": "~280 kg" },
+        { "label": "Dimensions", "value": "950mm × 550mm × 750mm" },
+        { "label": "Warranty", "value": "6 Months" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "GQ52 Bar Cutting Machine 8-42mm | ₹93,000 | Hutaib Machinery",
+        "description": "Buy GQ52 Bar Cutting Machine at ₹93,000. Heavy-duty cutter for 8-42mm TMT bars. Ideal for infrastructure & commercial projects. 6-month warranty. Fast delivery.",
+        "keywords": ["GQ52 bar cutting machine", "42mm bar cutter", "heavy duty bar cutting machine", "infrastructure rebar cutter", "commercial bar cutter"]
+      },
+      "applications": [
+        "Infrastructure projects (bridges, flyovers)",
+        "High-rise buildings",
+        "Commercial construction",
+        "Rebar fabrication yards",
+        "Industrial structures"
+      ],
+      "faq": [
+        {
+          "question": "What is the maximum cutting capacity?",
+          "answer": "The GQ52 can cut TMT and HYSD bars from 8mm to 42mm diameter - covering all bar sizes used in construction."
+        },
+        {
+          "question": "What's the difference from GQ42?",
+          "answer": "GQ52 cuts up to 42mm (vs 16mm for GQ42), has a more powerful 4kW motor, and weighs ~280kg. For ₹18K more, you get 2.6x more capacity."
+        },
+        {
+          "question": "Is this suitable for infrastructure work?",
+          "answer": "Yes, the 42mm capacity is essential for bridges, flyovers, and heavy structural work that uses 32-42mm main bars."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "slug": "gute-gq40-bar-cutting-machine",
+      "categorySlug": "bar-rebar-cutting-machines",
+      "name": "GUTE GQ40 Bar Cutting Machine with Indian Motor (8-32mm)",
+      "shortDescription": "Premium GUTE brand with Indian motor. Precision engineering, superior build quality. 8-32mm capacity.",
+      "price": "₹1,10,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GUTE%20GQ40%20Bar%20Cutting%20Machine%20at%20Rs.1%2C10%2C000",
+      "fullDescription": "The GUTE GQ40 combines internationally-recognized precision engineering with an Indian motor designed for local conditions. Precision-ground gears, superior bearings, and tighter tolerances deliver consistently clean cuts and longer service life.",
+      "mainImage": "/images/products/gute-gq40-bar-cutting-main.webp",
+      "gallery": [
+        "/images/products/gute-gq40-bar-cutting-1.webp",
+        "/images/products/gute-gq40-bar-cutting-2.webp",
+        "/images/products/gute-gq40-bar-cutting-3.webp"
+      ],
+      "features": [
+        "Premium GUTE brand engineering",
+        "Indian motor for local serviceability",
+        "8mm to 32mm cutting capacity",
+        "Precision-ground gears and bearings",
+        "22-30 cuts per minute",
+        "Superior build quality and longer life"
+      ],
+      "category": "Cutting Machines",
+      "specifications": [
+        { "label": "Brand", "value": "GUTE (Premium Imported)" },
+        { "label": "Model Number", "value": "GQ40" },
+        { "label": "Cutting Capacity", "value": "8mm - 32mm" },
+        { "label": "Power Supply", "value": "415V, Three Phase, 50Hz" },
+        { "label": "Motor Power", "value": "3.5 kW / 4.7 HP Indian Motor" },
+        { "label": "Cutting Speed", "value": "22-30 cuts/min" },
+        { "label": "Machine Weight", "value": "~320 kg" },
+        { "label": "Warranty", "value": "6 Months" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "GUTE GQ40 Bar Cutting Machine | Indian Motor | ₹1,10,000 | HMS",
+        "description": "Buy GUTE GQ40 Bar Cutting Machine with Indian Motor at ₹1,10,000. Premium imported brand, 8-32mm capacity. Superior build quality. 6-month warranty.",
+        "keywords": ["GUTE bar cutting machine", "GQ40 bar cutter", "premium bar cutting machine", "imported bar cutter", "GUTE GQ40 price"]
+      },
+      "applications": [
+        "Commercial construction",
+        "Fabrication yards",
+        "Quality-critical projects",
+        "Equipment rental businesses"
+      ],
+      "faq": [
+        {
+          "question": "What makes GUTE different from standard machines?",
+          "answer": "GUTE features precision-ground gears, superior bearings, and tighter tolerances for cleaner cuts and longer service life."
+        },
+        {
+          "question": "Why Indian motor?",
+          "answer": "Indian motor handles local voltage conditions, has easy spare parts availability, and can be serviced by any local electrician."
+        },
+        {
+          "question": "Is the premium worth it?",
+          "answer": "If you value build quality and long service life over maximum capacity, yes. Premium components typically last 30-50% longer."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "slug": "hms-made-in-india-bar-cutting-machine",
+      "categorySlug": "bar-rebar-cutting-machines",
+      "name": "HMS Made in India Bar Cutting Machine (8-32mm)",
+      "shortDescription": "Premium 100% Indian manufacturing. Built for 15-20 years service. Bhilai steel, CNC machined components.",
+      "price": "₹1,55,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20HMS%20Made%20in%20India%20Bar%20Cutting%20Machine%20at%20Rs.1%2C55%2C000",
+      "fullDescription": "Our flagship Made in India bar cutting machine. Built with premium Bhilai steel, CNC machined components, and designed for 15-20 years of professional daily use. 100% Made in India - qualifies for government tenders.",
+      "mainImage": "/images/products/hms-india-bar-cutting-main.webp",
+      "gallery": [
+        "/images/products/hms-india-bar-cutting-1.webp",
+        "/images/products/hms-india-bar-cutting-2.webp",
+        "/images/products/hms-india-bar-cutting-3.webp"
+      ],
+      "features": [
+        "100% Made in India",
+        "Premium Bhilai steel frame",
+        "CNC machined gears and components",
+        "15-20 year service life",
+        "8mm to 32mm cutting capacity",
+        "Direct factory support from HMS"
+      ],
+      "category": "Cutting Machines",
+      "specifications": [
+        { "label": "Brand", "value": "HMS India (100% Made in India)" },
+        { "label": "Model Number", "value": "HMS-BC32-INDIA" },
+        { "label": "Cutting Capacity", "value": "8mm - 32mm" },
+        { "label": "Power Supply", "value": "415V, Three Phase, 50Hz" },
+        { "label": "Motor Power", "value": "4.0 kW / 5.4 HP Premium Indian Motor" },
+        { "label": "Cutting Speed", "value": "22-28 cuts/min" },
+        { "label": "Machine Weight", "value": "~380 kg" },
+        { "label": "Expected Life", "value": "15-20 Years" },
+        { "label": "Warranty", "value": "6 Months + AMC" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "HMS Made in India Bar Cutting Machine | Premium | ₹1,55,000 | Atmanirbhar",
+        "description": "Buy HMS Made in India Bar Cutting Machine at ₹1,55,000. Premium Indian manufacturing, 8-32mm capacity. Built for 15-20 years. Government tender eligible.",
+        "keywords": ["HMS Made in India bar cutter", "premium Indian bar cutting machine", "Atmanirbhar Bharat", "best Indian bar cutter", "long life bar cutter"]
+      },
+      "applications": [
+        "Government projects",
+        "Long-term fabrication operations",
+        "Family businesses",
+        "Quality-first operations"
+      ],
+      "faq": [
+        {
+          "question": "Why is this the most expensive model?",
+          "answer": "Premium Bhilai steel, CNC machined components, and engineering designed for 15-20 years of daily professional use. Lower cost per year over the machine's lifetime."
+        },
+        {
+          "question": "Does it qualify for government tenders?",
+          "answer": "Yes, 100% Made in India - qualifies for all government tenders requiring Indian-manufactured equipment. Indian origin certificates available."
+        },
+        {
+          "question": "How long will it last?",
+          "answer": "Designed for 15-20 years of professional service with proper maintenance. Many customers report 10+ years of daily use with minimal issues."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "slug": "5hp-greaves-diesel-concrete-cutting-machine",
+      "categorySlug": "concrete-groove-cutting-machines",
+      "name": "5HP Greaves Diesel Concrete Cutting Machine",
+      "shortDescription": "Entry-level diesel concrete cutter with Greaves 5HP engine. 240mm depth, wet cutting. Affordable option for small contractors.",
+      "price": "₹55,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%205HP%20Greaves%20Diesel%20Concrete%20Cutting%20Machine%20at%20Rs.55%2C000",
+      "fullDescription": "The 5HP Greaves Diesel Concrete Cutting Machine is the most affordable diesel-powered floor saw in our range.",
+      "mainImage": "/images/products/concrete-cutting-machine-main.webp",
+      "gallery": ["/images/products/concrete-cutting-machine-1.webp", "/images/products/concrete-cutting-machine-2.webp", "/images/products/concrete-cutting-machine-3.webp"],
+      "features": ["Greaves 5HP Diesel Engine", "240mm Maximum Cutting Depth", "35L Water Tank for wet cutting", "Up to 500mm blade capacity", "Lowest running cost"],
+      "category": "Road Cutting Machine",
+      "specifications": [{"label": "Engine", "value": "Greaves 5HP Diesel"}, {"label": "Max Cutting Depth", "value": "240mm"}, {"label": "Water Tank", "value": "35 Liters"}, {"label": "Warranty", "value": "6 Months"}],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {"title": "5HP Greaves Diesel Concrete Cutting Machine | ₹55,000 | HMS", "description": "Buy 5HP Greaves Diesel Concrete Cutting Machine at ₹55,000. Entry-level diesel floor saw with 240mm depth.", "keywords": ["5HP concrete cutting machine", "Greaves diesel concrete cutter", "floor saw price India"]},
+      "applications": ["Road joints and repairs", "Floor cutting for plumbing", "Expansion joint cutting"],
+      "faq": [{"question": "What is the cutting depth?", "answer": "Maximum 240mm cutting depth."}]
+    },
+    {
+      "id": 35,
+      "slug": "honda-13hp-gx390-concrete-cutting-machine",
+      "categorySlug": "concrete-groove-cutting-machines",
+      "name": "Honda 13HP GX390 Concrete Cutting Machine",
+      "shortDescription": "Premium concrete cutter with legendary Honda GX390 engine. World's most reliable 13HP petrol cutter for professional contractors.",
+      "price": "₹75,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20Honda%20GX390%2013HP%20Concrete%20Cutting%20Machine%20at%20Rs.75%2C000",
+      "fullDescription": "The Honda 13HP GX390 Concrete Cutting Machine is the premium choice for contractors who demand the world's most reliable engine.",
+      "mainImage": "/images/products/concrete-cutting-machine-main.webp",
+      "gallery": ["/images/products/concrete-cutting-machine-1.webp", "/images/products/concrete-cutting-machine-2.webp", "/images/products/concrete-cutting-machine-3.webp"],
+      "features": ["Honda GX390 13HP Engine", "World's most reliable small engine", "240mm Maximum Cutting Depth", "35L Water Tank", "Global Honda service network"],
+      "category": "Road Cutting Machine",
+      "specifications": [{"label": "Engine", "value": "Honda GX390 13HP Petrol"}, {"label": "Max Cutting Depth", "value": "240mm"}, {"label": "Water Tank", "value": "35 Liters"}, {"label": "Warranty", "value": "6 Months + Honda"}],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {"title": "Honda 13HP GX390 Concrete Cutting Machine | ₹75,000 | HMS", "description": "Buy Honda 13HP GX390 Concrete Cutting Machine at ₹75,000. World's most reliable engine for professional contractors.", "keywords": ["Honda GX390 concrete cutter", "13HP concrete cutting machine", "Honda engine floor saw"]},
+      "applications": ["Major road construction", "Commercial floor cutting", "Infrastructure projects"],
+      "faq": [{"question": "Why choose Honda?", "answer": "Honda GX390 is the world's most reliable small engine with global service network."}]
+    },
+    {
+      "id": 36,
+      "slug": "husqvarna-13hp-petrol-concrete-cutting-machine",
+      "categorySlug": "concrete-groove-cutting-machines",
+      "name": "Husqvarna 13HP Petrol Concrete Cutting Machine",
+      "shortDescription": "Swedish engineering at best value. 13HP professional cutter for ₹10,000 less than Honda with comparable performance.",
+      "price": "₹65,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20Husqvarna%2013HP%20Petrol%20Concrete%20Cutting%20Machine%20at%20Rs.65%2C000",
+      "fullDescription": "The Husqvarna 13HP Petrol Concrete Cutting Machine delivers Swedish engineering quality at the best price in our 13HP range.",
+      "mainImage": "/images/products/concrete-cutting-machine-main.webp",
+      "gallery": ["/images/products/concrete-cutting-machine-1.webp", "/images/products/concrete-cutting-machine-2.webp", "/images/products/concrete-cutting-machine-3.webp"],
+      "features": ["Husqvarna 13HP Petrol Engine", "Swedish engineering quality", "Best value 13HP option", "240mm Cutting Depth", "35L Water Tank"],
+      "category": "Road Cutting Machine",
+      "specifications": [{"label": "Engine", "value": "Husqvarna 13HP Petrol"}, {"label": "Max Cutting Depth", "value": "240mm"}, {"label": "Water Tank", "value": "35 Liters"}, {"label": "Warranty", "value": "6 Months"}],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {"title": "Husqvarna 13HP Petrol Concrete Cutting Machine | ₹65,000 | HMS", "description": "Buy Husqvarna 13HP Petrol Concrete Cutting Machine at ₹65,000. Swedish quality, best value 13HP cutter.", "keywords": ["Husqvarna concrete cutter", "13HP petrol concrete cutting machine", "Swedish engine floor saw"]},
+      "applications": ["Road construction", "Commercial floor cutting", "Professional contracting"],
+      "faq": [{"question": "How does Husqvarna compare to Honda?", "answer": "Same 13HP power for ₹10,000 less. Swedish quality at better price."}]
+    },
+    {
+      "id": 37,
+      "slug": "10hp-greaves-diesel-gujarat-body-concrete-cutting-machine",
+      "categorySlug": "concrete-groove-cutting-machines",
+      "name": "10HP Greaves Diesel Gujarat Body Concrete Cutting Machine",
+      "shortDescription": "Professional workhorse with Greaves 10HP diesel and heavy-duty Gujarat body. Built for years of daily contractor use.",
+      "price": "₹95,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%2010HP%20Greaves%20Gujarat%20Body%20Concrete%20Cutting%20Machine%20at%20Rs.95%2C000",
+      "fullDescription": "The 10HP Greaves Diesel with Gujarat Body is the professional road contractor's workhorse - reliable, durable, economical.",
+      "mainImage": "/images/products/concrete-cutting-machine-main.webp",
+      "gallery": ["/images/products/concrete-cutting-machine-1.webp", "/images/products/concrete-cutting-machine-2.webp", "/images/products/concrete-cutting-machine-3.webp"],
+      "features": ["Greaves 10HP Diesel Engine", "Gujarat Heavy-Duty Body", "240mm Cutting Depth", "Lowest running costs", "Nationwide service network"],
+      "category": "Road Cutting Machine",
+      "specifications": [{"label": "Engine", "value": "Greaves 10HP Diesel"}, {"label": "Body", "value": "Gujarat Heavy-Duty"}, {"label": "Max Cutting Depth", "value": "240mm"}, {"label": "Warranty", "value": "6 Months + Greaves"}],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {"title": "10HP Greaves Diesel Gujarat Body Concrete Cutter | ₹95,000 | HMS", "description": "Buy 10HP Greaves Diesel Gujarat Body Concrete Cutting Machine at ₹95,000. Professional grade for daily contractor use.", "keywords": ["10HP Greaves concrete cutter", "Gujarat body floor saw", "diesel concrete cutting machine"]},
+      "applications": ["Professional road contracting", "PWD maintenance contracts", "Industrial floor cutting"],
+      "faq": [{"question": "What is Gujarat body?", "answer": "Heavy-duty machine frames from Gujarat with thicker steel and better welding."}]
+    },
+    {
+      "id": 38,
+      "slug": "10hp-greaves-diesel-gujarat-body-starting-type-concrete-cutting-machine",
+      "categorySlug": "concrete-groove-cutting-machines",
+      "name": "10HP Greaves Diesel Gujarat Body Starting Type",
+      "shortDescription": "Premium 10HP Greaves with electric start convenience. One-button starting for professional daily users.",
+      "price": "₹1,15,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%2010HP%20Greaves%20Starting%20Type%20Concrete%20Cutting%20Machine%20at%20Rs.1%2C15%2C000",
+      "fullDescription": "The 10HP Greaves Gujarat Body with Starting Type adds electric start convenience to our professional-grade diesel cutter.",
+      "mainImage": "/images/products/concrete-cutting-machine-main.webp",
+      "gallery": ["/images/products/concrete-cutting-machine-1.webp", "/images/products/concrete-cutting-machine-2.webp", "/images/products/concrete-cutting-machine-3.webp"],
+      "features": ["Electric Start (Self Start)", "Greaves 10HP Diesel Engine", "Gujarat Heavy-Duty Body", "240mm Cutting Depth", "Manual backup start"],
+      "category": "Road Cutting Machine",
+      "specifications": [{"label": "Engine", "value": "Greaves 10HP Diesel (Electric Start)"}, {"label": "Body", "value": "Gujarat Heavy-Duty"}, {"label": "Starting", "value": "Electric + Manual Backup"}, {"label": "Warranty", "value": "6 Months + Greaves"}],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {"title": "10HP Greaves Starting Type Concrete Cutting Machine | ₹1,15,000 | HMS", "description": "Buy 10HP Greaves Starting Type Concrete Cutting Machine at ₹1,15,000. Electric start convenience for daily professional use.", "keywords": ["10HP Greaves starting type", "electric start concrete cutter", "self start floor saw"]},
+      "applications": ["Daily professional use", "High-volume operations", "Multi-operator businesses"],
+      "faq": [{"question": "What is Starting Type?", "answer": "Electric start - press button instead of hand cranking."}]
+    },
+    {
+      "id": 39,
+      "slug": "vst-shakti-13hp-diesel-concrete-cutting-machine",
+      "categorySlug": "concrete-groove-cutting-machines",
+      "name": "VST Shakti 13HP Diesel Concrete Cutting Machine",
+      "shortDescription": "Maximum power diesel cutter with water-cooled VST Shakti 13HP engine. Top choice for heavy infrastructure work.",
+      "price": "₹1,30,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20VST%20Shakti%2013HP%20Diesel%20Concrete%20Cutting%20Machine%20at%20Rs.1%2C30%2C000",
+      "fullDescription": "The VST Shakti 13HP Diesel is our flagship diesel cutter - maximum power with water cooling for heavy infrastructure projects.",
+      "mainImage": "/images/products/concrete-cutting-machine-main.webp",
+      "gallery": ["/images/products/concrete-cutting-machine-1.webp", "/images/products/concrete-cutting-machine-2.webp", "/images/products/concrete-cutting-machine-3.webp"],
+      "features": ["VST Shakti 13HP Diesel Engine", "Water-Cooled for sustained operation", "Maximum diesel power", "240mm Cutting Depth", "Heavy infrastructure grade"],
+      "category": "Road Cutting Machine",
+      "specifications": [{"label": "Engine", "value": "VST Shakti 13HP Diesel (Water Cooled)"}, {"label": "Max Cutting Depth", "value": "240mm"}, {"label": "Cooling", "value": "Water Cooled"}, {"label": "Warranty", "value": "6 Months + VST"}],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {"title": "VST Shakti 13HP Diesel Concrete Cutting Machine | ₹1,30,000 | HMS", "description": "Buy VST Shakti 13HP Diesel Concrete Cutting Machine at ₹1,30,000. Maximum power water-cooled diesel for infrastructure.", "keywords": ["VST Shakti 13HP concrete cutter", "water cooled diesel floor saw", "heavy duty concrete cutting machine"]},
+      "applications": ["Airport runway work", "National highway projects", "Industrial infrastructure"],
+      "faq": [{"question": "Why water cooling?", "answer": "Maintains consistent temperature during sustained heavy operation without overheating."}]
     }
   ]
 }

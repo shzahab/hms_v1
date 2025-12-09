@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState, useEffect } from "react";
@@ -8,7 +7,7 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { Button } from "@/components/ui/button";
 import { ShimmerButton } from "@/components/magicui/shimmer-button";
-import { ArrowRight, ChevronDown } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import productsData from "@/app/data/products.json";
 import SpecificationsTable from "./specifications-table";
 import BenefitsSection from "./benefits-section";
@@ -25,21 +24,16 @@ function createSlug(name: string) {
 }
 
 export default function BarCuttingMachinePage() {
-  const [activeTab, setActiveTab] = useState("description");
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [otherProducts, setOtherProducts] = useState<any[]>([]);
 
-  const tabs = [
-    { id: "description", label: "Description" },
-    { id: "specifications", label: "Specifications" },
-    { id: "benefits", label: "Benefits" },
-    { id: "applications", label: "Applications" },
-  ];
-
-  // Get random products excluding the current one
-  const otherProducts = productsData.products
-    .filter(p => p.name !== "Bar / Rebar Cutting Machine")
-    .sort(() => 0.5 - Math.random())
-    .slice(0, 4);
+  // Get random products excluding the current one (client-side only to avoid hydration errors)
+  useEffect(() => {
+    const randomProducts = productsData.products
+      .filter(p => p.name !== "Bar / Rebar Cutting Machine")
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 4);
+    setOtherProducts(randomProducts);
+  }, []);
 
   return (
     <div className="min-h-screen bg-background text-foreground font-sans">
@@ -55,9 +49,9 @@ export default function BarCuttingMachinePage() {
           {/* Product Title Section */}
           <div className="mb-8">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-3 tracking-tight">
-              HMS Bar Cutting Machine
+              Bar Cutting Machine for South Indian Construction Projects
             </h1>
-            <p className="text-xl text-gray-600 font-medium">High-Speed Precision Cutting for Steel Reinforcement</p>
+            <p className="text-xl text-gray-600 font-medium">High-Speed Precision Steel Cutting | 25+ Years Trusted Supplier</p>
           </div>
 
           {/* Product Overview Section */}
@@ -66,7 +60,7 @@ export default function BarCuttingMachinePage() {
             <div className="bg-white p-4 rounded-lg shadow">
               <Image
                 src="/images/products/bar-cutting-machine-main.webp"
-                alt="HMS Bar Cutting Machine - High-speed precision cutting equipment for steel reinforcement bars with safety guards and portable design"
+                alt="Hutaib Machinery bar cutting machine 42mm cutting TMT steel rebar at construction site in South India"
                 width={600}
                 height={400}
                 className="w-full object-cover rounded"
@@ -77,24 +71,30 @@ export default function BarCuttingMachinePage() {
             {/* Product Quick Details */}
             <div className="bg-white p-8 rounded-lg shadow">
               <h2 className="text-3xl font-bold text-gray-800 mb-4 tracking-tight">
-                Revolutionizing Steel Processing with Advanced Cutting Technology
+                Trusted Bar Cutting Solutions Since 1999
               </h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                The <strong>HMS Bar Cutting Machine</strong> delivers{" "}
-                <strong>high-speed, precise cutting</strong> of steel reinforcement bars. Engineered for{" "}
-                <strong>durability, safety, and efficiency</strong>, it's essential for{" "}
-                <strong>construction sites, steel fabrication workshops, and infrastructure projects</strong>.
+                The Bar Cutting Machine from Hutaib Machinery delivers high-speed, precision cutting of steel reinforcement bars for construction projects across South India. Designed for rebar fabricators, construction contractors, and infrastructure developers, this machine cuts TMT bars up to 42mm diameter with clean, burr-free edges. With its powerful motor and advanced blade technology, it increases productivity by up to 50% compared to manual cutting methods while ensuring operator safety for TMT and HYSD bars used in Indian construction standards.
               </p>
 
               <div className="mb-8">
-                <h3 className="text-xl font-bold text-gray-800 mb-4">Key Features:</h3>
-                <ul className="list-disc pl-5 text-gray-600 space-y-2 text-lg">
-                  <li>Cuts rebar up to 60mm diameter</li>
-                  <li>High-speed cutting for maximum productivity</li>
-                  <li>Comprehensive safety guards for operator protection</li>
-                  <li>Easy blade replacement system for minimal downtime</li>
-                  <li>Portable design for versatile on-site use</li>
+                <h3 className="text-xl font-bold text-gray-800 mb-4">Key Features & Benefits:</h3>
+                <ul className="list-none pl-0 text-gray-600 space-y-3 text-base">
+                  <li><strong>42mm Maximum Cutting Capacity</strong> — Handles all standard TMT bar sizes used in Indian construction (8mm to 42mm)</li>
+                  <li><strong>32 Cuts Per Minute</strong> — High-speed operation for maximum productivity on large projects</li>
+                  <li><strong>Comprehensive Safety Guards</strong> — Full enclosure protection for operator safety during cutting</li>
+                  <li><strong>Heavy-Duty Steel Construction</strong> — Built for 24/7 operation in harsh construction site conditions</li>
+                  <li><strong>Easy Blade Replacement</strong> — Quick-change system minimizes downtime between blade changes</li>
                 </ul>
+              </div>
+
+              {/* Pricing */}
+              <div className="mb-6 p-4 bg-gradient-to-r from-green-50 to-blue-50 rounded-lg border border-green-200">
+                <div className="flex items-baseline gap-2">
+                  <span className="text-3xl font-bold text-green-700">₹72,000</span>
+                  <span className="text-gray-500 text-sm">+ GST</span>
+                </div>
+                <p className="text-sm text-gray-600 mt-1">Free installation & training across South India</p>
               </div>
 
               {/* CTA Buttons */}
@@ -121,7 +121,7 @@ export default function BarCuttingMachinePage() {
                     className="w-full sm:w-auto h-[42px]"
                     onClick={() => {
                       if (typeof window !== 'undefined') {
-                        window.open('https://wa.me/919740035153', '_blank')
+                        window.open('https://wa.me/918074949635', '_blank')
                       }
                     }}
                   >
@@ -160,185 +160,133 @@ export default function BarCuttingMachinePage() {
             </div>
           </div>
 
-          {/* Product Description Tabs */}
-          <div className="bg-white rounded-lg shadow mb-12">
-            {/* Mobile Dropdown */}
-            <div className="md:hidden border-b border-gray-200">
-              <button
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="flex items-center justify-between w-full px-4 py-4 text-left bg-gradient-to-r from-blue-50 to-white border-b-2 border-blue-100 hover:bg-blue-50 transition-all duration-300"
-              >
-                <span className="text-base font-semibold text-blue-900 flex items-center">
-                  <span className="mr-2">🔧</span>
-                  {tabs.find(tab => tab.id === activeTab)?.label}
-                </span>
-                <ChevronDown 
-                  className={`w-6 h-6 text-blue-500 transition-transform duration-300 ${isMenuOpen ? 'transform rotate-180' : 'animate-bounce'}`}
-                />
-              </button>
-              {isMenuOpen && (
-                <div className="border-t border-gray-200">
-                  {tabs.map((tab) => (
-                    <button
-                      key={tab.id}
-                      onClick={() => {
-                        setActiveTab(tab.id);
-                        setIsMenuOpen(false);
-                      }}
-                      className={`block w-full px-4 py-3 text-left text-base ${
-                        activeTab === tab.id
-                          ? "bg-blue-50 text-blue-600 font-semibold"
-                          : "text-gray-500 hover:bg-gray-50"
-                      }`}
-                    >
-                      {tab.label}
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
+          {/* Description Section */}
+          <div className="bg-white rounded-lg shadow mb-12 p-8">
+            <div className="prose prose-lg max-w-none">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 tracking-tight">
+                Bar Cutting Machine - Engineered for South Indian Construction Excellence
+              </h2>
 
-            {/* Desktop Tabs */}
-            <div className="hidden md:block border-b border-gray-200">
-              <nav className="flex -mb-px">
-                {tabs.map((tab) => (
-                  <button
-                    key={tab.id}
-                    onClick={() => setActiveTab(tab.id)}
-                    className={`${
-                      activeTab === tab.id
-                        ? "border-blue-500 text-blue-600"
-                        : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"
-                    } whitespace-nowrap py-4 px-6 border-b-2 font-semibold text-sm transition-colors flex-1 md:flex-none md:px-8`}
-                  >
-                    {tab.label}
-                  </button>
-                ))}
-              </nav>
-            </div>
-
-            {/* Tab Contents */}
-            <div className="p-8">
-              {activeTab === "description" && (
-                <div className="prose prose-lg max-w-none">
-                  <h2 className="text-3xl font-bold text-gray-900 mb-6 tracking-tight">
-                    HMS Bar Cutting Machine - Engineered for Speed, Precision, and Safety
-                  </h2>
-
-                  <div className="space-y-6">
-                    <div>
-                      <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                        Transforming Steel Processing Operations
-                      </h3>
-                      <p className="text-lg text-gray-600 leading-relaxed">
-                        Bar cutting machines <strong>revolutionize steel processing efficiency and accuracy</strong> in
-                        construction and fabrication. By delivering <strong>clean, precise cuts</strong>, they ensure{" "}
-                        <strong>optimal material utilization and structural integrity</strong>. Our machines help
-                        projects <strong>meet tight deadlines while maintaining quality standards</strong>.
-                        Advanced cutting technology minimizes <strong>material waste, reduces labor costs, and eliminates cutting inconsistencies</strong>,
-                        resulting in <strong>superior productivity</strong> with <strong>enhanced safety measures</strong>.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                        HMS Cutting Technology Advantages
-                      </h3>
-                      <p className="text-lg text-gray-600 leading-relaxed">
-                        Choosing <strong>HMS Bar Cutting Machines</strong> means investing in{" "}
-                        <strong>cutting-edge technology, operational efficiency, and safety excellence</strong>. Engineered for{" "}
-                        <strong>high-speed precision and durability</strong>, our machines are trusted by{" "}
-                        <strong>construction professionals, steel fabricators, and industrial manufacturers</strong> worldwide.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                        The Excellence of HMS Bar Cutting Machines
-                      </h3>
-                      <p className="text-lg text-gray-600 leading-relaxed">
-                        In the realm of <strong>steel processing equipment</strong>, <strong>HMS</strong> represents{" "}
-                        <strong>innovation, reliability, and performance excellence</strong>. With a{" "}
-                        <strong>distinguished track record</strong> in the industry, we continue to establish{" "}
-                        <strong>benchmarks in cutting technology and operational efficiency</strong>.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                        Why Choose HMS Bar Cutting Machine?
-                      </h3>
-                      <p className="text-lg text-gray-600 leading-relaxed">
-                        High-Speed Cutting Capability – Cuts rebar up to 60mm diameter efficiently.<br />
-                        Enhanced Productivity – High-speed operation maximizes output per hour.<br />
-                        Advanced Safety Features – Comprehensive safety guards protect operators.<br />
-                        Easy Maintenance – Quick blade replacement system minimizes downtime.<br />
-                        Portable Design – Lightweight construction enables easy site mobility.<br />
-                        Consistent Performance – Delivers reliable cutting results across all steel grades.
-                      </p>
-                    </div>
-
-                    <div>
-                      <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                        Advanced Engineering for Maximum Efficiency & Safety
-                      </h3>
-                      <p className="text-lg text-gray-600 leading-relaxed">
-                        HMS Bar Cutting Machines incorporate state-of-the-art engineering to optimize cutting speed, enhance operator safety, and maximize productivity. Our machines seamlessly integrate advanced blade technology with robust construction, delivering superior cutting performance, operational reliability, and user-friendly operation.
-                      </p>
-                    </div>
-                    <div>
-                      <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                        Customization for Diverse Cutting Requirements
-                      </h3>
-                      <p className="text-lg text-gray-600 mb-4">
-                        At HMS, we recognize that every project has <strong>specific cutting specifications</strong>.
-                        That&apos;s why we provide <strong>tailored cutting solutions</strong> designed for your exact requirements.
-                      </p>
-                      <ul className="list-disc pl-6 text-lg text-gray-600 space-y-2">
-                        <li><strong>Variable cutting capacities and speeds</strong> for <strong>diverse steel processing needs</strong></li>
-                        <li><strong>Specialized blade configurations</strong> to suit different material types and thicknesses</li>
-                        <li><strong>Enhanced safety systems</strong> based on <strong>industry feedback</strong> for <strong>maximum operator protection</strong></li>
-                      </ul>
-                    </div>
-
-                    {/* Gallery */}
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-                      {[1, 2, 3].map((i) => (
-                        <Image
-                          key={i}
-                          src={`/images/products/bar-cutting-machine-${i}.webp`}
-                          alt={`HMS Bar Cutting Machine View ${i}`}
-                          width={400}
-                          height={300}
-                          className="w-full h-48 object-cover rounded-lg shadow-md"
-                        />
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              )}
-
-              {activeTab === "specifications" && (
+              <div className="space-y-6">
                 <div>
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">Technical Specifications</h2>
-                  <SpecificationsTable />
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                    Impact on Construction Projects Across Karnataka, Tamil Nadu & Kerala
+                  </h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    Bar cutting machines <strong>significantly improve productivity and safety</strong> in
+                    construction projects throughout South India. By delivering <strong>clean, precise cuts</strong>, they ensure{" "}
+                    <strong>optimal material utilization and structural integrity</strong> in reinforced concrete structures across Bengaluru, Chennai, and Hyderabad. Our machines help
+                    projects <strong>comply with IS standards and safety regulations</strong>.
+                    Advanced cutting technology minimizes <strong>material waste, reduces labor costs, and eliminates cutting inconsistencies</strong>,
+                    resulting in <strong>higher-quality construction</strong> with <strong>optimized resources</strong> for infrastructure development across Karnataka, Tamil Nadu, Kerala, Andhra Pradesh, and Telangana.
+                  </p>
                 </div>
-              )}
 
-              {activeTab === "benefits" && (
                 <div>
-                  <h2 className="text-2xl font-bold text-gray-900 mb-6">
-                    Benefits of Bar Cutting Machines
-                  </h2>
-                  <BenefitsSection />
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                    Why Choose Hutaib Machinery - 25+ Years of Excellence
+                  </h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    Choosing <strong>Hutaib Machinery Bar Cutting Machines</strong> means investing in{" "}
+                    <strong>reliability, performance, and innovation</strong>. Serving South Indian industries since 1999, our machines are built for{" "}
+                    <strong>precision and durability</strong>. Trusted by{" "}
+                    <strong>contractors, engineers, and infrastructure developers</strong> across Karnataka, Tamil Nadu, and Kerala, we deliver equipment that meets the demanding requirements of Indian construction projects.
+                  </p>
                 </div>
-              )}
 
-              {activeTab === "applications" && (
                 <div>
-                  <ApplicationsSection />
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                    Proven Performance in South Indian Climate
+                  </h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    Our bar cutting machines are engineered to perform reliably in the challenging conditions of South Indian construction sites. From the humid coastal regions of Kerala and Goa to the metropolitan construction boom in Bengaluru and Hyderabad, Hutaib Machinery equipment delivers{" "}
+                    <strong>consistent performance, minimal downtime, and long-term durability</strong>. With a{" "}
+                    <strong>proven track record spanning over 25 years</strong>, we continue to set{" "}
+                    <strong>high standards in cutting technology and operational efficiency</strong> for the South Indian construction industry.
+                  </p>
                 </div>
-              )}
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                    Why Choose HMS Bar Cutting Machine?
+                  </h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    Handles Multiple Steel Bar Sizes – Cuts TMT bars from 8mm to 42mm diameter.<br />
+                    High-Speed Cutting – 32 cuts per minute for maximum productivity.<br />
+                    Advanced Safety Features – Comprehensive guards protect operators during cutting.<br />
+                    Easy Blade Replacement – Quick-change system minimizes downtime.<br />
+                    Reliable Performance – Built for high efficiency and minimal maintenance.<br />
+                    Motor Protection with Preventer – Equipped with a preventer to safeguard the motor from power fluctuations, ensuring longer machine life and stable performance.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                    Innovative Engineering for Efficiency & Operator Safety
+                  </h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    HMS Bar Cutting Machines are designed with advanced engineering innovations to maximize cutting speed, enhance operator safety, and boost productivity. Our machines seamlessly combine modern blade technology with robust construction, offering superior cutting performance, operational reliability, and ease of use.
+                  </p>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">
+                    Customization for Every Need
+                  </h3>
+                  <p className="text-lg text-gray-600 leading-relaxed mb-4">
+                    At HMS, we understand that every project has <strong>unique cutting requirements</strong>.
+                    That&apos;s why we offer <strong>custom-built solutions</strong> tailored to your specific needs.
+                  </p>
+                  <ul className="list-disc pl-6 text-lg text-gray-600 space-y-2">
+                    <li><strong>Variable cutting capacities and speeds</strong> for <strong>diverse steel processing needs</strong></li>
+                    <li><strong>Portable and stationary configurations</strong> to suit different project scales</li>
+                    <li><strong>Enhanced safety systems</strong> based on <strong>customer feedback</strong> for <strong>maximum operator protection</strong></li>
+                  </ul>
+                </div>
+
+                {/* Gallery */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+                  <Image
+                    src="/images/products/bar-cutting-machine-1.webp"
+                    alt="Bar cutting machine 42mm front view showing safety guards and steel frame construction"
+                    width={400}
+                    height={300}
+                    className="w-full h-48 object-cover rounded-lg shadow-md"
+                  />
+                  <Image
+                    src="/images/products/bar-cutting-machine-2.webp"
+                    alt="Hutaib bar cutting machine in operation cutting reinforcement bars at Bengaluru construction site"
+                    width={400}
+                    height={300}
+                    className="w-full h-48 object-cover rounded-lg shadow-md"
+                  />
+                  <Image
+                    src="/images/products/bar-cutting-machine-3.webp"
+                    alt="Close-up detail view of bar cutting machine blade and cutting mechanism for TMT rebar"
+                    width={400}
+                    height={300}
+                    className="w-full h-48 object-cover rounded-lg shadow-md"
+                  />
+                </div>
+              </div>
             </div>
+          </div>
+
+          {/* Specifications Section */}
+          <div className="bg-white rounded-lg shadow mb-12 p-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6 tracking-tight">Technical Specifications</h2>
+            <SpecificationsTable />
+          </div>
+
+          {/* Benefits Section */}
+          <div className="bg-white rounded-lg shadow mb-12 p-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6 tracking-tight">
+              Benefits of Bar Cutting Machines
+            </h2>
+            <BenefitsSection />
+          </div>
+
+          {/* Applications Section */}
+          <div className="bg-white rounded-lg shadow mb-12 p-8">
+            <ApplicationsSection />
           </div>
 
           {/* Testimonials Section */}
@@ -349,6 +297,69 @@ export default function BarCuttingMachinePage() {
             <TestimonialsSection />
           </div>
 
+          {/* Service and Support Section */}
+          <div className="bg-white rounded-lg shadow mb-12 p-8">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6 tracking-tight">
+              Support and Warranty
+            </h2>
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+              Every bar cutting machine from Hutaib Machinery includes comprehensive support across South India:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-100">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">✓ 1-Year Comprehensive Warranty</h3>
+                <p className="text-blue-700">Covering parts and labor for complete peace of mind</p>
+              </div>
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-100">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">✓ Free Installation and Training</h3>
+                <p className="text-blue-700">On-site setup and operator training at your location across South India</p>
+              </div>
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-100">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">✓ Lifetime Technical Support</h3>
+                <p className="text-blue-700">Available via phone and WhatsApp for ongoing assistance</p>
+              </div>
+              <div className="bg-blue-50 p-6 rounded-lg border border-blue-100">
+                <h3 className="text-xl font-semibold text-blue-900 mb-3">✓ Spare Parts Availability</h3>
+                <p className="text-blue-700">Same-day dispatch from our Bengaluru warehouse</p>
+              </div>
+            </div>
+            <p className="text-gray-600 leading-relaxed mb-6">
+              Our service technicians cover <strong>Karnataka, Tamil Nadu, Kerala, Andhra Pradesh, Telangana, South Maharashtra, and Goa</strong> with response times typically within <strong>24-48 hours</strong>. Annual Maintenance Contracts available for extended coverage.
+            </p>
+            
+            {/* Trust Signals */}
+            <div className="bg-gradient-to-r from-gray-50 to-blue-50 p-6 rounded-lg border border-gray-200 mt-6">
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">Why Hutaib Machinery?</h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-blue-600 mb-1">25+</div>
+                  <div className="text-sm text-gray-600">Years in Business</div>
+                  <div className="text-xs text-gray-500">(Since 1999)</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-blue-600 mb-1">7</div>
+                  <div className="text-sm text-gray-600">States Served</div>
+                  <div className="text-xs text-gray-500">South India Coverage</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-blue-600 mb-1">1000+</div>
+                  <div className="text-sm text-gray-600">Happy Customers</div>
+                  <div className="text-xs text-gray-500">Across Industries</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-blue-600 mb-1">24-48h</div>
+                  <div className="text-sm text-gray-600">Service Response</div>
+                  <div className="text-xs text-gray-500">Across South India</div>
+                </div>
+              </div>
+              <div className="mt-6 pt-6 border-t border-gray-300">
+                <p className="text-sm text-gray-700 text-center">
+                  <strong>📍 Headquarters:</strong> No. 78, N. R. Road, Kalasipalyam, Bengaluru - 560002, Karnataka, India
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* FAQ Section */}
           <div className="bg-white rounded-lg shadow mb-12 p-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-8 tracking-tight">
@@ -357,9 +368,46 @@ export default function BarCuttingMachinePage() {
             <FAQSection />
           </div>
 
+          {/* Related Equipment Section */}
+          <section className="bg-white rounded-lg shadow p-8 mb-12">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6 tracking-tight">Related Equipment</h2>
+            <p className="text-gray-600 mb-8 leading-relaxed">
+              Complete your rebar fabrication line with these complementary machines:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Bar Bending Machine</h3>
+                <p className="text-gray-600 mb-4">
+                  Pair with cutter for complete rebar fabrication line. Bend TMT bars up to 42mm with precision.
+                </p>
+                <Link href="/product/bar-bending-machine" className="text-blue-600 hover:text-blue-700 font-medium flex items-center gap-1">
+                  View Details <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Ring Making Machine</h3>
+                <p className="text-gray-600 mb-4">
+                  Automated stirrup production for columns and beams. Create perfect rings efficiently.
+                </p>
+                <Link href="/product/ring-making-machine-spiral-machine" className="text-blue-600 hover:text-blue-700 font-medium flex items-center gap-1">
+                  View Details <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
+              <div className="bg-gray-50 p-6 rounded-lg border border-gray-200 hover:shadow-md transition-shadow">
+                <h3 className="text-xl font-semibold text-gray-800 mb-3">Spare Parts & Accessories</h3>
+                <p className="text-gray-600 mb-4">
+                  Cutting blades, motor assemblies, and replacement parts available with same-day dispatch.
+                </p>
+                <Link href="/contact" className="text-blue-600 hover:text-blue-700 font-medium flex items-center gap-1">
+                  Contact for Parts <ArrowRight className="h-4 w-4" />
+                </Link>
+              </div>
+            </div>
+          </section>
+
           {/* Other Products Section */}
           <section className="bg-white rounded-lg shadow p-8 mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 tracking-tight">Other Products</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 tracking-tight">More Construction Equipment</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
               {otherProducts.map((product) => (
                 <Link href={`/product/${createSlug(product.name)}`} key={product.id}>

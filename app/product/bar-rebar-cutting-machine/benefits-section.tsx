@@ -1,19 +1,18 @@
-
 export default function BenefitsSection() {
   return (
     <div className="space-y-8">
       <div>
         <p className="text-gray-600 mb-6">
-          Bar cutting machines are <strong>essential for modern steel processing operations</strong>,
-          delivering exceptional <strong>speed, precision, and safety</strong>. Designed with{" "}
-          <strong>advanced cutting technology and robust safety systems</strong>, these machines ensure{" "}
+          Bar cutting machines play a <strong>crucial role in modern construction projects</strong>,
+          offering superior <strong>speed, precision, and safety</strong>. Designed with{" "}
+          <strong>advanced blade technology and comprehensive safety systems</strong>, these machines ensure{" "}
           <strong>clean cuts with minimal material waste</strong>, reduce <strong>operator fatigue</strong>, and enhance{" "}
-          <strong>overall project efficiency</strong>.
+          <strong>project efficiency</strong>.
         </p>
         <p className="text-gray-600 mb-6">
           With features like <strong>high-speed cutting capabilities and safety guards</strong>, they enable seamless operation
-          even in <strong>demanding industrial environments</strong>, making them an{" "}
-          <strong>indispensable tool for steel fabricators and construction professionals</strong>.
+          even in <strong>harsh construction site conditions</strong>, making them an{" "}
+          <strong>indispensable tool for contractors and engineers</strong> across South India.
         </p>
       </div>
 
@@ -23,24 +22,26 @@ export default function BenefitsSection() {
           <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
             <h4 className="text-lg font-semibold text-gray-800 mb-2">High-Speed Precision Cutting</h4>
             <p className="text-gray-600">
-              Delivers <strong>clean, accurate cuts</strong> at high speeds, minimizing{" "}
+              Delivers <strong>clean, accurate cuts</strong> at 32 cuts per minute, minimizing{" "}
               <strong>processing time</strong> and ensuring <strong>consistent quality</strong> across all steel grades.
             </p>
           </div>
 
           <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
-            <h4 className="text-lg font-semibold text-gray-800 mb-2">Enhanced Safety Features</h4>
+            <h4 className="text-lg font-semibold text-gray-800 mb-2">Reduced Labour Costs</h4>
             <p className="text-gray-600">
-              <strong>Comprehensive safety guards</strong> protect operators from debris and accidents, while{" "}
-              <strong>emergency stop mechanisms</strong> ensure <strong>immediate response</strong> to safety concerns.
+              <strong>Automates</strong> the cutting process, reducing{" "}
+              <strong>manual effort and dependency on skilled labour</strong>, leading to{" "}
+              <strong>significant time and cost savings</strong>.
             </p>
           </div>
 
           <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
-            <h4 className="text-lg font-semibold text-gray-800 mb-2">Increased Productivity</h4>
+            <h4 className="text-lg font-semibold text-gray-800 mb-2">Improved Construction Efficiency</h4>
             <p className="text-gray-600">
-              High-speed operation enables processing of more steel bars per hour, significantly{" "}
-              <strong>improving project timelines</strong> and meeting <strong>demanding production schedules</strong>.
+              Enhances project timelines by ensuring{" "}
+              <strong>consistent and fast cutting of reinforcement bars</strong>, helping meet{" "}
+              <strong>strict deadlines</strong>.
             </p>
           </div>
 
@@ -53,18 +54,19 @@ export default function BenefitsSection() {
           </div>
 
           <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
-            <h4 className="text-lg font-semibold text-gray-800 mb-2">Easy Blade Replacement</h4>
+            <h4 className="text-lg font-semibold text-gray-800 mb-2">Energy-Efficient Operation</h4>
             <p className="text-gray-600">
-              <strong>Quick-change blade system</strong> minimizes downtime and allows for{" "}
-              <strong>efficient maintenance</strong>, keeping operations running smoothly.
+              <strong>Optimized power consumption</strong> ensures <strong>cost savings</strong> without
+              compromising performance, ideal for continuous site operations.
             </p>
           </div>
 
           <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
-            <h4 className="text-lg font-semibold text-gray-800 mb-2">Portable Design</h4>
+            <h4 className="text-lg font-semibold text-gray-800 mb-2">Motor Protection with Preventer</h4>
             <p className="text-gray-600">
-              Lightweight and compact construction enables <strong>easy transportation</strong> between{" "}
-              <strong>job sites</strong>, providing <strong>flexibility</strong> for various project locations.
+              Equipped with a <strong>preventer that safeguards the motor</strong> from{" "}
+              <strong>power fluctuations</strong>, ensuring <strong>consistent performance</strong> and{" "}
+              <strong>extending the machine&apos;s lifespan</strong>.
             </p>
           </div>
         </div>
@@ -74,34 +76,34 @@ export default function BenefitsSection() {
         <h3 className="text-2xl font-bold text-gray-800 mb-4">Engineering Features</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           <div className="bg-blue-50 p-5 rounded-lg border border-blue-100">
-            <h4 className="text-lg font-semibold text-blue-800 mb-2">Advanced Cutting Mechanism</h4>
+            <h4 className="text-lg font-semibold text-blue-800 mb-2">Ergonomic Design & User-Friendly Controls</h4>
             <p className="text-blue-600">
-              Precision-engineered cutting system delivers <strong>consistent results</strong> across various{" "}
-              <strong>steel types and diameters</strong>, ensuring reliable performance.
+              Intuitive interfaces allow both <strong>seasoned professionals</strong> and{" "}
+              <strong>first-time users</strong> to operate effortlessly with minimal training.
             </p>
           </div>
 
           <div className="bg-blue-50 p-5 rounded-lg border border-blue-100">
-            <h4 className="text-lg font-semibold text-blue-800 mb-2">Operator-Friendly Controls</h4>
+            <h4 className="text-lg font-semibold text-blue-800 mb-2">Advanced Safety Systems</h4>
             <p className="text-blue-600">
-              Intuitive control systems allow <strong>easy operation</strong> for both{" "}
-              <strong>experienced operators</strong> and <strong>new users</strong>, reducing training time.
+              Comprehensive <strong>safety guards and emergency stop mechanisms</strong> protect operators,{" "}
+              ensuring <strong>safe operation</strong> in demanding site conditions.
             </p>
           </div>
 
           <div className="bg-blue-50 p-5 rounded-lg border border-blue-100">
-            <h4 className="text-lg font-semibold text-blue-800 mb-2">Robust Construction</h4>
+            <h4 className="text-lg font-semibold text-blue-800 mb-2">Quick Blade Replacement</h4>
             <p className="text-blue-600">
-              Heavy-duty construction ensures <strong>long-lasting performance</strong> in demanding{" "}
-              <strong>industrial environments</strong>, maximizing return on investment.
+              Easy-change blade system minimizes <strong>downtime</strong>, allowing{" "}
+              <strong>faster maintenance</strong> and keeping operations running smoothly.
             </p>
           </div>
 
           <div className="bg-blue-50 p-5 rounded-lg border border-blue-100">
-            <h4 className="text-lg font-semibold text-blue-800 mb-2">Versatile Cutting Capacity</h4>
+            <h4 className="text-lg font-semibold text-blue-800 mb-2">Heavy-Duty Construction</h4>
             <p className="text-blue-600">
-              Handles various steel bar diameters up to <strong>60mm</strong>, providing{" "}
-              <strong>flexibility</strong> for diverse project requirements.
+              Built-in durability for <strong>24/7 operation</strong> in harsh construction environments,{" "}
+              <strong>maximizing return on investment</strong>.
             </p>
           </div>
         </div>
@@ -111,9 +113,9 @@ export default function BenefitsSection() {
         <h3 className="text-2xl font-bold text-gray-800 mb-4">Industrial Applications</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
-            <h4 className="text-lg font-semibold text-gray-800 mb-2">Construction Sites</h4>
+            <h4 className="text-lg font-semibold text-gray-800 mb-2">Construction & Infrastructure</h4>
             <p className="text-gray-600">
-              Essential for <strong>on-site cutting of reinforcement bars</strong> for buildings, foundations, and structures.
+              Ideal for <strong>cutting reinforcement bars</strong> used in bridges, buildings, and highways across South India.
             </p>
           </div>
 
@@ -125,16 +127,16 @@ export default function BenefitsSection() {
           </div>
 
           <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
-            <h4 className="text-lg font-semibold text-gray-800 mb-2">Infrastructure Projects</h4>
+            <h4 className="text-lg font-semibold text-gray-800 mb-2">Precast Concrete Plants</h4>
             <p className="text-gray-600">
-              Ideal for <strong>bridge construction and highway projects</strong> requiring precise steel cutting.
+              Essential for <strong>precast concrete operations</strong> requiring consistent rebar lengths.
             </p>
           </div>
 
           <div className="bg-gray-50 p-5 rounded-lg border border-gray-200">
-            <h4 className="text-lg font-semibold text-gray-800 mb-2">Precast Manufacturing</h4>
+            <h4 className="text-lg font-semibold text-gray-800 mb-2">Heavy Engineering</h4>
             <p className="text-gray-600">
-              Essential for <strong>precast concrete operations</strong> requiring consistent steel bar lengths.
+              Supports <strong>customized cutting requirements</strong> for large-scale infrastructure projects.
             </p>
           </div>
         </div>

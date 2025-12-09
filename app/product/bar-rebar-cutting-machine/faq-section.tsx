@@ -1,29 +1,28 @@
-
 export default function FAQSection() {
   const faqs = [
     {
-      question: "What is the maximum cutting capacity of this machine?",
-      answer: "Our machine can cut steel bars up to 60mm in diameter, making it suitable for various construction and fabrication needs."
+      question: "What TMT bar grades can this machine cut?",
+      answer: "Our bar cutting machine handles all standard Indian TMT grades including Fe415, Fe500, Fe500D, and Fe550D, with clean cuts across varying steel hardness levels. The machine can cut bars from 8mm to 42mm diameter."
     },
     {
-      question: "How fast does the machine cut steel bars?",
-      answer: "The machine operates at high speed with a cutting rate of 32 cuts per minute, significantly improving productivity."
+      question: "What is the power requirement for installation?",
+      answer: "The machine requires a 3-phase, 415V, 50Hz power supply with a minimum 5kVA connected load. Our installation team assesses your site's electrical infrastructure before delivery across South India."
     },
     {
-      question: "Is the machine safe to operate?",
-      answer: "Yes, it comes with comprehensive safety guards and emergency stop mechanisms to ensure operator protection at all times."
+      question: "Do you provide operator training?",
+      answer: "Yes, every purchase includes free on-site training for 2-3 operators covering machine operation, blade replacement, and safety procedures. Training is available across Karnataka, Tamil Nadu, Kerala, Andhra Pradesh, and Telangana."
     },
     {
-      question: "How easy is blade replacement?",
-      answer: "The machine features a quick-change blade system that allows for easy replacement with minimal downtime, keeping operations efficient."
+      question: "What is the delivery time to Chennai/Hyderabad/Bengaluru?",
+      answer: "Standard delivery to major South Indian cities takes 5-7 working days from our Bengaluru warehouse. Express delivery is available for urgent requirements with additional charges."
     },
     {
-      question: "Can this machine be used on construction sites?",
-      answer: "Absolutely. The portable design makes it ideal for on-site use, providing flexibility for various project locations."
+      question: "What warranty and support is included?",
+      answer: "Every machine includes a 1-year comprehensive warranty covering parts and labor, lifetime technical support via phone and WhatsApp, and free installation. Our service technicians cover all South Indian states with 24-48 hour response times."
     },
     {
-      question: "What types of steel can this machine cut?",
-      answer: "The machine can cut various types of steel including TMT bars, rebars, and round steel bars of different grades."
+      question: "How often should cutting blades be replaced?",
+      answer: "Blade life depends on usage volume and steel hardness. Typically, blades last 3-6 months with regular use. Our quick-change blade system allows replacement in under 10 minutes, and spare blades are available with same-day dispatch from Bengaluru."
     }
   ];
 

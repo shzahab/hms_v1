@@ -1,19 +1,19 @@
 export default function TestimonialsSection() {
   const testimonials = [
     {
-      quote: "The best bar bending machine we've used—accurate, easy to operate, and highly efficient. It has significantly improved our project timelines.",
-      name: "Rajesh Sharma",
-      role: "Civil Contractor"
+      quote: "The best bar bending machine we've used—accurate, easy to operate, and highly efficient. It has significantly improved our project timelines across multiple sites in Bengaluru.",
+      name: "Rajesh Kumar",
+      role: "Civil Contractor, Bengaluru"
     },
     {
-      quote: "Durable and cost-effective. We've cut labour costs while increasing precision.",
-      name: "Amit Patel",
-      role: "Site Engineer"
+      quote: "Durable and cost-effective. We've cut labour costs by 35% while increasing precision on our Chennai metro infrastructure projects. Hutaib's support has been excellent.",
+      name: "Venkatesh Iyer",
+      role: "Site Engineer, Chennai"
     },
     {
-      quote: "The digital control panel is a game-changer. Precise bends with minimal errors.",
-      name: "Suresh Mehta",
-      role: "Project Manager"
+      quote: "The digital control panel is a game-changer. Precise bends with minimal errors. Been using it for 2 years on high-rise projects in Hyderabad with zero major issues.",
+      name: "Prakash Reddy",
+      role: "Project Manager, Hyderabad"
     }
   ];
 

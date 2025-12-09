@@ -1,0 +1,38 @@
+# robots.txt for Hutaib Machinery & Spares
+# https://hutaib.com
+
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Allow important pages
+Allow: /product/
+Allow: /category/
+Allow: /about
+Allow: /contact
+
+# Block Next.js internal routes
+Disallow: /_next/
+Disallow: /api/
+
+# Block admin routes if any exist in future
+Disallow: /admin/
+Disallow: /dashboard/
+
+# Block any duplicate parameter URLs
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+
+# Allow images for Google Image Search
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Allow product images
+Allow: /images/products/
+
+# Sitemap location
+Sitemap: https://www.hutaibmachinery.com/sitemap.xml
+
+# Crawl delay (optional - helps prevent server overload)
+Crawl-delay: 1
+
