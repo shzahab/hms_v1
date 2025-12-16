@@ -7,6 +7,7 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Breadcrumbs from "@/components/Breadcrumb";
 import BuyNowButton from "@/components/buy-now-button";
+import ProductImagePlaceholder from "@/components/product-image-placeholder";
 import categoriesData from "@/app/data/categories.json";
 import productsData from "@/app/data/products.json";
 
@@ -209,13 +210,17 @@ export default async function CategoryPage({
                         className="block"
                       >
                         <div className="aspect-square bg-gray-100 overflow-hidden">
-                          <Image
-                            src={product.mainImage}
-                            alt={product.name}
-                            width={500}
-                            height={500}
-                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                          />
+                          {!product.mainImage && slug !== "other-products" ? (
+                            <ProductImagePlaceholder />
+                          ) : (
+                            <Image
+                              src={product.mainImage || "/images/placeholder.png"}
+                              alt={product.name}
+                              width={500}
+                              height={500}
+                              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                            />
+                          )}
                         </div>
                       </Link>
                       <div className="p-3 md:p-5">
