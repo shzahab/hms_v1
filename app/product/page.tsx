@@ -140,7 +140,7 @@ export default function ProductsPage() {
                       </Link>
                     </div>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-6">
                       {categoryProducts.map((product) => (
                         <div
                           key={product.id}
@@ -160,31 +160,31 @@ export default function ProductsPage() {
                               />
                             </div>
                           </Link>
-                          <div className="p-5">
+                          <div className="p-3 md:p-5">
                             <Link href={`/product/${product.slug}`}>
-                              <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors line-clamp-2">
+                              <h3 className="text-sm md:text-lg font-semibold text-gray-900 mb-1 md:mb-2 group-hover:text-blue-600 transition-colors line-clamp-2">
                                 {product.name}
                               </h3>
                             </Link>
-                            <p className="text-sm text-gray-600 mb-3 line-clamp-2">
+                            <p className="text-xs md:text-sm text-gray-600 mb-2 md:mb-3 line-clamp-2">
                               {product.shortDescription}
                             </p>
-                            <p className="text-xl font-bold text-gray-900 mb-4">
+                            <p className="text-base md:text-xl font-bold text-gray-900 mb-2 md:mb-4">
                               {product.price}
                             </p>
-                            <div className="space-y-3">
+                            <div className="space-y-2 md:space-y-3">
                               {product.paymentLink && (
                                 <BuyNowButton
                                   paymentLink={product.paymentLink}
-                                  className="w-full h-[40px] bg-red-600 hover:bg-red-700 text-white font-bold text-sm px-6 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200"
+                                  className="w-full h-[32px] md:h-[40px] bg-red-600 hover:bg-red-700 text-white font-bold text-xs md:text-sm px-4 md:px-6 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200"
                                 />
                               )}
                               <Link
                                 href={`/product/${product.slug}`}
-                                className="flex items-center justify-center gap-2 text-sm font-medium text-primary hover:text-blue-600 transition-colors"
+                                className="flex items-center justify-center gap-2 text-xs md:text-sm font-medium text-primary hover:text-blue-600 transition-colors"
                               >
                                 View Details{" "}
-                                <ArrowRight className="h-4 w-4" />
+                                <ArrowRight className="h-3 w-3 md:h-4 md:w-4" />
                               </Link>
                             </div>
                           </div>

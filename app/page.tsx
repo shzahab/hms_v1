@@ -140,7 +140,7 @@ export default function HomePage() {
               Our Products
             </h2>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-8">
               {products.map((product) => (
                 <Link
                   href={`/product/${product.slug}`}
@@ -157,29 +157,29 @@ export default function HomePage() {
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                       />
                     </div>
-                    <div className="p-5 flex flex-col flex-grow">
-                      <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-blue-600 transition-colors line-clamp-2">
+                    <div className="p-3 md:p-5 flex flex-col flex-grow">
+                      <h3 className="text-sm md:text-lg font-semibold text-gray-900 mb-1 md:mb-2 group-hover:text-blue-600 transition-colors line-clamp-2">
                         {product.name}
                       </h3>
-                      <p className="text-sm text-gray-600 mb-3 flex-grow line-clamp-2">
+                      <p className="text-xs md:text-sm text-gray-600 mb-2 md:mb-3 flex-grow line-clamp-2">
                         {product.shortDescription}
                       </p>
-                      <p className="text-xl font-bold text-gray-900 mb-4">
+                      <p className="text-base md:text-xl font-bold text-gray-900 mb-2 md:mb-4">
                         {product.price}
                       </p>
-                      <div className="space-y-3 mt-auto">
+                      <div className="space-y-2 md:space-y-3 mt-auto">
                         {product.paymentLink && (
                           <BuyNowButton
                             paymentLink={product.paymentLink}
-                            className="w-full h-[40px] bg-red-600 hover:bg-red-700 text-white font-bold text-sm px-6 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200"
+                            className="w-full h-[32px] md:h-[40px] bg-red-600 hover:bg-red-700 text-white font-bold text-xs md:text-sm px-4 md:px-6 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200"
                           />
                         )}
                         <Button
                           variant="link"
-                          className="p-0 h-auto text-sm font-medium text-blue-600 group-hover:text-blue-700 flex items-center gap-1"
+                          className="p-0 h-auto text-xs md:text-sm font-medium text-blue-600 group-hover:text-blue-700 flex items-center gap-1"
                         >
                           Learn More
-                          <ArrowRight className="h-4 w-4" />
+                          <ArrowRight className="h-3 w-3 md:h-4 md:w-4" />
                         </Button>
                       </div>
                     </div>

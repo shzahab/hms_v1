@@ -1920,6 +1920,1009 @@
       "seo": {"title": "VST Shakti 13HP Diesel Concrete Cutting Machine | ₹1,30,000 | HMS", "description": "Buy VST Shakti 13HP Diesel Concrete Cutting Machine at ₹1,30,000. Maximum power water-cooled diesel for infrastructure.", "keywords": ["VST Shakti 13HP concrete cutter", "water cooled diesel floor saw", "heavy duty concrete cutting machine"]},
       "applications": ["Airport runway work", "National highway projects", "Industrial infrastructure"],
       "faq": [{"question": "Why water cooling?", "answer": "Maintains consistent temperature during sustained heavy operation without overheating."}]
+    },
+    {
+      "id": 40,
+      "slug": "genex-3-5kva-portable-petrol-generator",
+      "categorySlug": "generators",
+      "name": "GenEx 3.5kVA Portable Petrol Generator",
+      "shortDescription": "Reliable 3.5kVA petrol generator for construction sites and small workshops. Compact, fuel-efficient power backup from GenEx.",
+      "price": "₹38,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GenEx%203.5kVA%20Portable%20Petrol%20Generator%20at%20Rs.38%2C000",
+      "fullDescription": "The GenEx 3.5kVA Portable Petrol Generator delivers dependable power for construction sites, small workshops, and backup applications across South India. Engineered for the demanding conditions of Indian construction environments, this generator provides consistent 3500W output to run essential power tools, lighting systems, and small machinery simultaneously. Built with a robust air-cooled OHV engine, the GenEx 3.5kVA offers excellent fuel efficiency, consuming approximately 1.2 litres per hour at 75% load, making it economical for extended operation. The compact frame design with integrated carry handles allows easy transportation between job sites, while the low-oil shutdown protection safeguards the engine from damage. Hutaib Machinery has served South Indian industries since 1999, and this GenEx generator comes backed by our comprehensive warranty and lifetime technical support, ensuring your power needs are met reliably for years to come.",
+      "mainImage": "/images/products/genex-3-5kva-generator-main.webp",
+      "gallery": [
+        "/images/products/genex-3-5kva-generator-1.webp",
+        "/images/products/genex-3-5kva-generator-2.webp",
+        "/images/products/genex-3-5kva-generator-3.webp"
+      ],
+      "features": [
+        "3.5kVA / 3500W Maximum Output — Powers multiple tools and equipment simultaneously",
+        "Air-Cooled OHV Petrol Engine — Reliable performance with low maintenance requirements",
+        "Fuel-Efficient Operation — Approximately 1.2L/hour consumption at 75% load",
+        "Low-Oil Shutdown Protection — Automatic engine protection prevents damage",
+        "Compact Portable Design — Integrated handles for easy site-to-site transport",
+        "AVR Voltage Regulation — Stable power output protects sensitive equipment",
+        "Large Fuel Tank — Extended runtime reduces refueling interruptions",
+        "Recoil Start System — Quick and reliable manual starting"
+      ],
+      "category": "Generator",
+      "specifications": [
+        { "label": "Brand", "value": "GenEx" },
+        { "label": "Rated Output", "value": "3.5kVA / 3500W" },
+        { "label": "Maximum Output", "value": "3.8kVA / 3800W" },
+        { "label": "Engine Type", "value": "Air-Cooled OHV Petrol" },
+        { "label": "Fuel Tank Capacity", "value": "15 Litres" },
+        { "label": "Runtime at 75% Load", "value": "10-12 Hours" },
+        { "label": "Fuel Consumption", "value": "~1.2 L/hour" },
+        { "label": "Starting System", "value": "Recoil Start" },
+        { "label": "Voltage Output", "value": "220V / 50Hz" },
+        { "label": "Noise Level", "value": "72 dB at 7m" },
+        { "label": "Dimensions (LxWxH)", "value": "605 x 440 x 465 mm" },
+        { "label": "Dry Weight", "value": "42 kg" },
+        { "label": "Warranty", "value": "6 Months" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "GenEx 3.5kVA Petrol Generator - Portable Power | Hutaib Machinery",
+        "description": "Buy GenEx 3.5kVA Portable Petrol Generator at ₹38,000. Fuel-efficient, AVR regulated, 10-12 hr runtime. 6-month warranty. Free delivery across South India. Get quote now!",
+        "keywords": ["3.5kva generator", "genex generator", "portable petrol generator", "construction site generator", "3500 watt generator", "generator price india", "petrol generator bengaluru"]
+      },
+      "applications": [
+        "Construction site power backup",
+        "Small workshop equipment operation",
+        "Outdoor events and functions",
+        "Agricultural pump operation",
+        "Emergency home backup power",
+        "Street food stall power supply"
+      ],
+      "faq": [
+        {
+          "question": "What equipment can a 3.5kVA generator run?",
+          "answer": "The GenEx 3.5kVA generator can power angle grinders, circular saws, small welding machines (up to 160A), construction lights, concrete vibrators, and multiple power tools simultaneously within the 3500W limit."
+        },
+        {
+          "question": "How long can this generator run continuously?",
+          "answer": "With a full 15-litre fuel tank, the GenEx 3.5kVA runs 10-12 hours at 75% load. At lighter loads, runtime extends further. We recommend refueling breaks every 8 hours for optimal engine longevity."
+        },
+        {
+          "question": "Is this generator suitable for sensitive electronics?",
+          "answer": "Yes, the built-in AVR (Automatic Voltage Regulator) provides stable 220V output, making it safe for laptops, LED lights, and basic electronic equipment. For highly sensitive equipment, we recommend our silent/inverter models."
+        },
+        {
+          "question": "What is the delivery time to Chennai or Hyderabad?",
+          "answer": "Standard delivery to Chennai, Hyderabad, and other major South Indian cities takes 5-7 working days. Express delivery is available for urgent requirements with additional charges."
+        },
+        {
+          "question": "Does Hutaib Machinery provide after-sales service for generators?",
+          "answer": "Yes, every GenEx generator includes 6-month warranty, free telephonic support, and access to our service network across Karnataka, Tamil Nadu, Kerala, Andhra Pradesh, and Telangana with typical response within 24-48 hours."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "slug": "genex-5-5kva-portable-petrol-generator",
+      "categorySlug": "generators",
+      "name": "GenEx 5.5kVA Portable Petrol Generator",
+      "shortDescription": "Powerful 5.5kVA petrol generator for medium construction sites and workshops. Handles welding machines, compressors, and heavy power tools.",
+      "price": "₹55,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GenEx%205.5kVA%20Portable%20Petrol%20Generator%20at%20Rs.55%2C000",
+      "fullDescription": "The GenEx 5.5kVA Portable Petrol Generator delivers robust power for medium-scale construction sites, fabrication workshops, and commercial applications across South India. With 5500W rated output, this generator comfortably powers welding machines up to 200A, air compressors, angle grinders, and multiple power tools running simultaneously. The heavy-duty air-cooled OHV engine is built for extended operation in harsh Indian construction environments, offering reliable performance even in dusty conditions. Fuel efficiency remains excellent at approximately 1.6 litres per hour at 75% load, with the large 25-litre fuel tank providing 12-15 hours of continuous runtime. The reinforced steel frame with vibration dampening mounts reduces noise transmission and extends component life. Hutaib Machinery has served South Indian industries since 1999, and this GenEx generator comes backed by our comprehensive 6-month warranty and lifetime technical support.",
+      "mainImage": "/images/products/genex-5-5kva-generator-main.webp",
+      "gallery": [
+        "/images/products/genex-5-5kva-generator-1.webp",
+        "/images/products/genex-5-5kva-generator-2.webp",
+        "/images/products/genex-5-5kva-generator-3.webp"
+      ],
+      "features": [
+        "5.5kVA / 5500W Rated Output — Powers welding machines, compressors, and heavy tools",
+        "Heavy-Duty OHV Petrol Engine — Built for continuous operation in harsh conditions",
+        "25-Litre Large Fuel Tank — Extended 12-15 hour runtime reduces refueling stops",
+        "AVR Voltage Regulation — Stable 220V output protects connected equipment",
+        "Low-Oil Shutdown Protection — Automatic engine safeguard prevents damage",
+        "Reinforced Steel Frame — Vibration dampening for quieter, longer-lasting operation",
+        "Electric Start Option — Easy startup in cold conditions",
+        "Overload Protection Circuit — Prevents generator damage from excess load"
+      ],
+      "category": "Generator",
+      "specifications": [
+        { "label": "Brand", "value": "GenEx" },
+        { "label": "Rated Output", "value": "5.5kVA / 5500W" },
+        { "label": "Maximum Output", "value": "6.0kVA / 6000W" },
+        { "label": "Engine Type", "value": "Air-Cooled OHV Petrol" },
+        { "label": "Engine Displacement", "value": "389cc" },
+        { "label": "Fuel Tank Capacity", "value": "25 Litres" },
+        { "label": "Runtime at 75% Load", "value": "12-15 Hours" },
+        { "label": "Fuel Consumption", "value": "~1.6 L/hour" },
+        { "label": "Starting System", "value": "Recoil + Electric Start" },
+        { "label": "Voltage Output", "value": "220V / 50Hz" },
+        { "label": "Noise Level", "value": "74 dB at 7m" },
+        { "label": "Dimensions (LxWxH)", "value": "700 x 530 x 550 mm" },
+        { "label": "Dry Weight", "value": "72 kg" },
+        { "label": "Warranty", "value": "6 Months" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "GenEx 5.5kVA Petrol Generator - Heavy Duty | Hutaib Machinery",
+        "description": "Buy GenEx 5.5kVA Portable Petrol Generator at ₹55,000. Powers welding machines & compressors. 12-15 hr runtime, AVR regulated. 6-month warranty. Free delivery South India.",
+        "keywords": ["5.5kva generator", "genex generator", "5500 watt generator", "construction generator", "welding generator", "petrol generator india", "generator price bengaluru"]
+      },
+      "applications": [
+        "Medium construction site power",
+        "Welding machine operation (up to 200A)",
+        "Fabrication workshop backup",
+        "Air compressor operation",
+        "Agricultural equipment",
+        "Commercial establishment backup",
+        "Event and outdoor function power"
+      ],
+      "faq": [
+        {
+          "question": "Can the 5.5kVA generator run a welding machine?",
+          "answer": "Yes, the GenEx 5.5kVA comfortably powers welding machines up to 200A. For continuous welding operations, we recommend keeping total load under 80% capacity for optimal performance."
+        },
+        {
+          "question": "What is the difference between 3.5kVA and 5.5kVA models?",
+          "answer": "The 5.5kVA model offers 57% more power output (5500W vs 3500W), larger fuel tank (25L vs 15L), longer runtime, and can handle heavier equipment like welding machines and compressors that the 3.5kVA cannot support."
+        },
+        {
+          "question": "Does it have electric start?",
+          "answer": "Yes, the 5.5kVA model comes with both recoil (manual) and electric start options. The battery for electric start is included with the generator."
+        },
+        {
+          "question": "What is the delivery time to Hyderabad or Chennai?",
+          "answer": "Standard delivery to Hyderabad, Chennai, and other major South Indian cities takes 5-7 working days. Express delivery available for urgent requirements."
+        },
+        {
+          "question": "Can I run multiple tools simultaneously?",
+          "answer": "Yes, within the 5500W limit you can run multiple tools. For example: angle grinder (900W) + circular saw (1400W) + lights (500W) + vibrator (1500W) = 4300W, leaving headroom for startup surges."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "slug": "genex-7-5kva-portable-petrol-generator",
+      "categorySlug": "generators",
+      "name": "GenEx 7.5kVA Portable Petrol Generator",
+      "shortDescription": "High-capacity 7.5kVA petrol generator for large construction sites. Powers heavy machinery, multiple welding stations, and industrial equipment.",
+      "price": "₹65,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GenEx%207.5kVA%20Portable%20Petrol%20Generator%20at%20Rs.65%2C000",
+      "fullDescription": "The GenEx 7.5kVA Portable Petrol Generator is engineered for large construction sites, industrial workshops, and commercial operations requiring substantial power backup across South India. Delivering 7500W rated output, this powerhouse runs heavy-duty welding machines up to 250A, multiple power tools simultaneously, small concrete mixers, and industrial lighting systems. The robust 420cc air-cooled OHV engine provides exceptional torque for handling high startup loads from motors and compressors. With a 28-litre fuel tank and efficient consumption of approximately 2.0 litres per hour, expect 12-14 hours of continuous operation. The reinforced tubular steel frame with forklift slots enables easy movement around large sites. Digital voltmeter and hour meter help monitor performance and maintenance schedules. Trusted by contractors across Karnataka, Tamil Nadu, and Telangana, Hutaib Machinery backs this generator with comprehensive 6-month warranty and lifetime technical support.",
+      "mainImage": "/images/products/genex-7-5kva-generator-main.webp",
+      "gallery": [
+        "/images/products/genex-7-5kva-generator-1.webp",
+        "/images/products/genex-7-5kva-generator-2.webp",
+        "/images/products/genex-7-5kva-generator-3.webp"
+      ],
+      "features": [
+        "7.5kVA / 7500W Rated Output — Powers heavy welding machines and industrial equipment",
+        "420cc Heavy-Duty OHV Engine — High torque handles motor startup surges",
+        "28-Litre Fuel Tank — 12-14 hours continuous runtime for full shift operation",
+        "Digital Voltmeter & Hour Meter — Monitor performance and maintenance schedules",
+        "AVR Voltage Regulation — Consistent 220V output for sensitive equipment",
+        "Electric Start with Battery — Reliable startup every time",
+        "Reinforced Tubular Frame — Forklift slots for easy site movement",
+        "Automatic Low-Oil Shutdown — Engine protection system"
+      ],
+      "category": "Generator",
+      "specifications": [
+        { "label": "Brand", "value": "GenEx" },
+        { "label": "Rated Output", "value": "7.5kVA / 7500W" },
+        { "label": "Maximum Output", "value": "8.0kVA / 8000W" },
+        { "label": "Engine Type", "value": "Air-Cooled OHV Petrol" },
+        { "label": "Engine Displacement", "value": "420cc" },
+        { "label": "Fuel Tank Capacity", "value": "28 Litres" },
+        { "label": "Runtime at 75% Load", "value": "12-14 Hours" },
+        { "label": "Fuel Consumption", "value": "~2.0 L/hour" },
+        { "label": "Starting System", "value": "Electric Start + Recoil Backup" },
+        { "label": "Voltage Output", "value": "220V / 50Hz" },
+        { "label": "Noise Level", "value": "76 dB at 7m" },
+        { "label": "Dimensions (LxWxH)", "value": "750 x 580 x 590 mm" },
+        { "label": "Dry Weight", "value": "92 kg" },
+        { "label": "Warranty", "value": "6 Months" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "GenEx 7.5kVA Petrol Generator - High Capacity | Hutaib Machinery",
+        "description": "Buy GenEx 7.5kVA Portable Petrol Generator at ₹65,000. Powers 250A welding, industrial equipment. Digital display, 12-14 hr runtime. 6-month warranty. South India delivery.",
+        "keywords": ["7.5kva generator", "genex 7500 watt generator", "high capacity petrol generator", "industrial generator india", "construction site generator", "heavy duty generator"]
+      },
+      "applications": [
+        "Large construction site operations",
+        "Heavy-duty welding (up to 250A)",
+        "Multiple simultaneous power tool operation",
+        "Small concrete mixer operation",
+        "Industrial workshop backup",
+        "Commercial building backup power",
+        "Outdoor events and exhibitions",
+        "Agricultural pump stations"
+      ],
+      "faq": [
+        {
+          "question": "What heavy equipment can the 7.5kVA run?",
+          "answer": "The GenEx 7.5kVA handles welding machines up to 250A, small concrete mixers, multiple angle grinders, compressors up to 2HP, and industrial lighting systems. It can power a complete small construction site."
+        },
+        {
+          "question": "Is the 7.5kVA suitable for a fabrication workshop?",
+          "answer": "Yes, this is ideal for fabrication workshops. It can run a welding machine plus grinder plus lighting simultaneously, with the digital display helping you monitor load and prevent overload."
+        },
+        {
+          "question": "How does fuel efficiency compare to smaller models?",
+          "answer": "The 7.5kVA consumes approximately 2.0L/hour at 75% load versus 1.6L/hour for 5.5kVA. Per kW generated, efficiency is similar. The larger tank provides longer runtime between refills."
+        },
+        {
+          "question": "Can two people move this generator?",
+          "answer": "At 92kg, it requires two people or equipment to move. The frame has forklift slots and wheel kit compatibility. We recommend the optional wheel kit for frequent site-to-site movement."
+        },
+        {
+          "question": "What maintenance schedule is recommended?",
+          "answer": "The built-in hour meter helps track maintenance. Oil change every 50 hours or 3 months, air filter check every 25 hours, spark plug every 100 hours. Our service team provides detailed maintenance training."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "slug": "genex-9-5kva-portable-petrol-generator",
+      "categorySlug": "generators",
+      "name": "GenEx 9.5kVA Portable Petrol Generator",
+      "shortDescription": "Maximum capacity 9.5kVA petrol generator for heavy industrial use. Three-phase option available. Powers entire small construction sites.",
+      "price": "₹75,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GenEx%209.5kVA%20Portable%20Petrol%20Generator%20at%20Rs.75%2C000",
+      "fullDescription": "The GenEx 9.5kVA Portable Petrol Generator represents our most powerful petrol generator, designed for heavy industrial applications, large construction sites, and commercial operations demanding maximum portable power across South India. With an impressive 9500W rated output, this industrial-grade unit powers entire small construction sites including heavy welding machines up to 300A, concrete mixers, multiple compressors, and comprehensive lighting systems simultaneously. The massive 460cc commercial-grade engine delivers exceptional torque and reliability for continuous heavy-load operation. The 32-litre fuel tank combined with efficient fuel management provides 11-13 hours of operation per fill. Features include a comprehensive digital control panel with voltmeter, frequency meter, and hour counter for professional monitoring. The heavy-duty frame with integrated lifting points and optional wheel kit handles rough site conditions. Hutaib Machinery's 25+ years of experience backs this generator with comprehensive warranty and pan-South India service coverage.",
+      "mainImage": "/images/products/genex-9-5kva-generator-main.webp",
+      "gallery": [
+        "/images/products/genex-9-5kva-generator-1.webp",
+        "/images/products/genex-9-5kva-generator-2.webp",
+        "/images/products/genex-9-5kva-generator-3.webp"
+      ],
+      "features": [
+        "9.5kVA / 9500W Rated Output — Maximum portable petrol power available",
+        "460cc Commercial-Grade Engine — Heavy-duty construction for industrial use",
+        "32-Litre Fuel Tank — Extended 11-13 hour continuous operation",
+        "Digital Control Panel — Voltmeter, frequency meter, hour counter display",
+        "Heavy-Duty AVR System — Stable power for sensitive industrial equipment",
+        "Electric Start with Heavy-Duty Battery — Reliable startup under load",
+        "Integrated Lifting Points — Crane/forklift handling for site mobility",
+        "Automatic Overload Protection — Safeguards generator and connected equipment"
+      ],
+      "category": "Generator",
+      "specifications": [
+        { "label": "Brand", "value": "GenEx" },
+        { "label": "Rated Output", "value": "9.5kVA / 9500W" },
+        { "label": "Maximum Output", "value": "10.0kVA / 10000W" },
+        { "label": "Engine Type", "value": "Air-Cooled OHV Petrol (Commercial Grade)" },
+        { "label": "Engine Displacement", "value": "460cc" },
+        { "label": "Fuel Tank Capacity", "value": "32 Litres" },
+        { "label": "Runtime at 75% Load", "value": "11-13 Hours" },
+        { "label": "Fuel Consumption", "value": "~2.5 L/hour" },
+        { "label": "Starting System", "value": "Electric Start + Recoil Backup" },
+        { "label": "Voltage Output", "value": "220V / 50Hz" },
+        { "label": "Noise Level", "value": "78 dB at 7m" },
+        { "label": "Dimensions (LxWxH)", "value": "820 x 620 x 630 mm" },
+        { "label": "Dry Weight", "value": "115 kg" },
+        { "label": "Warranty", "value": "6 Months" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "GenEx 9.5kVA Petrol Generator - Industrial Grade | Hutaib",
+        "description": "Buy GenEx 9.5kVA Portable Petrol Generator at ₹75,000. Maximum 9500W output for heavy industrial use. Powers 300A welding, full site operations. 6-month warranty.",
+        "keywords": ["9.5kva generator", "10kva petrol generator", "industrial petrol generator", "heavy duty generator india", "construction site power", "genex generator price"]
+      },
+      "applications": [
+        "Large construction site complete power",
+        "Heavy industrial welding (up to 300A)",
+        "Concrete mixer and vibrator operation",
+        "Multiple compressor operation",
+        "Commercial building backup",
+        "Industrial workshop primary/backup power",
+        "Large outdoor events",
+        "Agricultural processing units"
+      ],
+      "faq": [
+        {
+          "question": "Can the 9.5kVA power an entire small construction site?",
+          "answer": "Yes, the 9.5kVA can simultaneously power a welding machine (3000W), concrete mixer (2000W), multiple power tools (2000W), and site lighting (1000W) with capacity to spare for startup surges."
+        },
+        {
+          "question": "Is a three-phase version available?",
+          "answer": "The standard model is single-phase 220V. Contact Hutaib Machinery for three-phase 415V requirements - we can source three-phase generators for specific industrial needs."
+        },
+        {
+          "question": "How does this compare to a diesel generator?",
+          "answer": "The petrol 9.5kVA is lighter, quieter, and has lower initial cost than equivalent diesel. Diesel is more economical for 8+ hours daily use. For 4-6 hours daily, petrol is more cost-effective."
+        },
+        {
+          "question": "What's required for installation and setup?",
+          "answer": "No special installation needed - it's portable. Requires level ground, adequate ventilation, and proper fuel storage. Our team provides free orientation and safety briefing upon delivery."
+        },
+        {
+          "question": "Can I upgrade from my 5.5kVA later?",
+          "answer": "Yes, we offer trade-in options for existing Hutaib Machinery customers. Contact us to discuss upgrade value for your current generator against the 9.5kVA or other models."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "slug": "genex-3-5kva-silent-petrol-generator",
+      "categorySlug": "generators",
+      "name": "GenEx 3.5kVA Silent Petrol Generator",
+      "shortDescription": "Ultra-quiet 3.5kVA generator with soundproof canopy. Perfect for residential areas, hospitals, and noise-sensitive locations.",
+      "price": "₹75,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GenEx%203.5kVA%20Silent%20Petrol%20Generator%20at%20Rs.75%2C000",
+      "fullDescription": "The GenEx 3.5kVA Silent Petrol Generator brings whisper-quiet power generation to noise-sensitive environments across South India. Enclosed in a professionally designed soundproof canopy with acoustic insulation, this generator operates at just 58 dB at 7 meters - quieter than normal conversation. Ideal for residential backup, hospitals, hotels, offices, and urban construction sites with noise restrictions. Despite the silent operation, it delivers full 3500W rated output identical to the open-frame model, powering essential equipment, lighting, and electronics reliably. The inverter-grade AVR produces clean sine wave output safe for computers, medical equipment, and sensitive electronics. The fully enclosed design also provides weather protection, allowing operation in rain without damage. Features include remote start capability, automatic idle control for fuel savings, and comprehensive digital display. Hutaib Machinery's 25+ years serving South Indian industries ensures reliable after-sales support.",
+      "mainImage": "/images/products/genex-3-5kva-silent-generator-main.webp",
+      "gallery": [
+        "/images/products/genex-3-5kva-silent-generator-1.webp",
+        "/images/products/genex-3-5kva-silent-generator-2.webp",
+        "/images/products/genex-3-5kva-silent-generator-3.webp"
+      ],
+      "features": [
+        "Ultra-Quiet 58 dB Operation — Soundproof canopy for noise-sensitive areas",
+        "3.5kVA / 3500W Clean Output — Inverter-grade AVR for sensitive electronics",
+        "Fully Enclosed Weather-Proof Design — Operates in rain and dusty conditions",
+        "Automatic Idle Control — Reduces fuel consumption during low load",
+        "Remote Start Capability — Convenient operation from distance",
+        "Digital Control Panel — Voltage, frequency, and hour meter display",
+        "Low-Oil Auto Shutdown — Engine protection system",
+        "Compact Footprint — Space-efficient despite soundproofing"
+      ],
+      "category": "Generator",
+      "specifications": [
+        { "label": "Brand", "value": "GenEx" },
+        { "label": "Model Type", "value": "Silent / Soundproof" },
+        { "label": "Rated Output", "value": "3.5kVA / 3500W" },
+        { "label": "Maximum Output", "value": "3.8kVA / 3800W" },
+        { "label": "Engine Type", "value": "Air-Cooled OHV Petrol" },
+        { "label": "Fuel Tank Capacity", "value": "15 Litres" },
+        { "label": "Runtime at 75% Load", "value": "10-12 Hours" },
+        { "label": "Fuel Consumption", "value": "~1.2 L/hour" },
+        { "label": "Starting System", "value": "Electric Start + Remote Option" },
+        { "label": "Voltage Output", "value": "220V / 50Hz (Pure Sine Wave)" },
+        { "label": "Noise Level", "value": "58 dB at 7m" },
+        { "label": "Dimensions (LxWxH)", "value": "750 x 500 x 580 mm" },
+        { "label": "Dry Weight", "value": "68 kg" },
+        { "label": "Warranty", "value": "6 Months" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "GenEx 3.5kVA Silent Generator - Soundproof | Hutaib Machinery",
+        "description": "Buy GenEx 3.5kVA Silent Petrol Generator at ₹75,000. Ultra-quiet 58dB operation. Perfect for homes, hospitals, offices. Pure sine wave output. 6-month warranty.",
+        "keywords": ["silent generator", "3.5kva silent generator", "soundproof generator", "quiet generator india", "hospital generator", "residential generator", "genex silent"]
+      },
+      "applications": [
+        "Residential home backup power",
+        "Hospitals and clinics",
+        "Hotels and resorts",
+        "Office buildings",
+        "Urban construction sites with noise restrictions",
+        "Recording studios and event venues",
+        "Telecom tower backup",
+        "ATM and bank branch backup"
+      ],
+      "faq": [
+        {
+          "question": "How quiet is the silent generator compared to regular models?",
+          "answer": "The silent model operates at 58 dB versus 72 dB for the open-frame 3.5kVA - that's nearly 4 times quieter in perceived sound. At 58 dB, it's quieter than normal conversation and suitable for residential areas."
+        },
+        {
+          "question": "Can I use this for computer and medical equipment?",
+          "answer": "Yes, the silent model produces clean pure sine wave output through its inverter-grade AVR, making it safe for computers, UPS systems, medical monitoring equipment, and sensitive electronics."
+        },
+        {
+          "question": "Why does the silent model cost more than the open-frame?",
+          "answer": "The price difference covers the soundproof canopy with acoustic insulation, weather-proof enclosure, inverter-grade AVR for clean power, remote start system, and automatic idle control - all premium features."
+        },
+        {
+          "question": "Does the enclosure affect cooling and performance?",
+          "answer": "No, the canopy is engineered with proper ventilation channels and airflow management. Performance is identical to open-frame models. The enclosure actually protects from dust, extending engine life."
+        },
+        {
+          "question": "Is maintenance more difficult with the enclosed design?",
+          "answer": "The canopy features easy-access panels for oil checks, filter changes, and routine maintenance. Our service team provides full training. Major service can be done on-site without removing the canopy."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "slug": "genex-4-5kva-silent-petrol-generator",
+      "categorySlug": "generators",
+      "name": "GenEx 4.5kVA Silent Petrol Generator",
+      "shortDescription": "Mid-range silent generator with 4.5kVA output. Ideal balance of power and quiet operation for commercial and residential use.",
+      "price": "₹85,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GenEx%204.5kVA%20Silent%20Petrol%20Generator%20at%20Rs.85%2C000",
+      "fullDescription": "The GenEx 4.5kVA Silent Petrol Generator offers the perfect balance between power capacity and quiet operation for commercial establishments and larger residential properties across South India. Delivering 4500W rated output within a professional soundproof enclosure operating at just 60 dB, this unit bridges the gap between basic backup and heavy-duty requirements while maintaining neighborhood-friendly noise levels. The additional power over the 3.5kVA model allows running air conditioners up to 1.5 tons, larger refrigerators, and multiple appliances simultaneously during outages. Premium features include true sine wave output for sensitive electronics, automatic voltage regulation, intelligent load-sensing idle control, and comprehensive digital monitoring. The robust construction handles commercial environments while the silent operation suits residential neighborhoods and noise-restricted zones. Hutaib Machinery's quarter-century of South Indian market experience ensures responsive service support across Karnataka, Tamil Nadu, Kerala, Andhra Pradesh, and Telangana.",
+      "mainImage": "/images/products/genex-4-5kva-silent-generator-main.webp",
+      "gallery": [
+        "/images/products/genex-4-5kva-silent-generator-1.webp",
+        "/images/products/genex-4-5kva-silent-generator-2.webp",
+        "/images/products/genex-4-5kva-silent-generator-3.webp"
+      ],
+      "features": [
+        "4.5kVA / 4500W Output — Powers 1.5-ton AC and multiple appliances",
+        "Silent 60 dB Operation — Professional soundproof canopy design",
+        "True Sine Wave Output — Safe for all electronics and appliances",
+        "Intelligent Load-Sensing Idle — Automatic fuel optimization",
+        "Weather-Proof Enclosure — All-season outdoor operation",
+        "Electric + Remote Start — Multiple startup options",
+        "Digital Monitoring Panel — Real-time voltage, load, and hour tracking",
+        "Large 20L Fuel Tank — Extended runtime between refills"
+      ],
+      "category": "Generator",
+      "specifications": [
+        { "label": "Brand", "value": "GenEx" },
+        { "label": "Model Type", "value": "Silent / Soundproof" },
+        { "label": "Rated Output", "value": "4.5kVA / 4500W" },
+        { "label": "Maximum Output", "value": "5.0kVA / 5000W" },
+        { "label": "Engine Type", "value": "Air-Cooled OHV Petrol" },
+        { "label": "Engine Displacement", "value": "337cc" },
+        { "label": "Fuel Tank Capacity", "value": "20 Litres" },
+        { "label": "Runtime at 75% Load", "value": "11-13 Hours" },
+        { "label": "Fuel Consumption", "value": "~1.5 L/hour" },
+        { "label": "Starting System", "value": "Electric Start + Remote" },
+        { "label": "Voltage Output", "value": "220V / 50Hz (True Sine Wave)" },
+        { "label": "Noise Level", "value": "60 dB at 7m" },
+        { "label": "Dimensions (LxWxH)", "value": "820 x 550 x 620 mm" },
+        { "label": "Dry Weight", "value": "82 kg" },
+        { "label": "Warranty", "value": "6 Months" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "GenEx 4.5kVA Silent Generator - AC Compatible | Hutaib",
+        "description": "Buy GenEx 4.5kVA Silent Petrol Generator at ₹85,000. Powers 1.5-ton AC + appliances. Ultra-quiet 60dB, true sine wave. 6-month warranty. South India delivery.",
+        "keywords": ["4.5kva silent generator", "silent generator for home", "AC compatible generator", "soundproof generator india", "genex silent generator", "quiet generator"]
+      },
+      "applications": [
+        "Large residential homes with AC backup",
+        "Small commercial establishments",
+        "Clinics and dental offices",
+        "Restaurants and cafes",
+        "Retail shops and showrooms",
+        "Guest houses and small hotels",
+        "Urban construction site offices",
+        "Telecom infrastructure backup"
+      ],
+      "faq": [
+        {
+          "question": "Can the 4.5kVA run a 1.5-ton air conditioner?",
+          "answer": "Yes, the 4.5kVA silent handles 1.5-ton inverter ACs comfortably and non-inverter ACs with careful load management. For running AC plus other appliances simultaneously, this model provides adequate headroom."
+        },
+        {
+          "question": "What's the advantage over the 3.5kVA silent model?",
+          "answer": "The 4.5kVA provides 29% more power (4500W vs 3500W), larger fuel tank for longer runtime, and can handle larger ACs and additional appliances that would overload the smaller model."
+        },
+        {
+          "question": "Is the 4.5kVA silent suitable for a restaurant?",
+          "answer": "Yes, it's excellent for small-medium restaurants. It can power refrigeration, lighting, fans, POS systems, and kitchen ventilation. For cooking equipment, assess your total load or consider the 7.5kVA model."
+        },
+        {
+          "question": "How does the intelligent idle control work?",
+          "answer": "The system senses connected load and reduces engine speed during light loads, cutting fuel consumption by up to 40%. When load increases, it automatically returns to full speed within 0.3 seconds."
+        },
+        {
+          "question": "Can this be used for outdoor catering events?",
+          "answer": "Absolutely. The silent operation won't disturb guests, the weatherproof enclosure handles outdoor conditions, and the runtime handles full event duration. Popular choice for wedding caterers and event companies."
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "slug": "genex-7-5kva-silent-petrol-generator",
+      "categorySlug": "generators",
+      "name": "GenEx 7.5kVA Silent Petrol Generator",
+      "shortDescription": "High-capacity silent generator with 7.5kVA output. Maximum power with minimum noise for demanding commercial and industrial applications.",
+      "price": "₹95,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GenEx%207.5kVA%20Silent%20Petrol%20Generator%20at%20Rs.95%2C000",
+      "fullDescription": "The GenEx 7.5kVA Silent Petrol Generator delivers maximum portable power in a professionally soundproofed package, designed for demanding commercial and light industrial applications across South India where both high capacity and quiet operation are essential. With 7500W rated output enclosed within advanced acoustic panels, this unit operates at just 62 dB at 7 meters - remarkably quiet for its power class. Ideal for hospitals, hotels, shopping complexes, office buildings, and upscale residential properties requiring comprehensive backup for multiple ACs, elevators, and essential systems. The commercial-grade 420cc engine provides reliable performance and exceptional fuel efficiency through intelligent load management. True sine wave output ensures compatibility with all sensitive equipment including medical devices, servers, and precision instruments. Features include remote monitoring capability, comprehensive protection systems, and automatic transfer switch compatibility for seamless power transitions. Hutaib Machinery's extensive South Indian service network ensures rapid response support across all major cities.",
+      "mainImage": "/images/products/genex-7-5kva-silent-generator-main.webp",
+      "gallery": [
+        "/images/products/genex-7-5kva-silent-generator-1.webp",
+        "/images/products/genex-7-5kva-silent-generator-2.webp",
+        "/images/products/genex-7-5kva-silent-generator-3.webp"
+      ],
+      "features": [
+        "7.5kVA / 7500W Maximum Silent Output — Highest capacity in soundproof range",
+        "62 dB Ultra-Quiet Operation — Commercial-grade acoustic engineering",
+        "True Sine Wave AVR — Powers medical equipment and sensitive electronics",
+        "420cc Commercial Engine — Heavy-duty reliability for continuous use",
+        "25-Litre Fuel Tank — Extended 10-12 hour operation",
+        "ATS Compatibility — Seamless automatic power transfer option",
+        "Remote Monitoring Ready — Track status from control room",
+        "Comprehensive Protection Suite — Overload, low-oil, over-temperature shutdown"
+      ],
+      "category": "Generator",
+      "specifications": [
+        { "label": "Brand", "value": "GenEx" },
+        { "label": "Model Type", "value": "Silent / Soundproof" },
+        { "label": "Rated Output", "value": "7.5kVA / 7500W" },
+        { "label": "Maximum Output", "value": "8.0kVA / 8000W" },
+        { "label": "Engine Type", "value": "Air-Cooled OHV Petrol (Commercial)" },
+        { "label": "Engine Displacement", "value": "420cc" },
+        { "label": "Fuel Tank Capacity", "value": "25 Litres" },
+        { "label": "Runtime at 75% Load", "value": "10-12 Hours" },
+        { "label": "Fuel Consumption", "value": "~2.0 L/hour" },
+        { "label": "Starting System", "value": "Electric Start + Remote" },
+        { "label": "Voltage Output", "value": "220V / 50Hz (True Sine Wave)" },
+        { "label": "Noise Level", "value": "62 dB at 7m" },
+        { "label": "Dimensions (LxWxH)", "value": "950 x 650 x 720 mm" },
+        { "label": "Dry Weight", "value": "125 kg" },
+        { "label": "Warranty", "value": "6 Months" }
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "GenEx 7.5kVA Silent Generator - Commercial Grade | Hutaib",
+        "description": "Buy GenEx 7.5kVA Silent Petrol Generator at ₹95,000. Maximum 7500W silent output at 62dB. ATS compatible, true sine wave. Ideal for hospitals, hotels. 6-month warranty.",
+        "keywords": ["7.5kva silent generator", "commercial silent generator", "hospital generator", "hotel backup generator", "soundproof generator india", "genex silent 7.5kva"]
+      },
+      "applications": [
+        "Hospitals and healthcare facilities",
+        "Hotels and large guest houses",
+        "Office buildings and IT parks",
+        "Shopping complexes and retail chains",
+        "Large residential villas and farmhouses",
+        "Banquet halls and convention centers",
+        "Educational institutions",
+        "Banking and financial institutions"
+      ],
+      "faq": [
+        {
+          "question": "Is the 7.5kVA silent suitable for hospital use?",
+          "answer": "Yes, the true sine wave output is safe for medical equipment including monitors, ventilators, and diagnostic machines. The 62dB quiet operation won't disturb patients. We recommend UPS buffer for life-critical equipment."
+        },
+        {
+          "question": "Can it power multiple air conditioners?",
+          "answer": "The 7.5kVA silent can handle 2-3 units of 1.5-ton inverter ACs or 2 units of 2-ton ACs along with other essential loads like lighting, fans, and electronics. Load assessment helps optimize configuration."
+        },
+        {
+          "question": "What is ATS compatibility?",
+          "answer": "ATS (Automatic Transfer Switch) enables automatic power switching when mains fails. The generator starts automatically and transfers load without manual intervention - essential for hospitals and data centers."
+        },
+        {
+          "question": "How does noise compare to open-frame 7.5kVA?",
+          "answer": "The silent model operates at 62 dB versus 76 dB for open-frame - that's 14 dB quieter, which means approximately 75% less perceived noise. Suitable for noise-restricted urban areas and premium locations."
+        },
+        {
+          "question": "What maintenance access does the canopy provide?",
+          "answer": "The canopy features multiple access panels: side panels for routine oil and filter checks, rear panel for major service, top panel for fuel filling. Comprehensive service can be performed without canopy removal."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "slug": "verx-12ltr-portable-air-compressor",
+      "categorySlug": "air-compressors-verx",
+      "name": "VERX 12L Portable Air Compressor",
+      "shortDescription": "Compact 12-litre air compressor for tyre inflation, spray guns, and light pneumatic applications. Single phase, oil-lubricated design.",
+      "price": "₹6,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20VERX%2012L%20Air%20Compressor%20at%20Rs.6%2C000",
+      "fullDescription": "The VERX 12L Portable Air Compressor is engineered for home garages, small workshops, and light commercial applications across South India. With a 12-litre tank and 1 HP motor delivering 8 bar maximum pressure, this compact unit handles tyre inflation, spray painting small items, air gun cleaning, and operating light pneumatic tools. The oil-lubricated design ensures longer motor life and quieter operation compared to oil-free alternatives. Running on standard 220V single-phase power available in any home or shop, it's the perfect entry-level compressor for those needing reliable compressed air without the complexity of larger industrial units. Hutaib Machinery has served South Indian industries since 1999, and this VERX compressor comes backed by our 6-month warranty and lifetime technical support.",
+      "mainImage": "/images/products/verx-12l-compressor-main.webp",
+      "gallery": [
+        "/images/products/verx-12l-compressor-1.webp",
+        "/images/products/verx-12l-compressor-2.webp",
+        "/images/products/verx-12l-compressor-3.webp"
+      ],
+      "features": [
+        "12-Litre Tank Capacity — Perfect for intermittent use and light applications",
+        "1 HP / 0.75 kW Motor — Delivers up to 8 bar (116 PSI) maximum pressure",
+        "Oil-Lubricated Pump — Longer life, quieter operation, better cooling than oil-free",
+        "Single Phase 220V Operation — Works on standard home/shop electricity",
+        "Automatic Pressure Cut-Off — Stops motor when tank reaches max pressure",
+        "Portable Design (~18 kg) — Easy to move around workshop or transport",
+        "Standard Quick-Connect Fittings — Compatible with most pneumatic accessories",
+        "Safety Features — Includes safety valve, thermal overload, pressure relief"
+      ],
+      "category": "Air Compressors",
+      "specifications": [
+        { "label": "Brand", "value": "VERX" },
+        { "label": "Tank Capacity", "value": "12 Litres" },
+        { "label": "Motor Power", "value": "1 HP / 0.75 kW" },
+        { "label": "Power Supply", "value": "220V, Single Phase, 50Hz" },
+        { "label": "Maximum Pressure", "value": "8 bar / 116 PSI" },
+        { "label": "Air Displacement", "value": "~115 LPM" },
+        { "label": "Compressor Type", "value": "Direct Drive, Oil Lubricated" },
+        { "label": "RPM", "value": "2850" },
+        { "label": "Weight", "value": "~18 kg" },
+        { "label": "Dimensions (L×W×H)", "value": "550mm × 250mm × 500mm" },
+        { "label": "Noise Level", "value": "~70 dB" },
+        { "label": "Warranty", "value": "6 Months" }
+      ],
+      "brochureUrl": "/brochures/verx-air-compressor.pdf",
+      "seo": {
+        "title": "VERX 12L Portable Air Compressor | ₹6,000 | Hutaib Machinery",
+        "description": "Buy VERX 12L Portable Air Compressor at ₹6,000. Ideal for tyre inflation, spray guns & small pneumatic tools. Single phase, oil-lubricated. 6-month warranty. Fast delivery South India.",
+        "keywords": ["VERX air compressor", "12 litre compressor", "portable air compressor", "small compressor price India", "tyre inflator compressor", "spray painting compressor", "workshop compressor Bengaluru"]
+      },
+      "applications": [
+        "Tyre inflation - cars, bikes, autos",
+        "Spray painting small items",
+        "Air gun cleaning and dusting",
+        "Small pneumatic tools - staplers, nailers",
+        "Electronics and AC servicing",
+        "Hobby airbrushing"
+      ],
+      "faq": [
+        {
+          "question": "What can I use the VERX 12L air compressor for?",
+          "answer": "The VERX 12L is ideal for tyre inflation (cars, bikes, autos), spray painting small items, powering air guns for cleaning and dusting, operating small pneumatic tools like staplers and brad nailers, and airbrush work."
+        },
+        {
+          "question": "Does the VERX 12L compressor run on home electricity?",
+          "answer": "Yes, the VERX 12L runs on standard 220V single-phase power available in homes, shops, and small workshops across India. No special electrical setup required."
+        },
+        {
+          "question": "Is this compressor oil-free or does it need oil?",
+          "answer": "The VERX 12L is an oil-lubricated compressor, which provides longer life and quieter operation. It requires periodic oil level checks and changes as per the maintenance schedule."
+        },
+        {
+          "question": "What is the warranty on VERX compressors?",
+          "answer": "The VERX 12L comes with a 6-month warranty covering manufacturing defects. Warranty does not cover consumables, wear parts, or damage from improper use."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "slug": "verx-24ltr-air-compressor",
+      "categorySlug": "air-compressors-verx",
+      "name": "VERX 24L Air Compressor",
+      "shortDescription": "Mid-range 24-litre air compressor for workshops. 1.5 HP motor, 170 LPM air flow. Best value upgrade from 12L.",
+      "price": "₹9,500/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20VERX%2024L%20Air%20Compressor%20at%20Rs.9%2C500",
+      "fullDescription": "The VERX 24L Air Compressor is the ideal mid-range choice for small workshops, service centers, and professional users across South India. With double the tank capacity of the 12L model and 50% more air flow (170 LPM from 1.5 HP motor), it handles spray painting, pneumatic tools, and workshop tasks more effectively. At just ₹3,500 extra, this represents the best value upgrade for users who need more capability without stepping up to industrial equipment. The oil-lubricated design ensures longer life and quieter operation compared to oil-free alternatives. Hutaib Machinery has served South Indian industries since 1999, and this VERX compressor comes backed by our 6-month warranty and lifetime technical support.",
+      "mainImage": "/images/products/verx-24l-compressor-main.webp",
+      "gallery": ["/images/products/verx-24l-compressor-1.webp", "/images/products/verx-24l-compressor-2.webp", "/images/products/verx-24l-compressor-3.webp"],
+      "features": [
+        "24-Litre Tank Capacity — Double the 12L for longer run time",
+        "1.5 HP / 1.1 kW Motor — 170 LPM air flow, 50% more than 12L",
+        "Oil-Lubricated Pump — Longer life, quieter operation",
+        "Single Phase 220V Operation — Works on standard electricity",
+        "Automatic Pressure Cut-Off — Motor protection at max pressure",
+        "Portable Design (~28 kg) — Still manageable for workshop mobility",
+        "Standard Quick-Connect Fittings — Compatible with most accessories",
+        "Best Value Upgrade — Just ₹3,500 more than 12L model"
+      ],
+      "category": "Air Compressors",
+      "specifications": [
+        {"label": "Brand", "value": "VERX"},
+        {"label": "Tank Capacity", "value": "24 Litres"},
+        {"label": "Motor Power", "value": "1.5 HP / 1.1 kW"},
+        {"label": "Power Supply", "value": "220V, Single Phase, 50Hz"},
+        {"label": "Maximum Pressure", "value": "8 bar / 116 PSI"},
+        {"label": "Air Displacement", "value": "~170 LPM"},
+        {"label": "Compressor Type", "value": "Direct Drive, Oil Lubricated"},
+        {"label": "Weight", "value": "~28 kg"},
+        {"label": "Warranty", "value": "6 Months"}
+      ],
+      "seo": {
+        "title": "VERX 24L Air Compressor | ₹9,500 | Hutaib Machinery",
+        "description": "Buy VERX 24L Air Compressor at ₹9,500. Best value mid-range compressor for workshops. 1.5 HP, 170 LPM. 6-month warranty. Fast delivery South India.",
+        "keywords": ["VERX 24L compressor", "24 litre air compressor", "workshop compressor", "spray painting compressor", "mid-range compressor India"]
+      },
+      "applications": ["Spray painting furniture and grilles", "Pneumatic nail guns and staplers", "Small impact wrenches", "Tyre inflation services", "AC servicing and cleaning"],
+      "faq": [
+        {"question": "What is the advantage of 24L over 12L?", "answer": "The 24L offers double tank capacity and 50% more air flow (170 LPM vs 115 LPM) for just ₹3,500 extra, providing longer run time and better performance for spray painting and tools."},
+        {"question": "Does the VERX 24L need special power?", "answer": "No, the VERX 24L runs on standard 220V single-phase power available in homes and small workshops across India."}
+      ]
+    },
+    {
+      "id": 49,
+      "slug": "verx-50ltr-air-compressor",
+      "categorySlug": "air-compressors-verx",
+      "name": "VERX 50L Air Compressor",
+      "shortDescription": "Professional 50-litre air compressor for auto garages and workshops. 2 HP belt-drive motor, 220 LPM air flow.",
+      "price": "₹13,500/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20VERX%2050L%20Air%20Compressor%20at%20Rs.13%2C500",
+      "fullDescription": "The VERX 50L Air Compressor is the preferred choice for auto garages, fabrication shops, and professional workshops across South India. With a belt-driven 2 HP motor delivering 220 LPM air flow and 50-litre tank, it handles continuous spray painting, impact wrenches, and demanding pneumatic tools that smaller compressors cannot sustain. The belt-drive design runs cooler and lasts longer than direct-drive models, making it ideal for extended professional use. Still operating on single-phase 220V power, it doesn't require expensive three-phase infrastructure. Hutaib Machinery has served South Indian industries since 1999, backing this compressor with 6-month warranty and lifetime technical support.",
+      "mainImage": "/images/products/verx-50l-compressor-main.webp",
+      "gallery": ["/images/products/verx-50l-compressor-1.webp", "/images/products/verx-50l-compressor-2.webp", "/images/products/verx-50l-compressor-3.webp"],
+      "features": [
+        "50-Litre Tank Capacity — Extended run time for professional work",
+        "2 HP / 1.5 kW Belt-Drive Motor — Runs cooler, lasts longer",
+        "220 LPM Air Flow — Powers impact wrenches and spray guns",
+        "Twin Cylinder V-Type Pump — Faster tank fill, consistent pressure",
+        "Single Phase 220V Operation — No three-phase required",
+        "Oil-Lubricated — Professional-grade durability",
+        "Ideal for Auto Garages — Most popular model for workshops"
+      ],
+      "category": "Air Compressors",
+      "specifications": [
+        {"label": "Brand", "value": "VERX"},
+        {"label": "Tank Capacity", "value": "50 Litres"},
+        {"label": "Motor Power", "value": "2 HP / 1.5 kW"},
+        {"label": "Power Supply", "value": "220V, Single Phase, 50Hz"},
+        {"label": "Maximum Pressure", "value": "8 bar / 116 PSI"},
+        {"label": "Air Displacement", "value": "~220 LPM"},
+        {"label": "Compressor Type", "value": "Belt Drive, Oil Lubricated"},
+        {"label": "Weight", "value": "~45 kg"},
+        {"label": "Warranty", "value": "6 Months"}
+      ],
+      "seo": {
+        "title": "VERX 50L Air Compressor | ₹13,500 | Hutaib Machinery",
+        "description": "Buy VERX 50L Air Compressor at ₹13,500. Professional belt-drive compressor for auto garages. 2 HP, 220 LPM. 6-month warranty. Fast delivery South India.",
+        "keywords": ["VERX 50L compressor", "50 litre air compressor", "auto garage compressor", "professional compressor", "belt drive compressor India"]
+      },
+      "applications": ["Auto garages and service centers", "Vehicle panel spray painting", "Fabrication workshops", "Impact wrench operation", "Commercial tyre shops"],
+      "faq": [
+        {"question": "Why is belt drive better than direct drive?", "answer": "Belt-driven compressors run the pump at lower RPM, resulting in cooler operation, longer component life, and quieter performance - better suited for continuous professional use."},
+        {"question": "Can I use the 50L for continuous spray painting?", "answer": "Yes, the 50L is designed for professional spray painting with extended sessions suitable for painting vehicle panels and furniture without frequent interruptions."}
+      ]
+    },
+    {
+      "id": 50,
+      "slug": "verx-150ltr-air-compressor",
+      "categorySlug": "air-compressors-verx",
+      "name": "VERX 150L Industrial Air Compressor",
+      "shortDescription": "Industrial 150-litre air compressor for factories and large workshops. 3 HP motor, 350 LPM, 10 bar pressure.",
+      "price": "₹40,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20VERX%20150L%20Industrial%20Air%20Compressor%20at%20Rs.40%2C000",
+      "fullDescription": "The VERX 150L Industrial Air Compressor is engineered for factories, large workshops, and operations requiring multi-station air supply across South India. With a 3 HP motor delivering 350 LPM air flow at 10 bar pressure, it powers 2-3 workstations simultaneously for sandblasting, spray painting, and heavy pneumatic tools. Available in both single-phase and three-phase variants, it suits various industrial electrical setups. The heavy-duty construction handles continuous operation typical in manufacturing environments. Hutaib Machinery has served South Indian industries since 1999, providing 6-month warranty, spare parts support, and optional annual maintenance contracts.",
+      "mainImage": "/images/products/verx-150l-compressor-main.webp",
+      "gallery": ["/images/products/verx-150l-compressor-1.webp", "/images/products/verx-150l-compressor-2.webp", "/images/products/verx-150l-compressor-3.webp"],
+      "features": [
+        "150-Litre Tank Capacity — Massive air reserve for industrial use",
+        "3 HP / 2.2 kW Motor — 350 LPM air flow for multiple tools",
+        "10 Bar Maximum Pressure — Higher than standard 8 bar models",
+        "Multi-Station Ready — Power 2-3 workstations simultaneously",
+        "Single/Three Phase Options — Choose based on your electrical setup",
+        "Sandblasting Ready — Adequate air flow for surface preparation",
+        "Industrial Construction — Built for 8+ hours daily operation"
+      ],
+      "category": "Air Compressors",
+      "specifications": [
+        {"label": "Brand", "value": "VERX"},
+        {"label": "Tank Capacity", "value": "150 Litres"},
+        {"label": "Motor Power", "value": "3 HP / 2.2 kW"},
+        {"label": "Power Supply", "value": "220V Single Phase / 415V Three Phase"},
+        {"label": "Maximum Pressure", "value": "10 bar / 145 PSI"},
+        {"label": "Air Displacement", "value": "~350 LPM"},
+        {"label": "Compressor Type", "value": "Belt Drive, Oil Lubricated"},
+        {"label": "Weight", "value": "~95 kg"},
+        {"label": "Warranty", "value": "6 Months"}
+      ],
+      "seo": {
+        "title": "VERX 150L Industrial Air Compressor | ₹40,000 | Hutaib Machinery",
+        "description": "Buy VERX 150L Industrial Air Compressor at ₹40,000. Heavy-duty for workshops and factories. 3 HP, 350 LPM, 10 bar. 6-month warranty. Delivery across South India.",
+        "keywords": ["VERX 150L compressor", "industrial air compressor", "150 litre compressor India", "factory air compressor", "heavy duty compressor"]
+      },
+      "applications": ["Manufacturing factories", "Large auto workshops", "Sandblasting operations", "CNC machine shops", "Multiple spray painting stations"],
+      "faq": [
+        {"question": "Can the 150L power multiple workstations?", "answer": "Yes, the VERX 150L with 350 LPM air flow can power 2-3 pneumatic workstations simultaneously, designed for multi-station workshops."},
+        {"question": "Is three-phase required?", "answer": "No, the VERX 150L is available in both single-phase (220V) and three-phase (415V) variants. Three-phase recommended for heavy continuous use."}
+      ]
+    },
+    {
+      "id": 51,
+      "slug": "verx-200ltr-air-compressor",
+      "categorySlug": "air-compressors-verx",
+      "name": "VERX 200L Heavy-Duty Air Compressor",
+      "shortDescription": "Flagship 200-litre industrial compressor. 5 HP three-phase motor, two-stage compression, 450 LPM, 12 bar pressure.",
+      "price": "₹52,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20VERX%20200L%20Heavy-Duty%20Air%20Compressor%20at%20Rs.52%2C000",
+      "fullDescription": "The VERX 200L Heavy-Duty Air Compressor is our flagship industrial unit, engineered for factories and large-scale operations requiring continuous high-volume air supply across South India. With a 5 HP three-phase motor, two-stage compression delivering 450 LPM at 12 bar, and 200-litre tank, it powers entire production floors and 4-5 workstations simultaneously. Two-stage compression provides higher pressure more efficiently with better air quality. Designed for continuous duty operation, it handles heavy sandblasting, industrial spray painting, and multiple pneumatic tools with ease. Hutaib Machinery provides 6-month warranty, installation services, spare parts support, and annual maintenance contracts for industrial equipment.",
+      "mainImage": "/images/products/verx-200l-compressor-main.webp",
+      "gallery": ["/images/products/verx-200l-compressor-1.webp", "/images/products/verx-200l-compressor-2.webp", "/images/products/verx-200l-compressor-3.webp"],
+      "features": [
+        "200-Litre Tank Capacity — Maximum air reserve in VERX range",
+        "5 HP / 3.7 kW Three-Phase Motor — Industrial-grade continuous duty",
+        "Two-Stage Compression — 12 bar pressure, higher efficiency",
+        "450 LPM Air Flow — Power 4-5 stations simultaneously",
+        "Heavy Sandblasting Ready — Sustained high-volume delivery",
+        "Continuous Duty Rated — Built for 24/7 industrial operation",
+        "Factory-Wide Air Supply — Central compressor for production lines"
+      ],
+      "category": "Air Compressors",
+      "specifications": [
+        {"label": "Brand", "value": "VERX"},
+        {"label": "Tank Capacity", "value": "200 Litres"},
+        {"label": "Motor Power", "value": "5 HP / 3.7 kW"},
+        {"label": "Power Supply", "value": "415V, Three Phase, 50Hz"},
+        {"label": "Maximum Pressure", "value": "12 bar / 175 PSI"},
+        {"label": "Air Displacement", "value": "~450 LPM"},
+        {"label": "Compressor Type", "value": "Belt Drive, Two-Stage, Oil Lubricated"},
+        {"label": "Weight", "value": "~120 kg"},
+        {"label": "Warranty", "value": "6 Months"}
+      ],
+      "seo": {
+        "title": "VERX 200L Heavy-Duty Air Compressor | ₹52,000 | Hutaib Machinery",
+        "description": "Buy VERX 200L Heavy-Duty Air Compressor at ₹52,000. Maximum capacity industrial compressor. 5 HP, 450 LPM, 12 bar. 6-month warranty. South India delivery and installation.",
+        "keywords": ["VERX 200L compressor", "heavy duty air compressor", "200 litre compressor India", "industrial compressor price", "factory air compressor"]
+      },
+      "applications": ["Factory production lines", "Heavy sandblasting operations", "Multi-station workshops", "Industrial spray painting facilities", "Large auto service centers"],
+      "faq": [
+        {"question": "Does the 200L require three-phase power?", "answer": "Yes, the 5 HP motor requires 415V three-phase power supply. Ensure your facility has adequate three-phase infrastructure before purchase."},
+        {"question": "What is two-stage compression?", "answer": "Two-stage compression uses two cylinders where air is compressed in the first stage, cooled, then compressed again. This delivers higher pressure more efficiently with cooler operation and better air quality."}
+      ]
+    },
+    {
+      "id": 52,
+      "slug": "walk-behind-double-drum-roller-greaves-10hp-3ton",
+      "categorySlug": "road-rollers",
+      "name": "Walk Behind Double Drum Roller - Greaves 10HP Diesel (3 Ton)",
+      "shortDescription": "Heavy-duty 3-ton compaction roller with 10HP Greaves diesel engine. Self-start battery included. Ideal for road, asphalt, and soil compaction.",
+      "price": "₹1,90,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20Walk%20Behind%20Double%20Drum%20Roller%20Greaves%2010HP%203Ton%20at%20Rs.1%2C90%2C000",
+      "fullDescription": "The Walk Behind Double Drum Roller with Greaves 10HP diesel engine delivers professional-grade 3-ton compaction for road construction and maintenance projects across South India. Powered by the trusted Greaves brand diesel engine with self-start battery, this roller eliminates manual cranking and ensures reliable operation in demanding site conditions. The double drum configuration provides superior compaction efficiency for asphalt, granular base layers, and soil preparation. Perfect for contractors handling road work, parking lots, driveway construction, and municipal maintenance projects. Hutaib Machinery provides complete after-sales support including spare parts, service, and operator training.",
+      "mainImage": "/images/products/double-drum-roller-greaves-main.webp",
+      "gallery": [
+        "/images/products/double-drum-roller-greaves-1.webp",
+        "/images/products/double-drum-roller-greaves-2.webp",
+        "/images/products/double-drum-roller-greaves-3.webp"
+      ],
+      "features": [
+        "10HP Greaves Diesel Engine — Trusted Indian brand for reliability",
+        "Self-Start with Battery — No manual cranking required",
+        "3-Ton Compaction Force — Heavy-duty for professional road work",
+        "Double Drum Design — Even compaction on both passes",
+        "Walk Behind Operation — Easy maneuverability in tight spaces",
+        "Vibration Compaction — Enhanced soil and asphalt settling",
+        "Water Sprinkler System — Prevents asphalt sticking to drums"
+      ],
+      "category": "Road Rollers",
+      "specifications": [
+        {"label": "Engine Brand", "value": "Greaves"},
+        {"label": "Engine Power", "value": "10 HP Diesel"},
+        {"label": "Start Type", "value": "Self-Start with Battery"},
+        {"label": "Compaction Force", "value": "3 Ton"},
+        {"label": "Drum Configuration", "value": "Double Drum"},
+        {"label": "Operating Type", "value": "Walk Behind"},
+        {"label": "Water Tank", "value": "Included"},
+        {"label": "Warranty", "value": "6 Months"}
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "Walk Behind Double Drum Roller 3 Ton | Greaves 10HP | ₹1,90,000 | HMS",
+        "description": "Buy Walk Behind Double Drum Roller at ₹1,90,000. Greaves 10HP diesel engine with self-start. 3-ton compaction for roads and asphalt. 6-month warranty. South India delivery.",
+        "keywords": ["double drum roller", "walk behind roller", "3 ton road roller", "Greaves diesel roller", "asphalt compactor", "road roller price India"]
+      },
+      "applications": [
+        "Road construction and repair",
+        "Asphalt compaction",
+        "Parking lot construction",
+        "Driveway and pavement work",
+        "Base layer compaction",
+        "Municipal road maintenance"
+      ],
+      "faq": [
+        {
+          "question": "Why Greaves engine over other brands?",
+          "answer": "Greaves is a trusted Indian diesel engine brand with widespread service network and spare parts availability across South India. Known for durability and fuel efficiency in construction equipment."
+        },
+        {
+          "question": "What is the advantage of double drum over single drum?",
+          "answer": "Double drum rollers provide compaction in both forward and reverse passes, giving more uniform surface finish. Ideal for asphalt work where smooth finish is critical."
+        },
+        {
+          "question": "Is battery included with self-start?",
+          "answer": "Yes, the self-start battery is included with the machine. No additional purchase required."
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "slug": "walk-behind-double-drum-roller-chungfa-10hp-3ton",
+      "categorySlug": "road-rollers",
+      "name": "Walk Behind Double Drum Roller - Chungfa 10HP Diesel (3 Ton)",
+      "shortDescription": "Budget-friendly 3-ton compaction roller with 10HP Chungfa diesel engine. Self-start battery included. Same performance at lower cost.",
+      "price": "₹1,85,000/-",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20Walk%20Behind%20Double%20Drum%20Roller%20Chungfa%2010HP%203Ton%20at%20Rs.1%2C85%2C000",
+      "fullDescription": "The Walk Behind Double Drum Roller with Chungfa 10HP diesel engine offers professional 3-ton compaction at a budget-friendly price point. The Chungfa diesel engine delivers reliable performance with self-start battery convenience, making it an excellent value choice for contractors across South India. Double drum configuration ensures efficient compaction for asphalt laying, road base preparation, and parking lot construction. Ideal for small to medium contractors looking for cost-effective compaction equipment without compromising on essential features. Hutaib Machinery provides complete after-sales support including spare parts availability and service.",
+      "mainImage": "/images/products/double-drum-roller-chungfa-main.webp",
+      "gallery": [
+        "/images/products/double-drum-roller-chungfa-1.webp",
+        "/images/products/double-drum-roller-chungfa-2.webp",
+        "/images/products/double-drum-roller-chungfa-3.webp"
+      ],
+      "features": [
+        "10HP Chungfa Diesel Engine — Reliable performance at lower cost",
+        "Self-Start with Battery — Convenient electric starting",
+        "3-Ton Compaction Force — Professional-grade compaction",
+        "Double Drum Design — Smooth finish on asphalt surfaces",
+        "Walk Behind Operation — Maneuver in confined areas",
+        "Vibration Compaction — Better soil and asphalt density",
+        "Water Sprinkler System — Prevents material adhesion"
+      ],
+      "category": "Road Rollers",
+      "specifications": [
+        {"label": "Engine Brand", "value": "Chungfa"},
+        {"label": "Engine Power", "value": "10 HP Diesel"},
+        {"label": "Start Type", "value": "Self-Start with Battery"},
+        {"label": "Compaction Force", "value": "3 Ton"},
+        {"label": "Drum Configuration", "value": "Double Drum"},
+        {"label": "Operating Type", "value": "Walk Behind"},
+        {"label": "Water Tank", "value": "Included"},
+        {"label": "Warranty", "value": "6 Months"}
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "Walk Behind Double Drum Roller 3 Ton | Chungfa 10HP | ₹1,85,000 | HMS",
+        "description": "Buy Walk Behind Double Drum Roller at ₹1,85,000. Chungfa 10HP diesel with self-start. Budget-friendly 3-ton compaction. 6-month warranty. South India delivery.",
+        "keywords": ["double drum roller", "Chungfa diesel roller", "3 ton road roller price", "budget road roller", "walk behind compactor", "asphalt roller India"]
+      },
+      "applications": [
+        "Road construction and repair",
+        "Asphalt compaction",
+        "Parking lot construction",
+        "Driveway and pavement work",
+        "Base layer compaction",
+        "Small contractor projects"
+      ],
+      "faq": [
+        {
+          "question": "What is the difference between Chungfa and Greaves engine models?",
+          "answer": "Both deliver 10HP with 3-ton compaction. Greaves is an established Indian brand with wider service network. Chungfa offers similar performance at ₹5,000 lower cost - ideal for budget-conscious buyers."
+        },
+        {
+          "question": "Is Chungfa engine reliable?",
+          "answer": "Yes, Chungfa engines are widely used in construction equipment across India. Spare parts are readily available. We provide 6-month warranty and after-sales support."
+        },
+        {
+          "question": "Which model should I choose - Greaves or Chungfa?",
+          "answer": "Choose Greaves if brand reputation and extensive service network matter most. Choose Chungfa if you want to save ₹5,000 with similar performance and our direct support."
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "slug": "walk-behind-single-drum-roller-honda-gx390-1-5ton",
+      "categorySlug": "road-rollers",
+      "name": "Walk Behind Single Drum Roller - Honda GX390 Petrol (1.5 Ton)",
+      "shortDescription": "Compact 1.5-ton single drum roller with legendary Honda GX390 petrol engine. Perfect for driveways, pathways, and light compaction work.",
+      "price": "₹1,35,000/- + GST 18%",
+      "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20Walk%20Behind%20Single%20Drum%20Roller%20Honda%20GX390%201.5Ton%20at%20Rs.1%2C35%2C000%20%2B%20GST",
+      "fullDescription": "The Walk Behind Single Drum Roller powered by the legendary Honda GX390 petrol engine delivers reliable 1.5-ton compaction for light to medium duty applications. Honda's GX series is globally renowned for exceptional reliability, fuel efficiency, and easy starting - making this roller perfect for contractors who demand dependable performance. The single drum configuration is ideal for compacting driveways, pathways, trenches, and small parking areas. Lighter weight makes it easier to transport and maneuver compared to heavier models. The petrol engine offers clean operation and easy maintenance without diesel fuel handling. Hutaib Machinery is an authorized supplier with full Honda engine warranty support across South India.",
+      "mainImage": "/images/products/single-drum-roller-honda-main.webp",
+      "gallery": [
+        "/images/products/single-drum-roller-honda-1.webp",
+        "/images/products/single-drum-roller-honda-2.webp",
+        "/images/products/single-drum-roller-honda-3.webp"
+      ],
+      "features": [
+        "Honda GX390 Petrol Engine — World-renowned reliability and efficiency",
+        "1.5-Ton Compaction Force — Ideal for light to medium duty work",
+        "Single Drum Design — Compact and easy to maneuver",
+        "Petrol Powered — Clean operation, easy maintenance",
+        "Walk Behind Operation — Perfect for tight spaces",
+        "Vibration Compaction — Effective soil settling",
+        "Lightweight Design — Easy transport between sites"
+      ],
+      "category": "Road Rollers",
+      "specifications": [
+        {"label": "Engine Brand", "value": "Honda"},
+        {"label": "Engine Model", "value": "GX390"},
+        {"label": "Engine Power", "value": "13 HP Petrol"},
+        {"label": "Fuel Type", "value": "Petrol"},
+        {"label": "Compaction Force", "value": "1.5 Ton"},
+        {"label": "Drum Configuration", "value": "Single Drum"},
+        {"label": "Operating Type", "value": "Walk Behind"},
+        {"label": "Warranty", "value": "6 Months (Honda engine warranty as per Honda policy)"}
+      ],
+      "brochureUrl": "/hms-brochure.pdf",
+      "seo": {
+        "title": "Walk Behind Single Drum Roller 1.5 Ton | Honda GX390 | ₹1,35,000 | HMS",
+        "description": "Buy Walk Behind Single Drum Roller at ₹1,35,000 + GST. Honda GX390 petrol engine. 1.5-ton compaction for driveways and pathways. Honda warranty. South India delivery.",
+        "keywords": ["single drum roller", "Honda GX390 roller", "1.5 ton road roller", "petrol road roller", "walk behind compactor", "driveway roller India"]
+      },
+      "applications": [
+        "Driveway construction",
+        "Pathway and walkway compaction",
+        "Trench backfill compaction",
+        "Small parking areas",
+        "Landscaping projects",
+        "Light road repair work"
+      ],
+      "faq": [
+        {
+          "question": "Why Honda GX390 engine?",
+          "answer": "Honda GX series is the global gold standard for small engines. Known for exceptional reliability, fuel efficiency, easy starting, and lowest maintenance. Parts and service available everywhere."
+        },
+        {
+          "question": "When to choose 1.5-ton single drum vs 3-ton double drum?",
+          "answer": "Choose 1.5-ton for driveways, pathways, trenches, and light work. Choose 3-ton for road construction, asphalt laying, and heavy-duty compaction. Single drum is lighter and more maneuverable."
+        },
+        {
+          "question": "Is GST extra on this model?",
+          "answer": "Yes, the price of ₹1,35,000 is ex-GST. Add 18% GST (₹24,300) for total of ₹1,59,300 inclusive of all taxes."
+        }
+      ]
     }
   ]
 }

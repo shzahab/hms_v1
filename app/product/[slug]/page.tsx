@@ -93,6 +93,9 @@ const DEDICATED_PRODUCT_PAGES = [
   'gute-bar-bending-machine',
   'hms-made-in-india-bar-bending-machine',
   'nrb32-portable-bar-bending-machine',
+  'walk-behind-double-drum-roller-greaves-10hp-3ton',
+  'walk-behind-double-drum-roller-chungfa-10hp-3ton',
+  'walk-behind-single-drum-roller-honda-gx390-1-5ton',
 ];
 
 // Disable dynamic params - only pre-defined slugs will work
