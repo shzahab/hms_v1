@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import ProductImage from "@/components/product-image";
 import Link from "next/link";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
@@ -434,13 +435,14 @@ export default function BarBendingMachinePage() {
                 {otherProducts.map((product) => (
                   <Link href={`/product/${createSlug(product.name)}`} key={product.id}>
                     <div className="group bg-slate-50 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1 h-full flex flex-col">
-                      <div className="aspect-square bg-white overflow-hidden">
-                        <Image
+                      <div className="aspect-square bg-white overflow-hidden relative">
+                        <ProductImage
                           src={product.mainImage}
                           alt={product.name}
                           width={500}
                           height={500}
                           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                          productName={product.name}
                         />
                       </div>
                       <div className="p-5 flex flex-col flex-grow">

@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Image from "next/image";
+import ProductImage from "@/components/product-image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -148,13 +149,14 @@ export default function HomePage() {
                   className="group"
                 >
                   <div className="bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:-translate-y-1 h-full flex flex-col">
-                    <div className="aspect-square bg-gray-100 overflow-hidden">
-                      <Image
+                    <div className="aspect-square bg-gray-100 overflow-hidden relative">
+                      <ProductImage
                         src={product.mainImage}
                         alt={product.name}
                         width={500}
                         height={500}
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                        productName={product.name}
                       />
                     </div>
                     <div className="p-3 md:p-5 flex flex-col flex-grow">

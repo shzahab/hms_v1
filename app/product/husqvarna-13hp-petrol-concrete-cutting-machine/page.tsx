@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import ProductImage from "@/components/product-image";
 import Link from "next/link";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
@@ -100,7 +101,7 @@ export default function Husqvarna13HPConcreteCuttingMachinePage() {
           <section className="bg-white rounded-lg shadow p-8 mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-8 tracking-tight">More Construction Equipment</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-              {otherProducts.map((product) => (<Link href={`/product/${product.slug}`} key={product.id}><div className="group bg-gray-50 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg h-full flex flex-col"><div className="aspect-square bg-white overflow-hidden"><Image src={product.mainImage} alt={product.name} width={500} height={500} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" /></div><div className="p-4 flex flex-col flex-grow"><h3 className="text-lg font-semibold text-gray-800 mb-2 group-hover:text-blue-600 transition-colors">{product.name}</h3><p className="text-sm text-gray-600 mb-4 flex-grow">{product.shortDescription}</p><Button variant="link" className="p-0 h-auto text-sm font-medium text-blue-600 group-hover:text-blue-700 flex items-center gap-1">Learn More<ArrowRight className="h-4 w-4" /></Button></div></div></Link>))}
+              {otherProducts.map((product) => (<Link href={`/product/${product.slug}`} key={product.id}><div className="group bg-gray-50 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg h-full flex flex-col"><div className="aspect-square bg-white overflow-hidden"><ProductImage src={product.mainImage} alt={product.name} width={500} height={500} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" productName={product.name} /></div><div className="p-4 flex flex-col flex-grow"><h3 className="text-lg font-semibold text-gray-800 mb-2 group-hover:text-blue-600 transition-colors">{product.name}</h3><p className="text-sm text-gray-600 mb-4 flex-grow">{product.shortDescription}</p><Button variant="link" className="p-0 h-auto text-sm font-medium text-blue-600 group-hover:text-blue-700 flex items-center gap-1">Learn More<ArrowRight className="h-4 w-4" /></Button></div></div></Link>))}
             </div>
           </section>
         </div>

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import ProductImage from "@/components/product-image";
 import Link from "next/link";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
@@ -322,13 +323,7 @@ export default function WalkBehindDoubleDrumRollerGreavesPage() {
                 <Link href={`/product/${product.slug}`} key={product.id}>
                   <div className="group bg-gray-50 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg h-full flex flex-col">
                     <div className="aspect-square bg-white overflow-hidden">
-                      <Image
-                        src={product.mainImage}
-                        alt={product.name}
-                        width={500}
-                        height={500}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      />
+                      <ProductImage src={product.mainImage} alt={product.name} width={500} height={500} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" productName={product.name} />
                     </div>
                     <div className="p-4 flex flex-col flex-grow">
                       <h3 className="text-lg font-semibold text-gray-800 mb-2 group-hover:text-blue-600 transition-colors">

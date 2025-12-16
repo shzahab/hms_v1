@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Image from "next/image";
+import ProductImage from "@/components/product-image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight } from "lucide-react";
@@ -328,13 +329,14 @@ export default async function ProductPage({
                       className="group"
                     >
                       <div className="bg-gray-50 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg h-full flex flex-col">
-                        <div className="aspect-square bg-white overflow-hidden">
-                          <Image
+                        <div className="aspect-square bg-white overflow-hidden relative">
+                          <ProductImage
                             src={relatedProduct.mainImage}
                             alt={relatedProduct.name}
                             width={500}
                             height={500}
                             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                            productName={relatedProduct.name}
                           />
                         </div>
                         <div className="p-4 flex flex-col flex-grow">
