@@ -913,9 +913,11 @@
       "price": "₹33,000/-",
       "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GF20%20Single%20Phase%20Bar%20Bending%20Machine",
       "fullDescription": "The GF20 Single Phase Bar Bending Machine is engineered for small contractors and residential construction projects. Running on standard 220V single-phase electricity, this compact machine eliminates the need for three-phase power connections. Perfect for bending TMT and HYSD bars from 8mm to 16mm diameter with precision foot pedal control.",
-      "mainImage": "/images/products/gf20-single-phase-main.jpg",
+      "mainImage": "/images/products/gf20-single-phase-main.webp",
       "gallery": [
-        "/images/products/gf20-single-phase-main.jpg"
+        "/images/products/gf20-single-phase-1.webp",
+        "/images/products/gf20-single-phase-2.webp",
+        "/images/products/gf20-single-phase-3.webp"
       ],
       "features": [
         "Single Phase 220V Operation - No 3-phase required",
@@ -973,9 +975,11 @@
       "price": "₹35,000/-",
       "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GF20%20Three%20Phase%20Bar%20Bending%20Machine",
       "fullDescription": "The GF20 Three Phase Bar Bending Machine delivers industrial-grade performance for fabrication units and large construction sites. With a powerful 2.2kW three-phase motor running on 415V, this machine handles continuous heavy-duty operation without overheating. Perfect for high-volume stirrup production.",
-      "mainImage": "/images/products/gf20-three-phase-main.jpg",
+      "mainImage": "/images/products/gf20-three-phase-main.webp",
       "gallery": [
-        "/images/products/gf20-three-phase-main.jpg"
+        "/images/products/gf20-three-phase-1.webp",
+        "/images/products/gf20-three-phase-2.webp",
+        "/images/products/gf20-three-phase-3.webp"
       ],
       "features": [
         "Three Phase 415V Industrial Power",
