@@ -6,7 +6,7 @@ Creating SEO-optimized content for industrial machinery requires understanding b
 
 ## Business context and product portfolio
 
-Hutaib Machinery and Spares operates as a wholesaler and trader of construction and industrial equipment. The primary product categories include **rebar/steel processing equipment** (bar bending machines, cutting machines, CNC steel bar benders, scrap straightening machines, ring making machines), **concrete equipment** (mixers, vibrators, cutting machines, ride-on power trowels, floaters), **compaction and road construction machinery** (road rollers, plate compactors, tamping rammers), and **material handling equipment** (building material hoists, threading machines). Extended offerings include electric motors, air compressors, power tools, woodworking machinery, lathe machines, welding equipment, and chain pulleys. Price points range from ₹10,500 to ₹3,20,000.
+Hutaib Machinery and Spares operates as a wholesaler and trader of construction and industrial equipment. The primary product categories include **rebar/steel processing equipment** (bar bending machines, cutting machines, CNC steel bar benders, scrap straightening machines, ring making machines), **concrete equipment** (mixers, vibrators, cutting machines, ride-on power trowels, floaters), **compaction and road construction machinery** (road rollers, plate compactors, tamping rammers), and **material handling equipment** (building material hoists, threading machines). Extended offerings include electric motors, air compressors, power tools, woodworking machinery, lathe machines, welding equipment, and chain pulleys. Price points range from ₹12,500 to ₹3,20,000.
 
 ---
 
@@ -724,7 +724,7 @@ buy [product] online india
 [product] suppliers bengaluru
 ```
 
-**2. Specification-based searches:**
+**2. Specification-based searches:** 
 ```
 [product] [capacity] specifications
 [model number] price
