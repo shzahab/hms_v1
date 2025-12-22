@@ -913,11 +913,11 @@
       "price": "₹33,000/-",
       "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GF20%20Single%20Phase%20Bar%20Bending%20Machine",
       "fullDescription": "The GF20 Single Phase Bar Bending Machine is engineered for small contractors and residential construction projects. Running on standard 220V single-phase electricity, this compact machine eliminates the need for three-phase power connections. Perfect for bending TMT and HYSD bars from 8mm to 16mm diameter with precision foot pedal control.",
-      "mainImage": "/images/products/gf20-single-phase-main.webp",
+      "mainImage": "/images/products/gf20-main.webp",
       "gallery": [
-        "/images/products/gf20-single-phase-1.webp",
-        "/images/products/gf20-single-phase-2.webp",
-        "/images/products/gf20-single-phase-3.webp"
+        "/images/products/gf20-1.webp",
+        "/images/products/gf20-2.webp",
+        "/images/products/gf20-3.webp"
       ],
       "features": [
         "Single Phase 220V Operation - No 3-phase required",
@@ -975,11 +975,11 @@
       "price": "₹35,000/-",
       "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GF20%20Three%20Phase%20Bar%20Bending%20Machine",
       "fullDescription": "The GF20 Three Phase Bar Bending Machine delivers industrial-grade performance for fabrication units and large construction sites. With a powerful 2.2kW three-phase motor running on 415V, this machine handles continuous heavy-duty operation without overheating. Perfect for high-volume stirrup production.",
-      "mainImage": "/images/products/gf20-three-phase-main.webp",
+      "mainImage": "/images/products/gf20-main.webp",
       "gallery": [
-        "/images/products/gf20-three-phase-1.webp",
-        "/images/products/gf20-three-phase-2.webp",
-        "/images/products/gf20-three-phase-3.webp"
+        "/images/products/gf20-1.webp",
+        "/images/products/gf20-2.webp",
+        "/images/products/gf20-3.webp"
       ],
       "features": [
         "Three Phase 415V Industrial Power",
@@ -1030,11 +1030,13 @@
       "price": "₹35,000/-",
       "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GF25%20Single%20Phase%20Bar%20Bending%20Machine",
       "fullDescription": "The GF25 Single Phase breaks the barrier - bend bars up to 20mm diameter using standard 220V single-phase power. This machine bridges the gap between entry-level and industrial equipment, perfect for growing contractors handling G+2 and G+3 buildings.",
-      "mainImage": "/images/products/gf25-single-phase-main.webp",
+      "mainImage": "/images/products/gf25-main.webp",
       "gallery": [
-        "/images/products/gf25-single-phase-1.webp",
-        "/images/products/gf25-single-phase-2.webp",
-        "/images/products/gf25-single-phase-3.webp"
+        "/images/products/gf25-1.webp",
+        "/images/products/gf25-2.webp",
+        "/images/products/gf25-3.webp",
+        "/images/products/gf25-4.webp",
+        "/images/products/gf25-5.webp"
       ],
       "features": [
         "20mm capacity on single phase power",
@@ -1085,11 +1087,13 @@
       "price": "₹38,000/-",
       "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GF25%20Three%20Phase%20Bar%20Bending%20Machine",
       "fullDescription": "The GF25 Three Phase combines 20mm bending capacity with industrial three-phase power for continuous heavy-duty operation. The professional contractor's choice for apartment buildings, commercial projects, and fabrication units.",
-      "mainImage": "/images/products/gf25-three-phase-main.webp",
+      "mainImage": "/images/products/gf25-main.webp",
       "gallery": [
-        "/images/products/gf25-three-phase-1.webp",
-        "/images/products/gf25-three-phase-2.webp",
-        "/images/products/gf25-three-phase-3.webp"
+        "/images/products/gf25-1.webp",
+        "/images/products/gf25-2.webp",
+        "/images/products/gf25-3.webp",
+        "/images/products/gf25-4.webp",
+        "/images/products/gf25-5.webp"
       ],
       "features": [
         "20mm capacity with 3-phase power",
@@ -1140,8 +1144,15 @@
       "price": "₹75,000/-",
       "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GW42%20Bar%20Bending%20Machine",
       "fullDescription": "The GW42 is the industry workhorse - our best-selling heavy-duty bar bending machine. With 32mm capacity and digital control panel, it handles infrastructure projects, high-rises, and commercial buildings with ease.",
-      "mainImage": "/images/products/gw42-bar-bending-main.webp",
-      "gallery": ["/images/products/gw42-bar-bending-1.webp", "/images/products/gw42-bar-bending-2.webp"],
+      "mainImage": "/images/products/gw42-main.webp",
+      "gallery": [
+        "/images/products/gw42-1.webp",
+        "/images/products/gw42-2.webp",
+        "/images/products/gw42-3.webp",
+        "/images/products/gw42-4.webp",
+        "/images/products/gw42-5.webp",
+        "/images/products/gw42-6.webp"
+      ],
       "features": ["32mm maximum capacity", "Digital control panel", "3.2kW industrial motor", "10-20 bends per minute", "Heavy-duty gearbox"],
       "category": "Bending Machines",
       "specifications": [
@@ -1168,8 +1179,15 @@
       "price": "₹95,000/-",
       "paymentLink": "https://wa.me/918074949635?text=Hi%2C%20I%20want%20to%20buy%20GW52%20Bar%20Bending%20Machine",
       "fullDescription": "The GW52 delivers maximum 42mm bending capacity for heavy infrastructure projects. Built for bridges, metro viaducts, and industrial foundations with a powerful 4HP motor.",
-      "mainImage": "/images/products/gw52-bar-bending-main.webp",
-      "gallery": ["/images/products/gw52-bar-bending-1.webp", "/images/products/gw52-bar-bending-2.webp"],
+      "mainImage": "/images/products/gw52-main.webp",
+      "gallery": [
+        "/images/products/gw52-1.webp",
+        "/images/products/gw52-2.webp",
+        "/images/products/gw52-3.webp",
+        "/images/products/gw52-4.webp",
+        "/images/products/gw52-5.webp",
+        "/images/products/gw52-6.webp"
+      ],
       "features": ["42mm maximum capacity", "4HP industrial motor", "Heavy-duty 550kg frame", "Digital control panel", "For bridges and metros"],
       "category": "Bending Machines",
       "specifications": [
