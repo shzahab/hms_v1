@@ -64,16 +64,15 @@ export default function GF20SinglePhaseBarBendingMachinePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {/* Product Image */}
             <div className="bg-white p-4 rounded-lg shadow">
-              <div className="aspect-square bg-gray-100 rounded flex items-center justify-center">
-                <div className="text-center p-8">
-                  <div className="w-32 h-32 mx-auto mb-4 bg-gray-200 rounded-lg flex items-center justify-center">
-                    <svg className="w-16 h-16 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
-                  </div>
-                  <p className="text-gray-500 text-sm">Product Image</p>
-                  <p className="text-gray-400 text-xs mt-1">GF20 Single Phase Bar Bending Machine</p>
-                </div>
+              <div className="aspect-square bg-gray-100 rounded overflow-hidden">
+                <Image
+                  src="/images/products/gf20-main.webp"
+                  alt="GF20 Single Phase Bar Bending Machine"
+                  width={600}
+                  height={600}
+                  className="w-full h-full object-cover"
+                  priority
+                />
               </div>
             </div>
 
@@ -200,18 +199,17 @@ export default function GF20SinglePhaseBarBendingMachinePage() {
                   </p>
                 </div>
 
-                {/* Image Placeholders */}
+                {/* Gallery Images */}
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-8">
                   {[1, 2, 3].map((i) => (
-                    <div key={i} className="aspect-video bg-gray-100 rounded-lg flex items-center justify-center">
-                      <div className="text-center p-4">
-                        <div className="w-16 h-16 mx-auto mb-2 bg-gray-200 rounded flex items-center justify-center">
-                          <svg className="w-8 h-8 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                          </svg>
-                        </div>
-                        <p className="text-gray-400 text-xs">Gallery Image {i}</p>
-                      </div>
+                    <div key={i} className="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                      <Image
+                        src={`/images/products/gf20-${i}.webp`}
+                        alt={`GF20 Single Phase Bar Bending Machine - Image ${i}`}
+                        width={400}
+                        height={400}
+                        className="w-full h-full object-contain"
+                      />
                     </div>
                   ))}
                 </div>
