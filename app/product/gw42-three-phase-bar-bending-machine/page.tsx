@@ -133,6 +133,21 @@ export default function GW42BarBendingMachinePage() {
                     Compare to similar capacity machines in the market - the GW42 offers <strong>32mm capacity with digital controls</strong> at a price point that makes sense for contractors. It&apos;s the sweet spot between capability and cost that has made it our best seller.
                   </p>
                 </div>
+
+                {/* Gallery Images */}
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-8">
+                  {[1, 2, 3, 4, 5, 6].map((i) => (
+                    <div key={i} className="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                      <Image
+                        src={`/images/products/gw42-${i}.webp`}
+                        alt={`GW42 Bar Bending Machine - Image ${i}`}
+                        width={400}
+                        height={400}
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>

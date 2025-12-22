@@ -136,6 +136,21 @@ export default function GW52BarBendingMachinePage() {
                     </p>
                   </div>
                 </div>
+
+                {/* Gallery Images */}
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-8">
+                  {[1, 2, 3, 4, 5, 6].map((i) => (
+                    <div key={i} className="aspect-square bg-gray-100 rounded-lg overflow-hidden">
+                      <Image
+                        src={`/images/products/gw52-${i}.webp`}
+                        alt={`GW52 Bar Bending Machine - Image ${i}`}
+                        width={400}
+                        height={400}
+                        className="w-full h-full object-contain"
+                      />
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
